@@ -1,0 +1,173 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #D32F2F;
+    line-height: 1.6;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #D32F2F;
+    border-radius: 8px;
+}
+
+/* Header */
+header {
+    background-color: #D32F2F;
+    color: white;
+    size: 38px;
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D32F2F;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #abe5ff;
+}
+
+.jornadas-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.jornada-container {
+    flex: 1 1 calc(50% - 20px); /* Para que sean 3 por fila */
+    max-width: calc(50% - 20px);
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.jornada h2 {
+    text-align: center;
+    color: #c70039; /* Rojo elegante */
+    border-bottom: 2px solid #c70039;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+}
+
+.tabla-jornada {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.partido {
+    font-size: 1.1em;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+    font-weight: bold;
+}
+
+.partido td {
+    padding: 5px;
+}
+
+.partido:last-child {
+    border-bottom: none;
+}
+
+/* Estilo para partidos con "C.V. PANTOJA" */
+.highlight {
+    background-color: #D32F2F; /* Rojo Carmesí */
+    color: white;
+    font-weight: bold;
+}
+
+/* Media Queries para móviles */
+@media screen and (max-width: 768px) {
+    /* Ajustar la barra de navegación */
+    nav ul {
+        flex-direction: column;
+        padding: 10px 0;
+    }
+
+    nav ul li {
+        margin: 5px 0;
+    }
+
+    nav ul li a {
+        font-size: 1.3em; /* Reducir tamaño de fuente */
+    }
+
+    /* Ajustar el contenedor */
+    .container {
+        padding: 15px; /* Reducir padding */
+    }
+
+    /* Ajustar la disposición de las jornadas */
+    .jornadas-grid {
+        gap: 10px; /* Reducir espacio entre jornadas */
+    }
+
+    .jornada-container {
+        flex: 1 1 calc(100% - 10px); /* Para que cada jornada ocupe el 100% de la fila */
+        max-width: 100%; /* Asegurar que ocupe todo el ancho */
+    }
+
+    .jornada h2 {
+        font-size: 1.3em; /* Reducir el tamaño de la fuente del título */
+    }
+
+    .partido {
+        font-size: 0.9em; /* Reducir el tamaño de la fuente de los partidos */
+    }
+
+    .partido td {
+        padding: 10px; /* Reducir padding en las celdas */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    /* Ajustes para pantallas más pequeñas */
+    .container {
+        padding: 10px; /* Reducir más el padding */
+    }
+
+    .jornada h2 {
+        font-size: 1.1em; /* Reducir aún más el tamaño del título */
+    }
+
+    .partido {
+        font-size: 0.9em; /* Reducir el tamaño de la fuente de los partidos */
+    }
+
+    .partido td {
+        padding: 8px; /* Reducir más el padding de las celdas */
+    }
+
+    /* Reducir tamaño de los enlaces */
+    nav ul li a {
+        font-size: 1.1em; /* Reducir aún más el tamaño de los enlaces */
+    }
+}
