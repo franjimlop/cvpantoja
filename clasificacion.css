@@ -145,3 +145,16 @@ h2 {
         font-size: 0.9em; /* Reducir el tamaño de la fuente */
     }
 }
+
+.leyenda {
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 0.9em;
+    color: #333;
+    text-align: left;
+}
+
+.leyenda p {
+    margin: 3px 0;
+}
