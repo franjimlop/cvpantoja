@@ -123,7 +123,7 @@ h2 {
 
     /* Ajuste de la tabla */
     .tabla-clasificacion th, .tabla-clasificacion td {
-        font-size: 1em; /* Reduce el tamaño de la fuente */
+        font-size: 0.9em; /* Reduce el tamaño de la fuente */
         padding: 8px; /* Reduce el padding */
     }
 
@@ -132,33 +132,23 @@ h2 {
         padding: 10px 0;
     }
 
+    /* Ajuste de los enlaces de la navegación */
     nav ul {
-        flex-direction: row; /* Asegura que todo esté en línea */
-        justify-content: space-between; /* Imagen a la izquierda, enlaces a la derecha */
+        padding: 10px 0;
     }
 
     nav ul li {
-        margin: 5px 0;
-        display: inline-block; /* Mantiene los enlaces en una sola línea */
+        margin: 5px 5px;
     }
 
     nav ul li a {
-        font-size: 1.3em; /* Reducir tamaño de fuente para móviles */
-    }
-
-    nav ul li:first-child {
-        margin-right: auto; /* Empuja los enlaces hacia la derecha */
-    }
-
-    nav ul li:first-child img {
-        height: 80px; /* Ajuste del tamaño de la imagen */
-        display: block;
+        font-size: 1em; /* Reducir tamaño de fuente para móviles */
     }
 
     /* Ajuste de las filas de la tabla */
     .tabla-clasificacion tbody tr:nth-child(even),
     .tabla-clasificacion tbody tr:nth-child(odd) {
-        font-size: 1em; /* Reducir el tamaño de la fuente */
+        font-size: 0.9em; /* Reducir el tamaño de la fuente */
     }
 }
 
@@ -166,7 +156,7 @@ h2 {
     margin-top: 15px;
     padding: 12px;
     border-radius: 5px;
-    font-size: 1em;
+    font-size: 0.9em;
     color: #333;
     text-align: left;
 }
