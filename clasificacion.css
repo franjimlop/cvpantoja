@@ -112,21 +112,21 @@ h2 {
 @media screen and (max-width: 1300px) {
     /* Ajuste del contenedor */
     .container {
-        padding: 0 5%; /* Reduce los márgenes laterales */
+        padding: 0 5px; /* Reduce los márgenes laterales */
     }
 
     /* Ajuste de la tabla */
     .tabla-clasificacion th, .tabla-clasificacion td {
-        font-size: 0.7em; /* Reduce el tamaño de la fuente */
+        font-size: 0.8em; /* Reduce el tamaño de la fuente */
         padding: 8px; /* Reduce el padding */
     }
 
-    /* Estilo del encabezado */
+    /* Ajuste del encabezado */
     header {
-        padding: 8px 0;
+        padding: 10px 0;
     }
 
-    /* Ajuste de los enlaces de navegación */
+    /* Ajuste de los enlaces de la navegación */
     nav ul {
         flex-direction: column;
         padding: 10px 0;
@@ -137,7 +137,7 @@ h2 {
     }
 
     nav ul li a {
-        font-size: 1.3em; /* Reducir tamaño de fuente */
+        font-size: 1.3em; /* Reducir tamaño de fuente para móviles */
     }
 
     /* Ajuste de las filas de la tabla */
