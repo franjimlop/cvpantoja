@@ -99,12 +99,12 @@ h2 {
 @media screen and (max-width: 768px) {
     /* Ajuste del contenedor */
     .container {
-        padding: 0 5%; /* Reduce los márgenes laterales */
+        padding: 0 10px; /* Reduce los márgenes laterales */
     }
 
     /* Tamaño de la tabla */
     .tabla-jornada th, .tabla-jornada td {
-        font-size: 0.9em; /* Reduce el tamaño de la fuente */
+        font-size: 1em; /* Reduce el tamaño de la fuente */
         padding: 8px; /* Reduce el padding para mayor espacio */
     }
 
@@ -124,7 +124,7 @@ h2 {
     }
 
     nav ul li a {
-        font-size: 1.2em; /* Reducir tamaño de fuente para móviles */
+        font-size: 1.3em; /* Reducir tamaño de fuente para móviles */
     }
 
     /* Ajuste de la tabla */
@@ -134,19 +134,19 @@ h2 {
 
     /* Estilo para los partidos */
     .partido {
-        font-size: 1em; /* Ajusta el tamaño de la fuente */
+        font-size: 1.1em; /* Ajusta el tamaño de la fuente */
     }
 
     /* Detalles */
     .detalles {
-        font-size: 0.8em; /* Hace los detalles más pequeños */
+        font-size: 0.9em; /* Hace los detalles más pequeños */
     }
 }
 
 @media screen and (max-width: 480px) {
 
     .tabla-jornada th, .tabla-jornada td {
-        font-size: 0.9em; /* Reduce más el tamaño de la fuente */
+        font-size: 1em; /* Reduce más el tamaño de la fuente */
         padding: 6px; /* Reduce aún más el padding */
     }
 
