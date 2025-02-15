@@ -132,18 +132,27 @@ h2 {
         padding: 10px 0;
     }
 
-    /* Ajuste de los enlaces de la navegación */
     nav ul {
-        flex-direction: column;
-        padding: 10px 0;
+        flex-direction: row; /* Asegura que todo esté en línea */
+        justify-content: space-between; /* Imagen a la izquierda, enlaces a la derecha */
     }
 
     nav ul li {
         margin: 5px 0;
+        display: inline-block; /* Mantiene los enlaces en una sola línea */
     }
 
     nav ul li a {
         font-size: 1.3em; /* Reducir tamaño de fuente para móviles */
+    }
+
+    nav ul li:first-child {
+        margin-right: auto; /* Empuja los enlaces hacia la derecha */
+    }
+
+    nav ul li:first-child img {
+        height: 80px; /* Ajuste del tamaño de la imagen */
+        display: block;
     }
 
     /* Ajuste de las filas de la tabla */
