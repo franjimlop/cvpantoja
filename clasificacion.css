@@ -109,7 +109,7 @@ h2 {
 }
 
 /* Media Queries para móviles */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1300px) {
     /* Ajuste del contenedor */
     .container {
         padding: 0 5%; /* Reduce los márgenes laterales */
@@ -144,29 +144,5 @@ h2 {
     .tabla-clasificacion tbody tr:nth-child(even),
     .tabla-clasificacion tbody tr:nth-child(odd) {
         font-size: 0.9em; /* Reducir el tamaño de la fuente */
-    }
-}
-
-@media screen and (max-width: 480px) {
-
-    .tabla-clasificacion th, .tabla-clasificacion td {
-        font-size: 0.9em; /* Reduce aún más el tamaño de la fuente */
-        padding: 8px; /* Reduce aún más el padding */
-    }
-
-    /* Ajuste del encabezado */
-    header {
-        padding: 8px 0;
-    }
-
-    /* Enlaces de navegación */
-    nav ul li a {
-        font-size: 1.1em; /* Reduce el tamaño de la fuente */
-    }
-
-    /* Ajuste de las filas de la tabla */
-    .tabla-clasificacion tbody tr:nth-child(even),
-    .tabla-clasificacion tbody tr:nth-child(odd) {
-        font-size: 0.85em; /* Hacer aún más pequeño el tamaño de la fuente */
     }
 }

@@ -142,31 +142,3 @@ h2 {
         font-size: 0.9em; /* Hace los detalles más pequeños */
     }
 }
-
-@media screen and (max-width: 480px) {
-
-    .tabla-jornada th, .tabla-jornada td {
-        font-size: 1em; /* Reduce más el tamaño de la fuente */
-        padding: 6px; /* Reduce aún más el padding */
-    }
-
-    /* Ajuste del encabezado */
-    header {
-        padding: 8px 0;
-    }
-
-    /* Enlaces de navegación */
-    nav ul li a {
-        font-size: 1em; /* Reduce el tamaño de la fuente */
-    }
-
-    /* Ajuste de la tabla */
-    .tabla-jornada {
-        margin-bottom: 15px;
-    }
-
-    /* Detalles */
-    .detalles {
-        font-size: 0.7em; /* Hace los detalles aún más pequeños */
-    }
-}

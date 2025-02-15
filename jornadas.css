@@ -105,7 +105,7 @@ nav ul li a:hover {
 }
 
 /* Media Queries para móviles */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1300px) {
     /* Ajustar la barra de navegación */
     nav ul {
         flex-direction: column;
@@ -145,29 +145,5 @@ nav ul li a:hover {
 
     .partido td {
         padding: 10px; /* Reducir padding en las celdas */
-    }
-}
-
-@media screen and (max-width: 480px) {
-    /* Ajustes para pantallas más pequeñas */
-    .container {
-        padding: 10px; /* Reducir más el padding */
-    }
-
-    .jornada h2 {
-        font-size: 1.1em; /* Reducir aún más el tamaño del título */
-    }
-
-    .partido {
-        font-size: 0.9em; /* Reducir el tamaño de la fuente de los partidos */
-    }
-
-    .partido td {
-        padding: 8px; /* Reducir más el padding de las celdas */
-    }
-
-    /* Reducir tamaño de los enlaces */
-    nav ul li a {
-        font-size: 1.1em; /* Reducir aún más el tamaño de los enlaces */
     }
 }
