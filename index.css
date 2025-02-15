@@ -96,7 +96,7 @@ h2 {
 }
 
 /* Media Queries para móviles */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1300px) {
     /* Ajuste del contenedor */
     .container {
         padding: 0 10px; /* Reduce los márgenes laterales */
