@@ -115,13 +115,6 @@ h2 {
     }
 
     /* Ajuste de la tabla */
-    .tabla-clasificacion {
-        display: block;
-        overflow-x: auto; /* Agrega scroll horizontal si es necesario */
-        white-space: nowrap;
-    }
-
-    /* Ajuste de la tabla */
     .tabla-clasificacion th, .tabla-clasificacion td {
         font-size: 0.9em; /* Reduce el tamaño de la fuente */
         padding: 8px; /* Reduce el padding */
