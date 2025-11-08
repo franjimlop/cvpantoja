@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="images/favicon.png" type="image/x-icon" />
     <title>CV Pantoja</title>
-    <link rel="stylesheet" href="clasificacion.css">
+    <link rel="stylesheet" href="temporada1.css">
 </head>
 <body>
     <header>
@@ -18,7 +18,7 @@
             <li><a href="temporada1.html">Temporada 24/25</a></li>
           </ul>
         </nav>
-    </header>
+      </header>
 
     <div class="container">
         <table class="tabla-clasificacion">
@@ -26,11 +26,11 @@
                 <tr>
                     <th>Pos</th>
                     <th>Equipo</th>
-                    <th>Pts</th>
+                    <th>PJ</th>
+                    <th>PG</th>
+                    <th>PP</th>
                     <th>SF</th>
                     <th>SC</th>
-                    <th>PF</th>
-                    <th>PC</th>
                 </tr>
             </thead>
             <tbody id="clasificacion"></tbody>
@@ -38,14 +38,25 @@
 
         <div class="leyenda">
             <p><strong>Pos:</strong> Posición</p>
-            <p><strong>Pts:</strong> Puntos</p>
+            <p><strong>PJ:</strong> Partidos Jugados</p>
+            <p><strong>PG:</strong> Partidos Ganados</p>
+            <p><strong>PP:</strong> Partidos Perdidos</p>
             <p><strong>SF:</strong> Sets a Favor</p>
             <p><strong>SC:</strong> Sets en Contra</p>
-            <p><strong>PF:</strong> Puntos a Favor</p>
-            <p><strong>PC:</strong> Puntos en Contra</p>
         </div>
+    
+        <table class="tabla-jornada">
+            <!--<h2>Próximos Partidos</h2>-->
+            <tbody id="pendientes"></tbody>
+        </table>
+        <table class="tabla-jornada">
+            <h2>Partidos Jugados 2024/2025</h2>
+            <tbody id="jugados"></tbody>
+        </table>
+
+        <div id="resultados" class="resultados"></div>
     </div>
 
-    <script src="clasificacion.js"></script>
+    <script src="temporada1.js"></script>
 </body>
 </html>

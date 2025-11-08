@@ -1,45 +1,29 @@
 async function obtenerDatos() {
     try {
-        const response = await fetch('https://deportes.ayto-fuenlabrada.es/resul.php?competi=009069&tipc=&c=0');
-        const html = await response.text();
-        const parser = new DOMParser();
-        const doc = parser.parseFromString(html, 'text/html');
+        // Carga el archivo JSON local
+        const response = await fetch('competicion.json');
+        const data = await response.json();
 
-        const jornadas = doc.querySelectorAll("#divPrincipal .panel-heading");
         const partidosPorJornada = {};
 
-        jornadas.forEach(jornada => {
-            const jornadaNombre = jornada.textContent.trim();
-            const tabla = jornada.nextElementSibling.querySelector("table");
-
-            if (tabla) {
-                const filas = tabla.querySelectorAll("tbody tr");
-                filas.forEach(fila => {
-                    const columnas = fila.querySelectorAll("td");
-
-                    let fechaHora = columnas[4].textContent.trim().replace(/\n/g, '').trim();
-                    fechaHora = fechaHora.replace(/(\d{2}\/\d{2}\/\d{2})(\d{2}:\d{2})/, '$1 $2');
-
-                    const partido = {
-                        local: columnas[0].textContent.trim(),
-                        golesLocal: columnas[1].textContent.trim(),
-                        golesVisitante: columnas[2].textContent.trim(),
-                        visitante: columnas[3].textContent.trim(),
-                        fecha: fechaHora,
-                        lugar: columnas[5].textContent.trim()
-                    };
-
-                    if (!partidosPorJornada[jornadaNombre]) {
-                        partidosPorJornada[jornadaNombre] = [];
-                    }
-                    partidosPorJornada[jornadaNombre].push(partido);
-                });
-            }
+        data.jornadas.forEach(jornada => {
+            const jornadaNombre = `Jornada ${jornada.jornada}`;
+            const partidos = jornada.partidos.map(p => {
+                return {
+                    local: p.equipo_local.toUpperCase(),
+                    visitante: p.equipo_visitante.toUpperCase(),
+                    resultado_final: p.resultado_final,
+                    sets: p.sets || [],
+                    fecha: p.fecha || '',
+                    lugar: p.lugar || ''
+                };
+            });
+            partidosPorJornada[jornadaNombre] = partidos;
         });
 
         mostrarResultados(partidosPorJornada);
     } catch (error) {
-        console.error('Error al obtener los datos:', error);
+        console.error('Error al obtener los datos del JSON:', error);
     }
 }
 
@@ -57,14 +41,23 @@ function mostrarResultados(partidosPorJornada) {
                     <table class="tabla-jornada">
                         <tbody>
                             ${partidos.map(partido => {
-                                const esPantoja = partido.local.includes("C.V. PANTOJA") || partido.visitante.includes("C.V. PANTOJA");
+                                const esPantoja = partido.local.includes("PANTOJA") || partido.visitante.includes("PANTOJA");
                                 const clasePantoja = esPantoja ? 'highlight' : '';
-                                const tieneResultado = partido.golesLocal && partido.golesVisitante;
+
+                                const sLocal = partido.resultado_final.local;
+                                const sVisitante = partido.resultado_final.visitante;
+                                const tieneResultado = (sLocal !== 0 || sVisitante !== 0);
+
+                                // Mostrar sets si hay resultado
+                                const setsDetalle = tieneResultado && partido.sets.length > 0
+                                    ? `<div class="sets">${partido.sets.map(set => `${set.local}-${set.visitante}`).join(', ')}</div>`
+                                    : '';
 
                                 return `
                                     <tr class="partido ${clasePantoja}">
                                         <td>
-                                            <strong>${partido.local} ${tieneResultado ? partido.golesLocal + " - " + partido.golesVisitante : "vs"} ${partido.visitante}</strong>
+                                            <strong>${partido.local} ${tieneResultado ? sLocal + " - " + sVisitante : "vs"} ${partido.visitante}</strong>
+                                            ${setsDetalle}
                                             ${!tieneResultado ? `<div class="detalles">🕒 ${partido.fecha} 📍 ${partido.lugar}</div>` : ""}
                                         </td>
                                     </tr>
@@ -80,5 +73,5 @@ function mostrarResultados(partidosPorJornada) {
     contenedor.innerHTML = `<div class="jornadas-grid">${jornadasHTML}</div>`;
 }
 
-// Llamamos a la función para obtener los datos al cargar la página
+// Ejecutar al cargar la página
 obtenerDatos();

@@ -1,101 +1,111 @@
-async function obtenerResultados() {
-    try {
-        const response = await fetch('https://deportes.ayto-fuenlabrada.es/resul.php?competi=009069&tipc=&c=0');
-        const html = await response.text();
-        const parser = new DOMParser();
-        const doc = parser.parseFromString(html, 'text/html');
-
-        const jornadas = doc.querySelectorAll("#divPrincipal .panel-heading");
-        const clasificacion = {};
-
-        jornadas.forEach(jornada => {
-            const jornadaNombre = jornada.textContent.trim();
-            const tabla = jornada.nextElementSibling.querySelector("table");
-
-            if (tabla) {
-                const filas = tabla.querySelectorAll("tbody tr");
-                filas.forEach(fila => {
-                    const columnas = fila.querySelectorAll("td");
-
-                    // Recuperar la información del partido
-                    const partido = {
-                        local: columnas[0].textContent.trim(),
-                        golesLocal: parseInt(columnas[1].textContent.trim()) || 0,
-                        golesVisitante: parseInt(columnas[2].textContent.trim()) || 0,
-                        visitante: columnas[3].textContent.trim(),
-                    };
-
-                    // Solo consideramos partidos con resultado (goles) para contar como partidos jugados
-                    if (partido.golesLocal !== 0 || partido.golesVisitante !== 0) {
-                        // Aseguramos que ambos equipos estén en la clasificación
-                        if (!clasificacion[partido.local]) {
-                            clasificacion[partido.local] = { jugados: 0, ganados: 0, perdidos: 0, setsAFavor: 0, setsEnContra: 0 };
-                        }
-                        if (!clasificacion[partido.visitante]) {
-                            clasificacion[partido.visitante] = { jugados: 0, ganados: 0, perdidos: 0, setsAFavor: 0, setsEnContra: 0 };
-                        }
-
-                        // Actualizamos los partidos jugados y sets
-                        clasificacion[partido.local].jugados++;
-                        clasificacion[partido.visitante].jugados++;
-                        clasificacion[partido.local].setsAFavor += partido.golesLocal;
-                        clasificacion[partido.visitante].setsAFavor += partido.golesVisitante;
-                        clasificacion[partido.local].setsEnContra += partido.golesVisitante;
-                        clasificacion[partido.visitante].setsEnContra += partido.golesLocal;
-
-                        // Determinamos al ganador y perdedor
-                        if (partido.golesLocal > partido.golesVisitante) {
-                            clasificacion[partido.local].ganados++;
-                            clasificacion[partido.visitante].perdidos++;
-                        } else if (partido.golesVisitante > partido.golesLocal) {
-                            clasificacion[partido.visitante].ganados++;
-                            clasificacion[partido.local].perdidos++;
-                        }
-                    }
-                });
-            }
-        });
-
-        // Convertimos el objeto de clasificación en un array para ordenar
-        const clasificacionArray = Object.keys(clasificacion).map(equipo => {
-            return {
-                equipo: equipo,
-                ...clasificacion[equipo]
-            };
-        });
-
-        // Ordenamos la clasificación por partidos ganados y sets a favor
-        clasificacionArray.sort((a, b) => {
-            if (b.ganados !== a.ganados) {
-                return b.ganados - a.ganados; // Primero por partidos ganados
-            } else {
-                return b.setsAFavor - a.setsAFavor; // Luego por sets a favor
-            }
-        });
-
-        mostrarClasificacion(clasificacionArray);
-
-    } catch (error) {
-        console.error('Error al obtener los resultados:', error);
-    }
+async function cargarDatos() {
+    const response = await fetch("competicion.json");
+    const data = await response.json();
+    generarClasificacion(data);
 }
 
-function mostrarClasificacion(clasificacion) {
-    const contenedor = document.getElementById('clasificacion');
-    contenedor.innerHTML = clasificacion.map((equipo, index) => {
+function generarClasificacion(data) {
+    const clasificacion = {};
+
+    data.jornadas.forEach(jornada => {
+        jornada.partidos.forEach(p => {
+            const resultado = typeof p.resultado_final === "string" ? p.resultado_final : "0-0";
+            const [setsLocal, setsVisitante] = resultado.split("-").map(Number);
+
+            const localTeam = p.equipo_local;
+            const awayTeam = p.equipo_visitante;
+
+            if (!clasificacion[localTeam]) {
+                clasificacion[localTeam] = { equipo: localTeam, puntos: 0, jugados: 0, setsAF: 0, setsEC: 0, puntosAF: 0, puntosEC: 0 };
+            }
+            if (!clasificacion[awayTeam]) {
+                clasificacion[awayTeam] = { equipo: awayTeam, puntos: 0, jugados: 0, setsAF: 0, setsEC: 0, puntosAF: 0, puntosEC: 0 };
+            }
+
+            const local = clasificacion[localTeam];
+            const visitante = clasificacion[awayTeam];
+
+
+            // Partido no jugado
+            if (setsLocal === 0 && setsVisitante === 0) return;
+
+            // Partidos jugados
+            local.jugados++;
+            visitante.jugados++;
+
+            // Sets
+            local.setsAF += setsLocal;
+            local.setsEC += setsVisitante;
+            visitante.setsAF += setsVisitante;
+            visitante.setsEC += setsLocal;
+
+            // Puntos por sets (puntos dentro de los sets)
+            p.sets.forEach(s => {
+                local.puntosAF += s.local;
+                local.puntosEC += s.visitante;
+                visitante.puntosAF += s.visitante;
+                visitante.puntosEC += s.local;
+            });
+
+            // Asignar puntos por victoria/derrota
+            if ((setsLocal === 3 && setsVisitante <= 1) || (setsVisitante === 3 && setsLocal <= 1)) {
+                // Victoria clara 3–0 / 3–1
+                if (setsLocal > setsVisitante) {
+                    local.puntos += 3;
+                } else {
+                    visitante.puntos += 3;
+                }
+            } else {
+                // Partido 3–2 / 2–3
+                if (setsLocal > setsVisitante) {
+                    local.puntos += 2;
+                    visitante.puntos += 1;
+                } else {
+                    visitante.puntos += 2;
+                    local.puntos += 1;
+                }
+            }
+        });
+    });
+
+    const tabla = Object.values(clasificacion).sort((a, b) => {
+        // 1) Puntos
+        if (b.puntos !== a.puntos) return b.puntos - a.puntos;
+
+        // 2) Más sets a favor
+        if (b.setsAF !== a.setsAF) return b.setsAF - a.setsAF;
+
+        // 3) Menos sets en contra
+        if (a.setsEC !== b.setsEC) return a.setsEC - b.setsEC;
+
+        // 4) Más puntos a favor
+        if (b.puntosAF !== a.puntosAF) return b.puntosAF - a.puntosAF;
+
+        // 5) Menos puntos en contra
+        if (a.puntosEC !== b.puntosEC) return a.puntosEC - b.puntosEC;
+
+        // 6) Orden alfabético si todo empata
+        return a.equipo.localeCompare(b.equipo);
+    });
+
+    mostrarClasificacion(tabla);
+}
+
+function mostrarClasificacion(tabla) {
+    const contenedor = document.getElementById("clasificacion");
+    contenedor.innerHTML = tabla.map((e, i) => { 
         return `
-            <tr class="${equipo.equipo === 'C.V. PANTOJA' ? 'equipo-destacado' : ''}">
-                <td class="posicion">${index + 1}º</td>
-                <td>${equipo.equipo}</td>
-                <td>${equipo.jugados}</td>
-                <td>${equipo.ganados}</td>
-                <td>${equipo.perdidos}</td>
-                <td>${equipo.setsAFavor}</td>
-                <td>${equipo.setsEnContra}</td>
+            <tr class="${e.equipo === 'PANTOJA' ? 'equipo-destacado' : ''}">
+                <td class="posicion">${i + 1}º</td>
+                <td>${e.equipo}</td>
+                <td>${e.puntos}</td>
+                <td>${e.setsAF}</td>
+                <td>${e.setsEC}</td>
+                <td>${e.puntosAF}</td>
+                <td>${e.puntosEC}</td>
             </tr>
         `;
     }).join('');
 }
 
-// Llamamos a la función para obtener los resultados al cargar la página
-obtenerResultados();
+cargarDatos();

@@ -1,47 +1,27 @@
 async function obtenerDatos() {
     try {
-        const response = await fetch('https://deportes.ayto-fuenlabrada.es/resul.php?competi=009069&tipc=&c=0');
-        const html = await response.text();
-        const parser = new DOMParser();
-        const doc = parser.parseFromString(html, 'text/html');
+        const response = await fetch('./competicion.json');
+        const datos = await response.json(); // parseamos JSON
 
-        const jornadas = doc.querySelectorAll("#divPrincipal .panel-heading");
         const partidosPendientes = [];
         const partidosJugados = [];
 
-        jornadas.forEach(jornada => {
-            const jornadaNombre = jornada.textContent.trim();
-            const tabla = jornada.nextElementSibling.querySelector("table");
+        datos.jornadas.forEach(jornada => {
+            jornada.partidos.forEach(partido => {
+                const esPantoja = 
+                    partido.equipo_local.includes("PANTOJA") ||
+                    partido.equipo_visitante.includes("PANTOJA");
 
-            if (tabla) {
-                const filas = tabla.querySelectorAll("tbody tr");
-                filas.forEach(fila => {
-                    const columnas = fila.querySelectorAll("td");
+                if (!esPantoja) return;
 
-                    let fechaHora = columnas[4].textContent.trim().replace(/\n/g, '').trim();
-                    fechaHora = fechaHora.replace(/(\d{2}\/\d{2}\/\d{2})(\d{2}:\d{2})/, '$1 $2');
+                const jugado = partido.resultado_final.local > 0 || partido.resultado_final.visitante > 0;
 
-                    const partido = {
-                        jornada: jornadaNombre,
-                        local: columnas[0].textContent.trim(),
-                        golesLocal: columnas[1].textContent.trim(),
-                        golesVisitante: columnas[2].textContent.trim(),
-                        visitante: columnas[3].textContent.trim(),
-                        fecha: fechaHora,
-                        lugar: columnas[5].textContent.trim()
-                    };
-
-                    const esPantoja = partido.local.includes("C.V. PANTOJA") || partido.visitante.includes("C.V. PANTOJA");
-
-                    if (esPantoja) {
-                        if (partido.golesLocal && partido.golesVisitante) {
-                            partidosJugados.push(partido);
-                        } else {
-                            partidosPendientes.push(partido);
-                        }
-                    }
-                });
-            }
+                if (jugado) {
+                    partidosJugados.push(partido);
+                } else {
+                    partidosPendientes.push(partido);
+                }
+            });
         });
 
         // Mostrar partidos pendientes y jugados
@@ -56,9 +36,9 @@ async function obtenerDatos() {
 function mostrarPartidos(partidos, contenedorId, esJugado) {
     const contenedor = document.getElementById(contenedorId);
     contenedor.innerHTML = partidos.map(partido => `
-        <tr class="${partido.local.includes("C.V. PANTOJA") || partido.visitante.includes("C.V. PANTOJA") ? "highlight" : ""}">
+        <tr class="${partido.equipo_local.includes("PANTOJA") || partido.equipo_visitante.includes("PANTOJA") ? "highlight" : ""}">
             <td>
-                <strong>${partido.local} ${esJugado ? partido.golesLocal + " - " + partido.golesVisitante : "vs"} ${partido.visitante}</strong>
+                <strong>${partido.equipo_local} ${esJugado ? partido.resultado_final.local + " - " + partido.resultado_final.visitante : "vs"} ${partido.equipo_visitante}</strong>
                 ${!esJugado ? `<div class="detalles">🕒 ${partido.fecha} 📍 ${partido.lugar}</div>` : ""}
             </td>
         </tr>

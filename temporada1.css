@@ -1,0 +1,307 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 10%;
+    border-radius: 8px;
+}
+
+/* Header */
+header {
+    background-color: #D32F2F;
+    color: white;
+    padding: 15px 0;
+    top: 0;
+    z-index: 10;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D32F2F;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #abe5ff;
+}
+
+h2 {
+    text-align: center;
+    color: #D32F2F;
+    margin-bottom: 20px;
+}
+
+/* Estilo de la tabla */
+.tabla-clasificacion {
+    width: 100%;
+    border-collapse: separate; /* Cambiar de collapse a separate para bordes redondeados */
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.tabla-clasificacion th, .tabla-clasificacion td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Encabezado de la tabla */
+.tabla-clasificacion th {
+    background-color: #D32F2F;
+    color: white;
+    font-weight: bold;
+}
+
+/* Color de fondo para filas pares e impares */
+.tabla-clasificacion tbody tr:nth-child(even) {
+    background-color: #f4f4f4; /* Gris claro para filas pares */
+}
+
+.tabla-clasificacion tbody tr:nth-child(odd) {
+    background-color: #ffffff; /* Blanco para filas impares */
+}
+
+/* Fila destacada para un equipo específico */
+.tabla-clasificacion .equipo-destacado {
+    background-color: #D32F2F !important;
+    color: white;
+}
+
+.equipo-destacado .posicion {
+    color: white !important;
+}
+
+/* Color de fondo al pasar el cursor */
+.tabla-clasificacion tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Estilo para la columna de posición */
+.tabla-clasificacion .posicion {
+    font-weight: bold;
+    color: #e74c3c;
+}
+
+/* Media Queries para móviles */
+@media screen and (max-width: 1300px) {
+    /* Ajuste del contenedor */
+    .container {
+        padding: 0 5px; /* Reduce los márgenes laterales */
+    }
+
+    /* Ajuste de la tabla */
+    .tabla-clasificacion th, .tabla-clasificacion td {
+        font-size: 0.9em; /* Reduce el tamaño de la fuente */
+        padding: 8px; /* Reduce el padding */
+    }
+
+    /* Ajuste del encabezado */
+    header {
+        padding: 5px 0;
+    }
+
+    /* Ajuste de los enlaces de la navegación */
+    nav ul {
+        padding: 5px 0;
+    }
+
+    nav ul li {
+        margin: 0 5px;
+    }
+
+    nav ul li a {
+        font-size: 1em; /* Reducir tamaño de fuente para móviles */
+    }
+
+    /* Ajuste de las filas de la tabla */
+    .tabla-clasificacion tbody tr:nth-child(even),
+    .tabla-clasificacion tbody tr:nth-child(odd) {
+        font-size: 0.9em; /* Reducir el tamaño de la fuente */
+    }
+}
+
+.leyenda {
+    margin-top: 15px;
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 0.9em;
+    color: #333;
+    text-align: left;
+}
+
+.leyenda p {
+    margin: 3px 0;
+}
+
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 10%;
+    border-radius: 8px;
+}
+
+/* Header */
+header {
+    background-color: #D32F2F;
+    color: white;
+    padding: 15px 0;
+    top: 0;
+    z-index: 10;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D32F2F;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #abe5ff;
+}
+
+/* Estilo de las tablas */
+h2 {
+    color: #D32F2F;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.tabla-jornada {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 10px; /* Bordes redondeados para la tabla */
+    overflow: hidden; /* Para que los bordes redondeados funcionen correctamente */
+    background-color: #D32F2F;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.tabla-jornada th, .tabla-jornada td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+    font-size: 1.1em;
+}
+
+.tabla-jornada th {
+    color: white;
+    font-weight: bold;
+}
+
+/* Estilo para los partidos */
+.partido {
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.partido td {
+    padding: 15px;
+}
+
+.detalles {
+    font-size: 0.9em;
+    margin-top: 5px;
+}
+
+/* Media Queries para móviles */
+@media screen and (max-width: 1300px) {
+    /* Ajuste del contenedor */
+    .container {
+        padding: 0 10px; /* Reduce los márgenes laterales */
+    }
+
+    /* Tamaño de la tabla */
+    .tabla-jornada th, .tabla-jornada td {
+        font-size: 1em; /* Reduce el tamaño de la fuente */
+        padding: 8px; /* Reduce el padding para mayor espacio */
+    }
+
+    /* Ajuste del encabezado */
+    header {
+        padding: 5px 0;
+    }
+
+    /* Ajuste de los enlaces de la navegación */
+    nav ul {
+        padding: 5px 0;
+    }
+
+    nav ul li {
+        margin: 0 5px;
+    }
+
+    nav ul li a {
+        font-size: 1em; /* Reducir tamaño de fuente para móviles */
+    }
+
+    /* Ajuste de la tabla */
+    .tabla-jornada {
+        margin-bottom: 20px;
+    }
+
+    /* Estilo para los partidos */
+    .partido {
+        font-size: 1.1em; /* Ajusta el tamaño de la fuente */
+    }
+
+    /* Detalles */
+    .detalles {
+        font-size: 0.9em; /* Hace los detalles más pequeños */
+    }
+}
+
+#resultados {
+    font-size: 0.9em;
+    text-align: center;
+}
