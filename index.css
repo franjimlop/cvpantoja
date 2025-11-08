@@ -122,7 +122,7 @@ h2 {
     }
 
     nav ul li a {
-        font-size: 1em; /* Reducir tamaño de fuente para móviles */
+        font-size: 0.8em; /* Reducir tamaño de fuente para móviles */
     }
 
     /* Ajuste de la tabla */
