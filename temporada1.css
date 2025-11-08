@@ -158,65 +158,6 @@ h2 {
     margin: 3px 0;
 }
 
-/* Estilos generales */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: 'Arial', sans-serif;
-    line-height: 1.6;
-}
-
-.container {
-    margin: 0 auto;
-    padding: 0 10%;
-    border-radius: 8px;
-}
-
-/* Header */
-header {
-    background-color: #D32F2F;
-    color: white;
-    padding: 15px 0;
-    top: 0;
-    z-index: 10;
-    margin-bottom: 20px;
-}
-
-nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #D32F2F;
-}
-
-nav ul li {
-    margin: 0 15px;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: white;
-    font-size: 1.5em;
-    font-weight: bold;
-    transition: color 0.3s;
-}
-
-nav ul li a:hover {
-    color: #abe5ff;
-}
-
-/* Estilo de las tablas */
-h2 {
-    color: #D32F2F;
-    text-align: center;
-    margin-bottom: 20px;
-}
-
 .tabla-jornada {
     width: 100%;
     border-collapse: collapse;
@@ -270,19 +211,6 @@ h2 {
     /* Ajuste del encabezado */
     header {
         padding: 5px 0;
-    }
-
-    /* Ajuste de los enlaces de la navegación */
-    nav ul {
-        padding: 5px 0;
-    }
-
-    nav ul li {
-        margin: 0 5px;
-    }
-
-    nav ul li a {
-        font-size: 1em; /* Reducir tamaño de fuente para móviles */
     }
 
     /* Ajuste de la tabla */
