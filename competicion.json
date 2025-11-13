@@ -4,64 +4,46 @@
       "jornada": 1,
       "partidos": [
         {
-          "fecha": "17:00 15/11/2025",
-          "lugar": "-",
+          "fecha": "19:00 15/11/2025",
+          "lugar": "Yeles",
+          "equipo_local": "YELES",
+          "equipo_visitante": "CUBAS",
+          "resultado_final": { "local": 0, "visitante": 0 },
+          "sets": [
+            { "set": 1, "local": 0, "visitante": 0 },
+            { "set": 2, "local": 0, "visitante": 0 },
+            { "set": 3, "local": 0, "visitante": 0 }
+          ]
+        },
+        {
+          "fecha": "19:00 15/11/2025",
+          "lugar": "Yeles",
           "equipo_local": "NEXUS",
-          "equipo_visitante": "YELES",
+          "equipo_visitante": "PANTOJA",
           "resultado_final": { "local": 0, "visitante": 0 },
           "sets": [
             { "set": 1, "local": 0, "visitante": 0 },
             { "set": 2, "local": 0, "visitante": 0 },
-            { "set": 3, "local": 0, "visitante": 0 },
             { "set": 3, "local": 0, "visitante": 0 }
           ]
         },
         {
-          "fecha": "17:00 15/11/2025",
-          "lugar": "-",
-          "equipo_local": "ÁLAMO",
-          "equipo_visitante": "VALMOJADO 'B'",
+          "fecha": "19:00 15/11/2025",
+          "lugar": "Seseña",
+          "equipo_local": "SESEÑA JUVENIL",
+          "equipo_visitante": "SESEÑA",
           "resultado_final": { "local": 0, "visitante": 0 },
           "sets": [
             { "set": 1, "local": 0, "visitante": 0 },
             { "set": 2, "local": 0, "visitante": 0 },
-            { "set": 3, "local": 0, "visitante": 0 },
             { "set": 3, "local": 0, "visitante": 0 }
           ]
         },
         {
-          "fecha": "17:00 15/11/2025",
-          "lugar": "-",
-          "equipo_local": "SESEÑA",
-          "equipo_visitante": "LINCES 'A'",
-          "resultado_final": { "local": 0, "visitante": 0 },
-          "sets": [
-            { "set": 1, "local": 0, "visitante": 0 },
-            { "set": 2, "local": 0, "visitante": 0 },
-            { "set": 3, "local": 0, "visitante": 0 },
-            { "set": 3, "local": 0, "visitante": 0 },
-            { "set": 3, "local": 0, "visitante": 0 }
-          ]
-        },
-        {
-          "fecha": "17:00 15/11/2025",
-          "lugar": "-",
-          "equipo_local": "LA RESISTENCIA",
-          "equipo_visitante": "LINCES 'B'",
-          "resultado_final": { "local": 0, "visitante": 0 },
-          "sets": [
-            { "set": 1, "local": 0, "visitante": 0 },
-            { "set": 2, "local": 0, "visitante": 0 },
-            { "set": 3, "local": 0, "visitante": 0 },
-            { "set": 3, "local": 0, "visitante": 0 },
-            { "set": 3, "local": 0, "visitante": 0 }
-          ]
-        },
-        {
-          "fecha": "17:00 15/11/2025",
-          "lugar": "-",
-          "equipo_local": "PANTOJA",
-          "equipo_visitante": "VALMOJADO 'A'",
+          "fecha": "19:00 15/11/2025",
+          "lugar": "Seseña",
+          "equipo_local": "UGENA",
+          "equipo_visitante": "BARGAS",
           "resultado_final": { "local": 0, "visitante": 0 },
           "sets": [
             { "set": 1, "local": 0, "visitante": 0 },
@@ -76,9 +58,9 @@
       "partidos": [
         {
           "fecha": "17:00 22/11/2025",
-          "lugar": "-",
-          "equipo_local": "LINCES 'B'",
-          "equipo_visitante": "PANTOJA",
+          "lugar": "Pantoja",
+          "equipo_local": "CUBAS",
+          "equipo_visitante": "UGENA",
           "resultado_final": { "local": 0, "visitante": 0 },
           "sets": [
             { "set": 1, "local": 0, "visitante": 0 },
@@ -87,10 +69,10 @@
           ]
         },
         {
-          "fecha": "17:00 22/11/2025",
-          "lugar": "-",
-          "equipo_local": "YELES",
-          "equipo_visitante": "VALMOJADO 'A'",
+          "fecha": "19:00 22/11/2025",
+          "lugar": "Pantoja",
+          "equipo_local": "SESEÑA",
+          "equipo_visitante": "YELES",
           "resultado_final": { "local": 0, "visitante": 0 },
           "sets": [
             { "set": 1, "local": 0, "visitante": 0 },
@@ -99,10 +81,10 @@
           ]
         },
         {
-          "fecha": "17:00 22/11/2025",
-          "lugar": "-",
-          "equipo_local": "LINCES 'A'",
-          "equipo_visitante": "LA RESISTENCIA",
+          "fecha": "19:00 22/11/2025",
+          "lugar": "Pantoja",
+          "equipo_local": "PANTOJA",
+          "equipo_visitante": "SESEÑA JUVENIL",
           "resultado_final": { "local": 0, "visitante": 0 },
           "sets": [
             { "set": 1, "local": 0, "visitante": 0 },
@@ -111,22 +93,10 @@
           ]
         },
         {
-          "fecha": "17:00 22/11/2025",
-          "lugar": "-",
-          "equipo_local": "VALMOJADO 'B'",
-          "equipo_visitante": "SESEÑA",
-          "resultado_final": { "local": 0, "visitante": 0 },
-          "sets": [
-            { "set": 1, "local": 0, "visitante": 0 },
-            { "set": 2, "local": 0, "visitante": 0 },
-            { "set": 3, "local": 0, "visitante": 0 }
-          ]
-        },
-        {
-          "fecha": "17:00 22/11/2025",
-          "lugar": "-",
+          "fecha": "19:00 22/11/2025",
+          "lugar": "Illescas",
           "equipo_local": "NEXUS",
-          "equipo_visitante": "ÁLAMO",
+          "equipo_visitante": "BARGAS",
           "resultado_final": { "local": 0, "visitante": 0 },
           "sets": [
             { "set": 1, "local": 0, "visitante": 0 },
@@ -141,9 +111,9 @@
       "partidos": [
         {
           "fecha": "17:00 29/11/2025",
-          "lugar": "-",
-          "equipo_local": "LA RESISTENCIA",
-          "equipo_visitante": "VALMOJADO 'B'",
+          "lugar": "Yeles",
+          "equipo_local": "YELES",
+          "equipo_visitante": "PANTOJA",
           "resultado_final": { "local": 0, "visitante": 0 },
           "sets": [
             { "set": 1, "local": 0, "visitante": 0 },
@@ -152,10 +122,10 @@
           ]
         },
         {
-          "fecha": "17:00 29/11/2025",
-          "lugar": "-",
-          "equipo_local": "SESEÑA",
-          "equipo_visitante": "NEXUS",
+          "fecha": "19:00 29/11/2025",
+          "lugar": "Yeles",
+          "equipo_local": "CUBAS",
+          "equipo_visitante": "SESEÑA",
           "resultado_final": { "local": 0, "visitante": 0 },
           "sets": [
             { "set": 1, "local": 0, "visitante": 0 },
@@ -164,10 +134,10 @@
           ]
         },
         {
-          "fecha": "17:00 29/11/2025",
-          "lugar": "-",
-          "equipo_local": "ÁLAMO",
-          "equipo_visitante": "YELES",
+          "fecha": "19:00 29/11/2025",
+          "lugar": "Yeles",
+          "equipo_local": "SESEÑA JUVENIL",
+          "equipo_visitante": "BARGAS",
           "resultado_final": { "local": 0, "visitante": 0 },
           "sets": [
             { "set": 1, "local": 0, "visitante": 0 },
@@ -176,22 +146,10 @@
           ]
         },
         {
-          "fecha": "17:00 29/11/2025",
-          "lugar": "-",
-          "equipo_local": "PANTOJA",
-          "equipo_visitante": "LINCES 'A'",
-          "resultado_final": { "local": 0, "visitante": 0 },
-          "sets": [
-            { "set": 1, "local": 0, "visitante": 0 },
-            { "set": 2, "local": 0, "visitante": 0 },
-            { "set": 3, "local": 0, "visitante": 0 }
-          ]
-        },
-        {
-          "fecha": "17:00 29/11/2025",
-          "lugar": "-",
-          "equipo_local": "VALMOJADO 'A'",
-          "equipo_visitante": "LINCES 'B'",
+          "fecha": "19:00 29/11/2025",
+          "lugar": "Illescas",
+          "equipo_local": "NEXUS",
+          "equipo_visitante": "UGENA",
           "resultado_final": { "local": 0, "visitante": 0 },
           "sets": [
             { "set": 1, "local": 0, "visitante": 0 },
@@ -205,10 +163,10 @@
       "jornada": 4,
       "partidos": [
         {
-          "fecha": "17:00 13/12/2025",
-          "lugar": "-",
-          "equipo_local": "NEXUS",
-          "equipo_visitante": "LA RESISTENCIA",
+          "fecha": "19:00 13/12/2025",
+          "lugar": "Seseña",
+          "equipo_local": "SESEÑA",
+          "equipo_visitante": "UGENA",
           "resultado_final": { "local": 0, "visitante": 0 },
           "sets": [
             { "set": 1, "local": 0, "visitante": 0 },
@@ -217,10 +175,10 @@
           ]
         },
         {
-          "fecha": "17:00 13/12/2025",
-          "lugar": "-",
-          "equipo_local": "LINCES 'A'",
-          "equipo_visitante": "VALMOJADO 'A'",
+          "fecha": "19:00 13/12/2025",
+          "lugar": "Seseña",
+          "equipo_local": "SESEÑA JUVENIL",
+          "equipo_visitante": "NEXUS",
           "resultado_final": { "local": 0, "visitante": 0 },
           "sets": [
             { "set": 1, "local": 0, "visitante": 0 },
@@ -229,10 +187,10 @@
           ]
         },
         {
-          "fecha": "17:00 13/12/2025",
-          "lugar": "-",
-          "equipo_local": "VALMOJADO 'B'",
-          "equipo_visitante": "PANTOJA",
+          "fecha": "19:00 13/12/2025",
+          "lugar": "Pantoja",
+          "equipo_local": "PANTOJA",
+          "equipo_visitante": "CUBAS",
           "resultado_final": { "local": 0, "visitante": 0 },
           "sets": [
             { "set": 1, "local": 0, "visitante": 0 },
@@ -241,22 +199,10 @@
           ]
         },
         {
-          "fecha": "17:00 13/12/2025",
-          "lugar": "-",
-          "equipo_local": "YELES",
-          "equipo_visitante": "LINCES 'B'",
-          "resultado_final": { "local": 0, "visitante": 0 },
-          "sets": [
-            { "set": 1, "local": 0, "visitante": 0 },
-            { "set": 2, "local": 0, "visitante": 0 },
-            { "set": 3, "local": 0, "visitante": 0 }
-          ]
-        },
-        {
-          "fecha": "17:00 13/12/2025",
-          "lugar": "-",
-          "equipo_local": "ÁLAMO",
-          "equipo_visitante": "SESEÑA",
+          "fecha": "19:00 13/12/2025",
+          "lugar": "Pantoja",
+          "equipo_local": "BARGAS",
+          "equipo_visitante": "YELES",
           "resultado_final": { "local": 0, "visitante": 0 },
           "sets": [
             { "set": 1, "local": 0, "visitante": 0 },
@@ -270,10 +216,10 @@
       "jornada": 5,
       "partidos": [
         {
-          "fecha": "17:00 10/01/2026",
-          "lugar": "-",
-          "equipo_local": "LINCES 'B'",
-          "equipo_visitante": "LINCES 'A'",
+          "fecha": "19:00 20/12/2025",
+          "lugar": "Yeles",
+          "equipo_local": "CUBAS",
+          "equipo_visitante": "BARGAS",
           "resultado_final": { "local": 0, "visitante": 0 },
           "sets": [
             { "set": 1, "local": 0, "visitante": 0 },
@@ -282,21 +228,9 @@
           ]
         },
         {
-          "fecha": "17:00 10/01/2026",
-          "lugar": "-",
-          "equipo_local": "LA RESISTENCIA",
-          "equipo_visitante": "ÁLAMO",
-          "resultado_final": { "local": 0, "visitante": 0 },
-          "sets": [
-            { "set": 1, "local": 0, "visitante": 0 },
-            { "set": 2, "local": 0, "visitante": 0 },
-            { "set": 3, "local": 0, "visitante": 0 }
-          ]
-        },
-        {
-          "fecha": "17:00 10/01/2026",
-          "lugar": "-",
-          "equipo_local": "PANTOJA",
+          "fecha": "19:00 20/12/2025",
+          "lugar": "Yeles",
+          "equipo_local": "YELES",
           "equipo_visitante": "NEXUS",
           "resultado_final": { "local": 0, "visitante": 0 },
           "sets": [
@@ -306,10 +240,10 @@
           ]
         },
         {
-          "fecha": "17:00 10/01/2026",
-          "lugar": "-",
-          "equipo_local": "VALMOJADO 'A'",
-          "equipo_visitante": "VALMOJADO 'B'",
+          "fecha": "19:00 20/12/2025",
+          "lugar": "Seseña",
+          "equipo_local": "SESEÑA",
+          "equipo_visitante": "PANTOJA",
           "resultado_final": { "local": 0, "visitante": 0 },
           "sets": [
             { "set": 1, "local": 0, "visitante": 0 },
@@ -318,10 +252,10 @@
           ]
         },
         {
-          "fecha": "17:00 15/11/2025",
-          "lugar": "-",
-          "equipo_local": "SESEÑA",
-          "equipo_visitante": "YELES",
+          "fecha": "19:00 20/12/2025",
+          "lugar": "Seseña",
+          "equipo_local": "SESEÑA JUVENIL",
+          "equipo_visitante": "UGENA",
           "resultado_final": { "local": 0, "visitante": 0 },
           "sets": [
             { "set": 1, "local": 0, "visitante": 0 },
@@ -336,9 +270,9 @@
       "partidos": [
         {
           "fecha": "17:00 17/01/2026",
-          "lugar": "-",
-          "equipo_local": "YELES",
-          "equipo_visitante": "LINCES 'A'",
+          "lugar": "Pantoja",
+          "equipo_local": "BARGAS",
+          "equipo_visitante": "SESEÑA",
           "resultado_final": { "local": 0, "visitante": 0 },
           "sets": [
             { "set": 1, "local": 0, "visitante": 0 },
@@ -347,10 +281,10 @@
           ]
         },
         {
-          "fecha": "17:00 17/01/2026",
-          "lugar": "-",
-          "equipo_local": "VALMOJADO 'B'",
-          "equipo_visitante": "LINCES 'B'",
+          "fecha": "19:00 17/01/2026",
+          "lugar": "Pantoja",
+          "equipo_local": "PANTOJA",
+          "equipo_visitante": "UGENA",
           "resultado_final": { "local": 0, "visitante": 0 },
           "sets": [
             { "set": 1, "local": 0, "visitante": 0 },
@@ -359,34 +293,22 @@
           ]
         },
         {
-          "fecha": "17:00 17/01/2026",
-          "lugar": "-",
+          "fecha": "19:00 17/01/2026",
+          "lugar": "Pantoja",
+          "equipo_local": "SESEÑA JUVENIL",
+          "equipo_visitante": "YELES",
+          "resultado_final": { "local": 0, "visitante": 0 },
+          "sets": [
+            { "set": 1, "local": 0, "visitante": 0 },
+            { "set": 2, "local": 0, "visitante": 0 },
+            { "set": 3, "local": 0, "visitante": 0 }
+          ]
+        },
+        {
+          "fecha": "19:00 17/01/2026",
+          "lugar": "Illescas",
           "equipo_local": "NEXUS",
-          "equipo_visitante": "VALMOJADO 'A'",
-          "resultado_final": { "local": 0, "visitante": 0 },
-          "sets": [
-            { "set": 1, "local": 0, "visitante": 0 },
-            { "set": 2, "local": 0, "visitante": 0 },
-            { "set": 3, "local": 0, "visitante": 0 }
-          ]
-        },
-        {
-          "fecha": "17:00 17/01/2026",
-          "lugar": "-",
-          "equipo_local": "ÁLAMO",
-          "equipo_visitante": "PANTOJA",
-          "resultado_final": { "local": 0, "visitante": 0 },
-          "sets": [
-            { "set": 1, "local": 0, "visitante": 0 },
-            { "set": 2, "local": 0, "visitante": 0 },
-            { "set": 3, "local": 0, "visitante": 0 }
-          ]
-        },
-        {
-          "fecha": "17:00 17/01/2026",
-          "lugar": "-",
-          "equipo_local": "SESEÑA",
-          "equipo_visitante": "LA RESISTENCIA",
+          "equipo_visitante": "CUBAS",
           "resultado_final": { "local": 0, "visitante": 0 },
           "sets": [
             { "set": 1, "local": 0, "visitante": 0 },
@@ -400,10 +322,10 @@
       "jornada": 7,
       "partidos": [
         {
-          "fecha": "17:00 31/01/2026",
-          "lugar": "-",
+          "fecha": "19:00 24/01/2026",
+          "lugar": "Yeles",
           "equipo_local": "PANTOJA",
-          "equipo_visitante": "SESEÑA",
+          "equipo_visitante": "BARGAS",
           "resultado_final": { "local": 0, "visitante": 0 },
           "sets": [
             { "set": 1, "local": 0, "visitante": 0 },
@@ -412,10 +334,10 @@
           ]
         },
         {
-          "fecha": "17:00 31/01/2026",
-          "lugar": "-",
-          "equipo_local": "LA RESISTENCIA",
-          "equipo_visitante": "YELES",
+          "fecha": "19:00 24/01/2026",
+          "lugar": "Yeles",
+          "equipo_local": "YELES",
+          "equipo_visitante": "UGENA",
           "resultado_final": { "local": 0, "visitante": 0 },
           "sets": [
             { "set": 1, "local": 0, "visitante": 0 },
@@ -424,21 +346,9 @@
           ]
         },
         {
-          "fecha": "17:00 31/01/2026",
-          "lugar": "-",
-          "equipo_local": "VALMOJADO 'A'",
-          "equipo_visitante": "ÁLAMO",
-          "resultado_final": { "local": 0, "visitante": 0 },
-          "sets": [
-            { "set": 1, "local": 0, "visitante": 0 },
-            { "set": 2, "local": 0, "visitante": 0 },
-            { "set": 3, "local": 0, "visitante": 0 }
-          ]
-        },
-        {
-          "fecha": "17:00 31/01/2026",
-          "lugar": "-",
-          "equipo_local": "LINCES 'B'",
+          "fecha": "19:00 24/01/2026",
+          "lugar": "Seseña",
+          "equipo_local": "SESEÑA",
           "equipo_visitante": "NEXUS",
           "resultado_final": { "local": 0, "visitante": 0 },
           "sets": [
@@ -448,10 +358,10 @@
           ]
         },
         {
-          "fecha": "17:00 31/01/2026",
-          "lugar": "-",
-          "equipo_local": "LINCES 'A'",
-          "equipo_visitante": "VALMOJADO 'B'",
+          "fecha": "19:00 24/01/2026",
+          "lugar": "Seseña",
+          "equipo_local": "SESEÑA JUVENIL",
+          "equipo_visitante": "CUBAS",
           "resultado_final": { "local": 0, "visitante": 0 },
           "sets": [
             { "set": 1, "local": 0, "visitante": 0 },
@@ -465,34 +375,10 @@
       "jornada": 8,
       "partidos": [
         {
-          "fecha": "17:00 14/02/2026",
-          "lugar": "-",
-          "equipo_local": "ÁLAMO",
-          "equipo_visitante": "LINCES 'B'",
-          "resultado_final": { "local": 0, "visitante": 0 },
-          "sets": [
-            { "set": 1, "local": 0, "visitante": 0 },
-            { "set": 2, "local": 0, "visitante": 0 },
-            { "set": 3, "local": 0, "visitante": 0 }
-          ]
-        },
-        {
-          "fecha": "17:00 14/02/2026",
-          "lugar": "-",
-          "equipo_local": "NEXUS",
-          "equipo_visitante": "LINCES 'A'",
-          "resultado_final": { "local": 0, "visitante": 0 },
-          "sets": [
-            { "set": 1, "local": 0, "visitante": 0 },
-            { "set": 2, "local": 0, "visitante": 0 },
-            { "set": 3, "local": 0, "visitante": 0 }
-          ]
-        },
-        {
-          "fecha": "17:00 14/02/2026",
-          "lugar": "-",
+          "fecha": "19:00 31/01/2026",
+          "lugar": "Seseña",
           "equipo_local": "YELES",
-          "equipo_visitante": "VALMOJADO 'B'",
+          "equipo_visitante": "CUBAS",
           "resultado_final": { "local": 0, "visitante": 0 },
           "sets": [
             { "set": 1, "local": 0, "visitante": 0 },
@@ -501,10 +387,10 @@
           ]
         },
         {
-          "fecha": "17:00 14/02/2026",
-          "lugar": "-",
+          "fecha": "19:00 31/01/2026",
+          "lugar": "Seseña",
           "equipo_local": "SESEÑA",
-          "equipo_visitante": "VALMOJADO 'A'",
+          "equipo_visitante": "SESEÑA JUVENIL",
           "resultado_final": { "local": 0, "visitante": 0 },
           "sets": [
             { "set": 1, "local": 0, "visitante": 0 },
@@ -513,10 +399,22 @@
           ]
         },
         {
-          "fecha": "17:00 14/02/2026",
-          "lugar": "-",
-          "equipo_local": "LA RESISTENCIA",
-          "equipo_visitante": "PANTOJA",
+          "fecha": "19:00 31/01/2026",
+          "lugar": "Pantoja",
+          "equipo_local": "PANTOJA",
+          "equipo_visitante": "NEXUS",
+          "resultado_final": { "local": 0, "visitante": 0 },
+          "sets": [
+            { "set": 1, "local": 0, "visitante": 0 },
+            { "set": 2, "local": 0, "visitante": 0 },
+            { "set": 3, "local": 0, "visitante": 0 }
+          ]
+        },
+        {
+          "fecha": "19:00 31/01/2026",
+          "lugar": "Pantoja",
+          "equipo_local": "UGENA",
+          "equipo_visitante": "BARGAS",
           "resultado_final": { "local": 0, "visitante": 0 },
           "sets": [
             { "set": 1, "local": 0, "visitante": 0 },
@@ -530,10 +428,10 @@
       "jornada": 9,
       "partidos": [
         {
-          "fecha": "17:00 28/02/2026",
-          "lugar": "-",
-          "equipo_local": "LINCES 'A'",
-          "equipo_visitante": "ÁLAMO",
+          "fecha": "17:00 07/02/2026",
+          "lugar": "Yeles",
+          "equipo_local": "PANTOJA",
+          "equipo_visitante": "SESEÑA JUVENIL",
           "resultado_final": { "local": 0, "visitante": 0 },
           "sets": [
             { "set": 1, "local": 0, "visitante": 0 },
@@ -542,21 +440,9 @@
           ]
         },
         {
-          "fecha": "17:00 28/02/2026",
-          "lugar": "-",
-          "equipo_local": "VALMOJADO 'A'",
-          "equipo_visitante": "LA RESISTENCIA",
-          "resultado_final": { "local": 0, "visitante": 0 },
-          "sets": [
-            { "set": 1, "local": 0, "visitante": 0 },
-            { "set": 2, "local": 0, "visitante": 0 },
-            { "set": 3, "local": 0, "visitante": 0 }
-          ]
-        },
-        {
-          "fecha": "17:00 28/02/2026",
-          "lugar": "-",
-          "equipo_local": "LINCES 'B'",
+          "fecha": "19:00 07/02/2026",
+          "lugar": "Yeles",
+          "equipo_local": "YELES",
           "equipo_visitante": "SESEÑA",
           "resultado_final": { "local": 0, "visitante": 0 },
           "sets": [
@@ -566,10 +452,10 @@
           ]
         },
         {
-          "fecha": "17:00 28/02/2026",
-          "lugar": "-",
-          "equipo_local": "PANTOJA",
-          "equipo_visitante": "YELES",
+          "fecha": "19:00 07/02/2026",
+          "lugar": "Yeles",
+          "equipo_local": "CUBAS",
+          "equipo_visitante": "UGENA",
           "resultado_final": { "local": 0, "visitante": 0 },
           "sets": [
             { "set": 1, "local": 0, "visitante": 0 },
@@ -578,10 +464,10 @@
           ]
         },
         {
-          "fecha": "17:00 28/02/2026",
-          "lugar": "-",
-          "equipo_local": "VALMOJADO 'B'",
-          "equipo_visitante": "NEXUS",
+          "fecha": "19:00 07/02/2026",
+          "lugar": "Illescas",
+          "equipo_local": "NEXUS",
+          "equipo_visitante": "BARGAS",
           "resultado_final": { "local": 0, "visitante": 0 },
           "sets": [
             { "set": 1, "local": 0, "visitante": 0 },
@@ -595,33 +481,9 @@
       "jornada": 10,
       "partidos": [
         {
-          "fecha": "17:00 07/03/2026",
-          "lugar": "-",
-          "equipo_local": "VALMOJADO 'A'",
-          "equipo_visitante": "PANTOJA",
-          "resultado_final": { "local": 0, "visitante": 0 },
-          "sets": [
-            { "set": 1, "local": 0, "visitante": 0 },
-            { "set": 2, "local": 0, "visitante": 0 },
-            { "set": 3, "local": 0, "visitante": 0 }
-          ]
-        },
-        {
-          "fecha": "17:00 07/03/2026",
-          "lugar": "-",
-          "equipo_local": "VALMOJADO 'B'",
-          "equipo_visitante": "ÁLAMO",
-          "resultado_final": { "local": 0, "visitante": 0 },
-          "sets": [
-            { "set": 1, "local": 0, "visitante": 0 },
-            { "set": 2, "local": 0, "visitante": 0 },
-            { "set": 3, "local": 0, "visitante": 0 }
-          ]
-        },
-        {
-          "fecha": "17:00 07/03/2026",
-          "lugar": "-",
-          "equipo_local": "LINCES 'A'",
+          "fecha": "17:00 14/02/2026",
+          "lugar": "Yeles",
+          "equipo_local": "CUBAS",
           "equipo_visitante": "SESEÑA",
           "resultado_final": { "local": 0, "visitante": 0 },
           "sets": [
@@ -631,10 +493,10 @@
           ]
         },
         {
-          "fecha": "17:00 07/03/2026",
-          "lugar": "-",
-          "equipo_local": "LINCES 'B'",
-          "equipo_visitante": "LA RESISTENCIA",
+          "fecha": "19:00 14/02/2026",
+          "lugar": "Yeles",
+          "equipo_local": "YELES",
+          "equipo_visitante": "PANTOJA",
           "resultado_final": { "local": 0, "visitante": 0 },
           "sets": [
             { "set": 1, "local": 0, "visitante": 0 },
@@ -643,10 +505,22 @@
           ]
         },
         {
-          "fecha": "17:00 07/03/2026",
-          "lugar": "-",
-          "equipo_local": "YELES",
-          "equipo_visitante": "NEXUS",
+          "fecha": "19:00 14/02/2026",
+          "lugar": "Yeles",
+          "equipo_local": "SESEÑA JUVENIL",
+          "equipo_visitante": "BARGAS",
+          "resultado_final": { "local": 0, "visitante": 0 },
+          "sets": [
+            { "set": 1, "local": 0, "visitante": 0 },
+            { "set": 2, "local": 0, "visitante": 0 },
+            { "set": 3, "local": 0, "visitante": 0 }
+          ]
+        },
+        {
+          "fecha": "19:00 14/02/2026",
+          "lugar": "Illescas",
+          "equipo_local": "NEXUS",
+          "equipo_visitante": "UGENA",
           "resultado_final": { "local": 0, "visitante": 0 },
           "sets": [
             { "set": 1, "local": 0, "visitante": 0 },
@@ -660,46 +534,10 @@
       "jornada": 11,
       "partidos": [
         {
-          "fecha": "17:00 14/03/2026",
-          "lugar": "-",
-          "equipo_local": "VALMOJADO 'A'",
-          "equipo_visitante": "YELES",
-          "resultado_final": { "local": 0, "visitante": 0 },
-          "sets": [
-            { "set": 1, "local": 0, "visitante": 0 },
-            { "set": 2, "local": 0, "visitante": 0 },
-            { "set": 3, "local": 0, "visitante": 0 }
-          ]
-        },
-        {
-          "fecha": "17:00 14/03/2026",
-          "lugar": "-",
-          "equipo_local": "PANTOJA",
-          "equipo_visitante": "LINCES 'B'",
-          "resultado_final": { "local": 0, "visitante": 0 },
-          "sets": [
-            { "set": 1, "local": 0, "visitante": 0 },
-            { "set": 2, "local": 0, "visitante": 0 },
-            { "set": 3, "local": 0, "visitante": 0 }
-          ]
-        },
-        {
-          "fecha": "17:00 14/03/2026",
-          "lugar": "-",
-          "equipo_local": "LA RESISTENCIA",
-          "equipo_visitante": "LINCES 'A'",
-          "resultado_final": { "local": 0, "visitante": 0 },
-          "sets": [
-            { "set": 1, "local": 0, "visitante": 0 },
-            { "set": 2, "local": 0, "visitante": 0 },
-            { "set": 3, "local": 0, "visitante": 0 }
-          ]
-        },
-        {
-          "fecha": "17:00 14/03/2026",
-          "lugar": "-",
+          "fecha": "19:00 21/02/2026",
+          "lugar": "Seseña",
           "equipo_local": "SESEÑA",
-          "equipo_visitante": "VALMOJADO 'B'",
+          "equipo_visitante": "UGENA",
           "resultado_final": { "local": 0, "visitante": 0 },
           "sets": [
             { "set": 1, "local": 0, "visitante": 0 },
@@ -708,10 +546,34 @@
           ]
         },
         {
-          "fecha": "17:00 14/03/2026",
-          "lugar": "-",
-          "equipo_local": "ÁLAMO",
+          "fecha": "19:00 21/02/2026",
+          "lugar": "Seseña",
+          "equipo_local": "SESEÑA JUVENIL",
           "equipo_visitante": "NEXUS",
+          "resultado_final": { "local": 0, "visitante": 0 },
+          "sets": [
+            { "set": 1, "local": 0, "visitante": 0 },
+            { "set": 2, "local": 0, "visitante": 0 },
+            { "set": 3, "local": 0, "visitante": 0 }
+          ]
+        },
+        {
+          "fecha": "19:00 21/02/2026",
+          "lugar": "Pantoja",
+          "equipo_local": "PANTOJA",
+          "equipo_visitante": "CUBAS",
+          "resultado_final": { "local": 0, "visitante": 0 },
+          "sets": [
+            { "set": 1, "local": 0, "visitante": 0 },
+            { "set": 2, "local": 0, "visitante": 0 },
+            { "set": 3, "local": 0, "visitante": 0 }
+          ]
+        },
+        {
+          "fecha": "19:00 21/02/2026",
+          "lugar": "Pantoja",
+          "equipo_local": "BARGAS",
+          "equipo_visitante": "YELES",
           "resultado_final": { "local": 0, "visitante": 0 },
           "sets": [
             { "set": 1, "local": 0, "visitante": 0 },
@@ -725,10 +587,10 @@
       "jornada": 12,
       "partidos": [
         {
-          "fecha": "17:00 21/03/2026",
-          "lugar": "-",
-          "equipo_local": "NEXUS",
-          "equipo_visitante": "SESEÑA",
+          "fecha": "19:00 28/02/2026",
+          "lugar": "Yeles",
+          "equipo_local": "CUBAS",
+          "equipo_visitante": "BARGAS",
           "resultado_final": { "local": 0, "visitante": 0 },
           "sets": [
             { "set": 1, "local": 0, "visitante": 0 },
@@ -737,10 +599,10 @@
           ]
         },
         {
-          "fecha": "17:00 21/03/2026",
-          "lugar": "-",
+          "fecha": "19:00 28/02/2026",
+          "lugar": "Yeles",
           "equipo_local": "YELES",
-          "equipo_visitante": "ÁLAMO",
+          "equipo_visitante": "NEXUS",
           "resultado_final": { "local": 0, "visitante": 0 },
           "sets": [
             { "set": 1, "local": 0, "visitante": 0 },
@@ -749,21 +611,9 @@
           ]
         },
         {
-          "fecha": "17:00 21/03/2026",
-          "lugar": "-",
-          "equipo_local": "VALMOJADO 'B'",
-          "equipo_visitante": "LA RESISTENCIA",
-          "resultado_final": { "local": 0, "visitante": 0 },
-          "sets": [
-            { "set": 1, "local": 0, "visitante": 0 },
-            { "set": 2, "local": 0, "visitante": 0 },
-            { "set": 3, "local": 0, "visitante": 0 }
-          ]
-        },
-        {
-          "fecha": "17:00 21/03/2026",
-          "lugar": "-",
-          "equipo_local": "LINCES 'A'",
+          "fecha": "19:00 28/02/2026",
+          "lugar": "Seseña",
+          "equipo_local": "SESEÑA",
           "equipo_visitante": "PANTOJA",
           "resultado_final": { "local": 0, "visitante": 0 },
           "sets": [
@@ -773,10 +623,10 @@
           ]
         },
         {
-          "fecha": "17:00 21/03/2026",
-          "lugar": "-",
-          "equipo_local": "LINCES 'B'",
-          "equipo_visitante": "VALMOJADO 'A'",
+          "fecha": "19:00 28/02/2026",
+          "lugar": "Seseña",
+          "equipo_local": "SESEÑA JUVENIL",
+          "equipo_visitante": "UGENA",
           "resultado_final": { "local": 0, "visitante": 0 },
           "sets": [
             { "set": 1, "local": 0, "visitante": 0 },
@@ -790,10 +640,22 @@
       "jornada": 13,
       "partidos": [
         {
-          "fecha": "17:00 11/04/2026",
-          "lugar": "-",
+          "fecha": "17:00 07/03/2026",
+          "lugar": "Pantoja",
+          "equipo_local": "BARGAS",
+          "equipo_visitante": "SESEÑA",
+          "resultado_final": { "local": 0, "visitante": 0 },
+          "sets": [
+            { "set": 1, "local": 0, "visitante": 0 },
+            { "set": 2, "local": 0, "visitante": 0 },
+            { "set": 3, "local": 0, "visitante": 0 }
+          ]
+        },
+        {
+          "fecha": "19:00 07/03/2026",
+          "lugar": "Pantoja",
           "equipo_local": "PANTOJA",
-          "equipo_visitante": "VALMOJADO 'B'",
+          "equipo_visitante": "UGENA",
           "resultado_final": { "local": 0, "visitante": 0 },
           "sets": [
             { "set": 1, "local": 0, "visitante": 0 },
@@ -802,21 +664,9 @@
           ]
         },
         {
-          "fecha": "17:00 11/04/2026",
-          "lugar": "-",
-          "equipo_local": "VALMOJADO 'A'",
-          "equipo_visitante": "LINCES 'A'",
-          "resultado_final": { "local": 0, "visitante": 0 },
-          "sets": [
-            { "set": 1, "local": 0, "visitante": 0 },
-            { "set": 2, "local": 0, "visitante": 0 },
-            { "set": 3, "local": 0, "visitante": 0 }
-          ]
-        },
-        {
-          "fecha": "17:00 11/04/2026",
-          "lugar": "-",
-          "equipo_local": "LINCES 'B'",
+          "fecha": "19:00 07/03/2026",
+          "lugar": "Pantoja",
+          "equipo_local": "SESEÑA JUVENIL",
           "equipo_visitante": "YELES",
           "resultado_final": { "local": 0, "visitante": 0 },
           "sets": [
@@ -826,22 +676,10 @@
           ]
         },
         {
-          "fecha": "17:00 11/04/2026",
-          "lugar": "-",
-          "equipo_local": "LA RESISTENCIA",
-          "equipo_visitante": "NEXUS",
-          "resultado_final": { "local": 0, "visitante": 0 },
-          "sets": [
-            { "set": 1, "local": 0, "visitante": 0 },
-            { "set": 2, "local": 0, "visitante": 0 },
-            { "set": 3, "local": 0, "visitante": 0 }
-          ]
-        },
-        {
-          "fecha": "17:00 11/04/2026",
-          "lugar": "-",
-          "equipo_local": "SESEÑA",
-          "equipo_visitante": "ÁLAMO",
+          "fecha": "19:00 07/03/2026",
+          "lugar": "Illescas",
+          "equipo_local": "NEXUS",
+          "equipo_visitante": "CUBAS",
           "resultado_final": { "local": 0, "visitante": 0 },
           "sets": [
             { "set": 1, "local": 0, "visitante": 0 },
@@ -855,10 +693,10 @@
       "jornada": 14,
       "partidos": [
         {
-          "fecha": "17:00 18/04/2026",
-          "lugar": "-",
-          "equipo_local": "VALMOJADO 'B'",
-          "equipo_visitante": "VALMOJADO 'A'",
+          "fecha": "19:00 14/03/2026",
+          "lugar": "Yeles",
+          "equipo_local": "PANTOJA",
+          "equipo_visitante": "BARGAS",
           "resultado_final": { "local": 0, "visitante": 0 },
           "sets": [
             { "set": 1, "local": 0, "visitante": 0 },
@@ -867,34 +705,10 @@
           ]
         },
         {
-          "fecha": "17:00 18/04/2026",
-          "lugar": "-",
-          "equipo_local": "ÁLAMO",
-          "equipo_visitante": "LA RESISTENCIA",
-          "resultado_final": { "local": 0, "visitante": 0 },
-          "sets": [
-            { "set": 1, "local": 0, "visitante": 0 },
-            { "set": 2, "local": 0, "visitante": 0 },
-            { "set": 3, "local": 0, "visitante": 0 }
-          ]
-        },
-        {
-          "fecha": "17:00 18/04/2026",
-          "lugar": "-",
-          "equipo_local": "NEXUS",
-          "equipo_visitante": "PANTOJA",
-          "resultado_final": { "local": 0, "visitante": 0 },
-          "sets": [
-            { "set": 1, "local": 0, "visitante": 0 },
-            { "set": 2, "local": 0, "visitante": 0 },
-            { "set": 3, "local": 0, "visitante": 0 }
-          ]
-        },
-        {
-          "fecha": "17:00 18/04/2026",
-          "lugar": "-",
+          "fecha": "19:00 14/03/2026",
+          "lugar": "Yeles",
           "equipo_local": "YELES",
-          "equipo_visitante": "SESEÑA",
+          "equipo_visitante": "UGENA",
           "resultado_final": { "local": 0, "visitante": 0 },
           "sets": [
             { "set": 1, "local": 0, "visitante": 0 },
@@ -903,50 +717,9 @@
           ]
         },
         {
-          "fecha": "17:00 18/04/2026",
-          "lugar": "-",
-          "equipo_local": "LINCES 'A'",
-          "equipo_visitante": "LINCES 'B'",
-          "resultado_final": { "local": 0, "visitante": 0 },
-          "sets": [
-            { "set": 1, "local": 0, "visitante": 0 },
-            { "set": 2, "local": 0, "visitante": 0 },
-            { "set": 3, "local": 0, "visitante": 0 }
-          ]
-        }
-      ]
-    },
-    {
-      "jornada": 15,
-      "partidos": [
-        {
-          "fecha": "17:00 25/04/2026",
-          "lugar": "-",
-          "equipo_local": "LA RESISTENCIA",
-          "equipo_visitante": "SESEÑA",
-          "resultado_final": { "local": 0, "visitante": 0 },
-          "sets": [
-            { "set": 1, "local": 0, "visitante": 0 },
-            { "set": 2, "local": 0, "visitante": 0 },
-            { "set": 3, "local": 0, "visitante": 0 }
-          ]
-        },
-        {
-          "fecha": "17:00 25/04/2026",
-          "lugar": "-",
-          "equipo_local": "LINCES 'B'",
-          "equipo_visitante": "VALMOJADO 'B'",
-          "resultado_final": { "local": 0, "visitante": 0 },
-          "sets": [
-            { "set": 1, "local": 0, "visitante": 0 },
-            { "set": 2, "local": 0, "visitante": 0 },
-            { "set": 3, "local": 0, "visitante": 0 }
-          ]
-        },
-        {
-          "fecha": "17:00 25/04/2026",
-          "lugar": "-",
-          "equipo_local": "VALMOJADO 'A'",
+          "fecha": "19:00 14/03/2026",
+          "lugar": "Seseña",
+          "equipo_local": "SESEÑA",
           "equipo_visitante": "NEXUS",
           "resultado_final": { "local": 0, "visitante": 0 },
           "sets": [
@@ -956,217 +729,10 @@
           ]
         },
         {
-          "fecha": "17:00 25/04/2026",
-          "lugar": "-",
-          "equipo_local": "PANTOJA",
-          "equipo_visitante": "ÁLAMO",
-          "resultado_final": { "local": 0, "visitante": 0 },
-          "sets": [
-            { "set": 1, "local": 0, "visitante": 0 },
-            { "set": 2, "local": 0, "visitante": 0 },
-            { "set": 3, "local": 0, "visitante": 0 }
-          ]
-        },
-        {
-          "fecha": "17:00 25/04/2026",
-          "lugar": "-",
-          "equipo_local": "LINCES 'A'",
-          "equipo_visitante": "YELES",
-          "resultado_final": { "local": 0, "visitante": 0 },
-          "sets": [
-            { "set": 1, "local": 0, "visitante": 0 },
-            { "set": 2, "local": 0, "visitante": 0 },
-            { "set": 3, "local": 0, "visitante": 0 }
-          ]
-        }
-      ]
-    },
-    {
-      "jornada": 16,
-      "partidos": [
-        {
-          "fecha": "17:00 09/05/2026",
-          "lugar": "-",
-          "equipo_local": "YELES",
-          "equipo_visitante": "LA RESISTENCIA",
-          "resultado_final": { "local": 0, "visitante": 0 },
-          "sets": [
-            { "set": 1, "local": 0, "visitante": 0 },
-            { "set": 2, "local": 0, "visitante": 0 },
-            { "set": 3, "local": 0, "visitante": 0 }
-          ]
-        },
-        {
-          "fecha": "17:00 09/05/2026",
-          "lugar": "-",
-          "equipo_local": "SESEÑA",
-          "equipo_visitante": "PANTOJA",
-          "resultado_final": { "local": 0, "visitante": 0 },
-          "sets": [
-            { "set": 1, "local": 0, "visitante": 0 },
-            { "set": 2, "local": 0, "visitante": 0 },
-            { "set": 3, "local": 0, "visitante": 0 }
-          ]
-        },
-        {
-          "fecha": "17:00 09/05/2026",
-          "lugar": "-",
-          "equipo_local": "ÁLAMO",
-          "equipo_visitante": "VALMOJADO 'A'",
-          "resultado_final": { "local": 0, "visitante": 0 },
-          "sets": [
-            { "set": 1, "local": 0, "visitante": 0 },
-            { "set": 2, "local": 0, "visitante": 0 },
-            { "set": 3, "local": 0, "visitante": 0 }
-          ]
-        },
-        {
-          "fecha": "17:00 09/05/2026",
-          "lugar": "-",
-          "equipo_local": "NEXUS",
-          "equipo_visitante": "LINCES 'B'",
-          "resultado_final": { "local": 0, "visitante": 0 },
-          "sets": [
-            { "set": 1, "local": 0, "visitante": 0 },
-            { "set": 2, "local": 0, "visitante": 0 },
-            { "set": 3, "local": 0, "visitante": 0 }
-          ]
-        },
-        {
-          "fecha": "17:00 09/05/2026",
-          "lugar": "-",
-          "equipo_local": "VALMOJADO 'B'",
-          "equipo_visitante": "LINCES 'A'",
-          "resultado_final": { "local": 0, "visitante": 0 },
-          "sets": [
-            { "set": 1, "local": 0, "visitante": 0 },
-            { "set": 2, "local": 0, "visitante": 0 },
-            { "set": 3, "local": 0, "visitante": 0 }
-          ]
-        }
-      ]
-    },
-    {
-      "jornada": 17,
-      "partidos": [
-        {
-          "fecha": "17:00 16/05/2026",
-          "lugar": "-",
-          "equipo_local": "LINCES 'A'",
-          "equipo_visitante": "NEXUS",
-          "resultado_final": { "local": 0, "visitante": 0 },
-          "sets": [
-            { "set": 1, "local": 0, "visitante": 0 },
-            { "set": 2, "local": 0, "visitante": 0 },
-            { "set": 3, "local": 0, "visitante": 0 }
-          ]
-        },
-        {
-          "fecha": "17:00 16/05/2026",
-          "lugar": "-",
-          "equipo_local": "VALMOJADO 'B'",
-          "equipo_visitante": "YELES",
-          "resultado_final": { "local": 0, "visitante": 0 },
-          "sets": [
-            { "set": 1, "local": 0, "visitante": 0 },
-            { "set": 2, "local": 0, "visitante": 0 },
-            { "set": 3, "local": 0, "visitante": 0 }
-          ]
-        },
-        {
-          "fecha": "17:00 16/05/2026",
-          "lugar": "-",
-          "equipo_local": "LINCES 'B'",
-          "equipo_visitante": "ÁLAMO",
-          "resultado_final": { "local": 0, "visitante": 0 },
-          "sets": [
-            { "set": 1, "local": 0, "visitante": 0 },
-            { "set": 2, "local": 0, "visitante": 0 },
-            { "set": 3, "local": 0, "visitante": 0 }
-          ]
-        },
-        {
-          "fecha": "17:00 16/05/2026",
-          "lugar": "-",
-          "equipo_local": "VALMOJADO 'A'",
-          "equipo_visitante": "SESEÑA",
-          "resultado_final": { "local": 0, "visitante": 0 },
-          "sets": [
-            { "set": 1, "local": 0, "visitante": 0 },
-            { "set": 2, "local": 0, "visitante": 0 },
-            { "set": 3, "local": 0, "visitante": 0 }
-          ]
-        },
-        {
-          "fecha": "17:00 16/05/2026",
-          "lugar": "-",
-          "equipo_local": "PANTOJA",
-          "equipo_visitante": "LA RESISTENCIA",
-          "resultado_final": { "local": 0, "visitante": 0 },
-          "sets": [
-            { "set": 1, "local": 0, "visitante": 0 },
-            { "set": 2, "local": 0, "visitante": 0 },
-            { "set": 3, "local": 0, "visitante": 0 }
-          ]
-        }
-      ]
-    },
-    {
-      "jornada": 18,
-      "partidos": [
-        {
-          "fecha": "17:00 23/05/2026",
-          "lugar": "-",
-          "equipo_local": "SESEÑA",
-          "equipo_visitante": "LINCES 'B'",
-          "resultado_final": { "local": 0, "visitante": 0 },
-          "sets": [
-            { "set": 1, "local": 0, "visitante": 0 },
-            { "set": 2, "local": 0, "visitante": 0 },
-            { "set": 3, "local": 0, "visitante": 0 }
-          ]
-        },
-        {
-          "fecha": "17:00 23/05/2026",
-          "lugar": "-",
-          "equipo_local": "LA RESISTENCIA",
-          "equipo_visitante": "VALMOJADO 'A'",
-          "resultado_final": { "local": 0, "visitante": 0 },
-          "sets": [
-            { "set": 1, "local": 0, "visitante": 0 },
-            { "set": 2, "local": 0, "visitante": 0 },
-            { "set": 3, "local": 0, "visitante": 0 }
-          ]
-        },
-        {
-          "fecha": "17:00 23/05/2026",
-          "lugar": "-",
-          "equipo_local": "YELES",
-          "equipo_visitante": "PANTOJA",
-          "resultado_final": { "local": 0, "visitante": 0 },
-          "sets": [
-            { "set": 1, "local": 0, "visitante": 0 },
-            { "set": 2, "local": 0, "visitante": 0 },
-            { "set": 3, "local": 0, "visitante": 0 }
-          ]
-        },
-        {
-          "fecha": "17:00 23/05/2026",
-          "lugar": "-",
-          "equipo_local": "ÁLAMO",
-          "equipo_visitante": "LINCES 'A'",
-          "resultado_final": { "local": 0, "visitante": 0 },
-          "sets": [
-            { "set": 1, "local": 0, "visitante": 0 },
-            { "set": 2, "local": 0, "visitante": 0 },
-            { "set": 3, "local": 0, "visitante": 0 }
-          ]
-        },
-        {
-          "fecha": "17:00 23/05/2026",
-          "lugar": "-",
-          "equipo_local": "NEXUS",
-          "equipo_visitante": "VALMOJADO 'B'",
+          "fecha": "19:00 14/03/2026",
+          "lugar": "Seseña",
+          "equipo_local": "SESEÑA JUVENIL",
+          "equipo_visitante": "CUBAS",
           "resultado_final": { "local": 0, "visitante": 0 },
           "sets": [
             { "set": 1, "local": 0, "visitante": 0 },
@@ -1176,5 +742,5 @@
         }
       ]
     }
-    ]
+  ]
 }
