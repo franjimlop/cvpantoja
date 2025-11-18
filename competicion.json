@@ -8,7 +8,7 @@
           "lugar": "Yeles",
           "equipo_local": "YELES",
           "equipo_visitante": "CUBAS",
-          "resultado_final": { "local": 0, "visitante": 0 },
+          "resultado_final": { "local": 3, "visitante": 0 },
           "sets": [
             { "set": 1, "local": 0, "visitante": 0 },
             { "set": 2, "local": 0, "visitante": 0 },
@@ -20,11 +20,11 @@
           "lugar": "Yeles",
           "equipo_local": "NEXUS",
           "equipo_visitante": "PANTOJA",
-          "resultado_final": { "local": 0, "visitante": 0 },
+          "resultado_final": { "local": 3, "visitante": 0 },
           "sets": [
-            { "set": 1, "local": 0, "visitante": 0 },
-            { "set": 2, "local": 0, "visitante": 0 },
-            { "set": 3, "local": 0, "visitante": 0 }
+            { "set": 1, "local": 25, "visitante": 15 },
+            { "set": 2, "local": 25, "visitante": 12 },
+            { "set": 3, "local": 25, "visitante": 15 }
           ]
         },
         {

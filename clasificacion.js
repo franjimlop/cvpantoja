@@ -9,8 +9,8 @@ function generarClasificacion(data) {
 
     data.jornadas.forEach(jornada => {
         jornada.partidos.forEach(p => {
-            const resultado = typeof p.resultado_final === "string" ? p.resultado_final : "0-0";
-            const [setsLocal, setsVisitante] = resultado.split("-").map(Number);
+            const setsLocal = p.resultado_final.local;
+            const setsVisitante = p.resultado_final.visitante;
 
             const localTeam = p.equipo_local;
             const awayTeam = p.equipo_visitante;

@@ -35,14 +35,22 @@ async function obtenerDatos() {
 
 function mostrarPartidos(partidos, contenedorId, esJugado) {
     const contenedor = document.getElementById(contenedorId);
-    contenedor.innerHTML = partidos.map(partido => `
-        <tr class="${partido.equipo_local.includes("PANTOJA") || partido.equipo_visitante.includes("PANTOJA") ? "highlight" : ""}">
-            <td>
-                <strong>${partido.equipo_local} ${esJugado ? partido.resultado_final.local + " - " + partido.resultado_final.visitante : "vs"} ${partido.equipo_visitante}</strong>
-                ${!esJugado ? `<div class="detalles">🕒 ${partido.fecha} 📍 ${partido.lugar}</div>` : ""}
-            </td>
-        </tr>
-    `).join('');
+
+    contenedor.innerHTML = partidos.map(partido => {
+        const setsDetalle = esJugado && partido.sets.length > 0
+            ? `<div class="sets">${partido.sets.map(set => `${set.local}-${set.visitante}`).join(', ')}</div>`
+            : '';
+
+        return `
+            <tr class="${partido.equipo_local.includes("PANTOJA") || partido.equipo_visitante.includes("PANTOJA") ? "highlight" : ""}">
+                <td>
+                    <strong>${partido.equipo_local} ${esJugado ? partido.resultado_final.local + " - " + partido.resultado_final.visitante : "vs"} ${partido.equipo_visitante}</strong>
+                    ${setsDetalle}
+                    ${!esJugado ? `<div class="detalles">🕒 ${partido.fecha} 📍 ${partido.lugar}</div>` : ""}
+                </td>
+            </tr>
+        `;
+    }).join('');
 }
 
 // Llamamos a la función al cargar la página
