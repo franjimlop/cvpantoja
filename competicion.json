@@ -76,9 +76,9 @@
           "equipo_visitante": "YELES",
           "resultado_final": { "local": 3, "visitante": 0 },
           "sets": [
-            { "set": 1, "local": 0, "visitante": 0 },
-            { "set": 2, "local": 0, "visitante": 0 },
-            { "set": 3, "local": 0, "visitante": 0 }
+            { "set": 1, "local": 25, "visitante": 22 },
+            { "set": 2, "local": 25, "visitante": 22 },
+            { "set": 3, "local": 25, "visitante": 21 }
           ]
         },
         {
