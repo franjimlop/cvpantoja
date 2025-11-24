@@ -10,9 +10,9 @@
           "equipo_visitante": "CUBAS",
           "resultado_final": { "local": 3, "visitante": 0 },
           "sets": [
-            { "set": 1, "local": 0, "visitante": 0 },
-            { "set": 2, "local": 0, "visitante": 0 },
-            { "set": 3, "local": 0, "visitante": 0 }
+            { "set": 1, "local": 25, "visitante": 17 },
+            { "set": 2, "local": 25, "visitante": 15 },
+            { "set": 3, "local": 25, "visitante": 18 }
           ]
         },
         {
@@ -45,11 +45,11 @@
           "lugar": "Seseña",
           "equipo_local": "UGENA",
           "equipo_visitante": "BARGAS",
-          "resultado_final": { "local": 0, "visitante": 0 },
+          "resultado_final": { "local": 3, "visitante": 0 },
           "sets": [
-            { "set": 1, "local": 0, "visitante": 0 },
-            { "set": 2, "local": 0, "visitante": 0 },
-            { "set": 3, "local": 0, "visitante": 0 }
+            { "set": 1, "local": 25, "visitante": 14 },
+            { "set": 2, "local": 25, "visitante": 13 },
+            { "set": 3, "local": 25, "visitante": 14 }
           ]
         }
       ]
@@ -78,7 +78,7 @@
           "sets": [
             { "set": 1, "local": 25, "visitante": 22 },
             { "set": 2, "local": 25, "visitante": 22 },
-            { "set": 3, "local": 25, "visitante": 21 }
+            { "set": 3, "local": 25, "visitante": 22 }
           ]
         },
         {
@@ -88,7 +88,7 @@
           "equipo_visitante": "SESEÑA JUVENIL",
           "resultado_final": { "local": 3, "visitante": 1 },
           "sets": [
-            { "set": 1, "local": 25, "visitante": 20 },
+            { "set": 1, "local": 25, "visitante": 22 },
             { "set": 2, "local": 26, "visitante": 28 },
             { "set": 3, "local": 25, "visitante": 21 },
             { "set": 3, "local": 25, "visitante": 22 }
