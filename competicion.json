@@ -99,7 +99,7 @@
           "lugar": "Illescas",
           "equipo_local": "NEXUS",
           "equipo_visitante": "BARGAS",
-          "resultado_final": { "local": 0, "visitante": 0 },
+          "resultado_final": { "local": 3, "visitante": 0 },
           "sets": [
             { "set": 1, "local": 0, "visitante": 0 },
             { "set": 2, "local": 0, "visitante": 0 },
@@ -116,11 +116,11 @@
           "lugar": "Yeles",
           "equipo_local": "YELES",
           "equipo_visitante": "PANTOJA",
-          "resultado_final": { "local": 0, "visitante": 0 },
+          "resultado_final": { "local": 0, "visitante": 3 },
           "sets": [
-            { "set": 1, "local": 0, "visitante": 0 },
-            { "set": 2, "local": 0, "visitante": 0 },
-            { "set": 3, "local": 0, "visitante": 0 }
+            { "set": 1, "local": 24, "visitante": 26 },
+            { "set": 2, "local": 20, "visitante": 25 },
+            { "set": 3, "local": 22, "visitante": 25 }
           ]
         },
         {
@@ -140,7 +140,7 @@
           "lugar": "Yeles",
           "equipo_local": "SESEÑA JUVENIL",
           "equipo_visitante": "BARGAS",
-          "resultado_final": { "local": 0, "visitante": 0 },
+          "resultado_final": { "local": 3, "visitante": 0 },
           "sets": [
             { "set": 1, "local": 0, "visitante": 0 },
             { "set": 2, "local": 0, "visitante": 0 },
