@@ -128,11 +128,11 @@
           "lugar": "Yeles",
           "equipo_local": "CUBAS",
           "equipo_visitante": "SESEÑA",
-          "resultado_final": { "local": 0, "visitante": 0 },
+          "resultado_final": { "local": 0, "visitante": 3 },
           "sets": [
-            { "set": 1, "local": 0, "visitante": 0 },
-            { "set": 2, "local": 0, "visitante": 0 },
-            { "set": 3, "local": 0, "visitante": 0 }
+            { "set": 1, "local": 15, "visitante": 25 },
+            { "set": 2, "local": 9, "visitante": 25 },
+            { "set": 3, "local": 17, "visitante": 25 }
           ]
         },
         {
