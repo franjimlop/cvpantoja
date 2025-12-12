@@ -152,11 +152,11 @@
           "lugar": "Illescas",
           "equipo_local": "NEXUS",
           "equipo_visitante": "RESISTENCIA",
-          "resultado_final": { "local": 0, "visitante": 0 },
+          "resultado_final": { "local": 3, "visitante": 0 },
           "sets": [
-            { "set": 1, "local": 0, "visitante": 0 },
-            { "set": 2, "local": 0, "visitante": 0 },
-            { "set": 3, "local": 0, "visitante": 0 }
+            { "set": 1, "local": 25, "visitante": 12 },
+            { "set": 2, "local": 25, "visitante": 10 },
+            { "set": 3, "local": 25, "visitante": 10 }
           ]
         }
       ]
@@ -189,7 +189,7 @@
           ]
         },
         {
-          "fecha": "19:00 13/12/2025",
+          "fecha": "17:00 13/12/2025",
           "lugar": "Pantoja",
           "equipo_local": "PANTOJA",
           "equipo_visitante": "CUBAS",
@@ -201,7 +201,7 @@
           ]
         },
         {
-          "fecha": "19:00 13/12/2025",
+          "fecha": "19:00 13/12/2025 (APLAZADO)",
           "lugar": "Pantoja",
           "equipo_local": "BARGAS",
           "equipo_visitante": "YELES",
