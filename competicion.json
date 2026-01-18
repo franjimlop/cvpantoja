@@ -278,7 +278,7 @@
           "lugar": "Pantoja",
           "equipo_local": "BARGAS",
           "equipo_visitante": "SESEÑA",
-          "resultado_final": { "local": 0, "visitante": 0 },
+          "resultado_final": { "local": 0, "visitante": 3 },
           "sets": [
             { "set": 1, "local": 0, "visitante": 0 },
             { "set": 2, "local": 0, "visitante": 0 },
@@ -290,11 +290,13 @@
           "lugar": "Pantoja",
           "equipo_local": "PANTOJA",
           "equipo_visitante": "RESISTENCIA",
-          "resultado_final": { "local": 0, "visitante": 0 },
+          "resultado_final": { "local": 2, "visitante": 3 },
           "sets": [
-            { "set": 1, "local": 0, "visitante": 0 },
-            { "set": 2, "local": 0, "visitante": 0 },
-            { "set": 3, "local": 0, "visitante": 0 }
+            { "set": 1, "local": 25, "visitante": 23 },
+            { "set": 2, "local": 23, "visitante": 25 },
+            { "set": 3, "local": 25, "visitante": 21 },
+            { "set": 4, "local": 11, "visitante": 25 },
+            { "set": 5, "local": 15, "visitante": 15 }
           ]
         },
         {
@@ -302,11 +304,13 @@
           "lugar": "Pantoja",
           "equipo_local": "SESEÑA JUVENIL",
           "equipo_visitante": "YELES",
-          "resultado_final": { "local": 0, "visitante": 0 },
+          "resultado_final": { "local": 2, "visitante": 3 },
           "sets": [
             { "set": 1, "local": 0, "visitante": 0 },
             { "set": 2, "local": 0, "visitante": 0 },
-            { "set": 3, "local": 0, "visitante": 0 }
+            { "set": 3, "local": 0, "visitante": 0 },
+            { "set": 4, "local": 0, "visitante": 0 },
+            { "set": 5, "local": 0, "visitante": 0 }
           ]
         },
         {
@@ -314,7 +318,7 @@
           "lugar": "Illescas",
           "equipo_local": "NEXUS",
           "equipo_visitante": "CUBAS",
-          "resultado_final": { "local": 0, "visitante": 0 },
+          "resultado_final": { "local": 3, "visitante": 0 },
           "sets": [
             { "set": 1, "local": 0, "visitante": 0 },
             { "set": 2, "local": 0, "visitante": 0 },
