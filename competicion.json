@@ -296,7 +296,7 @@
             { "set": 2, "local": 23, "visitante": 25 },
             { "set": 3, "local": 25, "visitante": 21 },
             { "set": 4, "local": 11, "visitante": 25 },
-            { "set": 5, "local": 15, "visitante": 15 }
+            { "set": 5, "local": 13, "visitante": 15 }
           ]
         },
         {
