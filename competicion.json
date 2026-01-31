@@ -655,7 +655,7 @@
       "jornada": 13,
       "partidos": [
         {
-          "fecha": "17:00 07/03/2026",
+          "fecha": "19:00 07/03/2026",
           "lugar": "Pantoja",
           "equipo_local": "BARGAS",
           "equipo_visitante": "SESEÑA",
@@ -679,8 +679,8 @@
           ]
         },
         {
-          "fecha": "19:00 07/03/2026",
-          "lugar": "Pantoja",
+          "fecha": "17:00 07/03/2026",
+          "lugar": "Illescas",
           "equipo_local": "SESEÑA JUVENIL",
           "equipo_visitante": "YELES",
           "resultado_final": { "local": 0, "visitante": 0 },
@@ -708,7 +708,7 @@
       "jornada": 14,
       "partidos": [
         {
-          "fecha": "19:00 14/03/2026",
+          "fecha": "17:00 14/03/2026",
           "lugar": "Yeles",
           "equipo_local": "PANTOJA",
           "equipo_visitante": "BARGAS",
@@ -720,7 +720,7 @@
           ]
         },
         {
-          "fecha": "19:00 14/03/2026",
+          "fecha": "17:00 14/03/2026",
           "lugar": "Yeles",
           "equipo_local": "YELES",
           "equipo_visitante": "RESISTENCIA",
@@ -732,8 +732,8 @@
           ]
         },
         {
-          "fecha": "19:00 14/03/2026",
-          "lugar": "Seseña",
+          "fecha": "17:00 14/03/2026",
+          "lugar": "Yeles",
           "equipo_local": "SESEÑA",
           "equipo_visitante": "NEXUS",
           "resultado_final": { "local": 0, "visitante": 0 },
@@ -744,8 +744,8 @@
           ]
         },
         {
-          "fecha": "19:00 14/03/2026",
-          "lugar": "Seseña",
+          "fecha": "17:00 14/03/2026",
+          "lugar": "Yeles",
           "equipo_local": "SESEÑA JUVENIL",
           "equipo_visitante": "CUBAS",
           "resultado_final": { "local": 0, "visitante": 0 },
