@@ -10,9 +10,9 @@
           "equipo_visitante": "CUBAS",
           "resultado_final": { "local": 3, "visitante": 0 },
           "sets": [
-            { "set": 1, "local": 25, "visitante": 17 },
-            { "set": 2, "local": 25, "visitante": 15 },
-            { "set": 3, "local": 25, "visitante": 18 }
+            { "set": 1, "local": 25, "visitante": 10 },
+            { "set": 2, "local": 25, "visitante": 23 },
+            { "set": 3, "local": 25, "visitante": 17 }
           ]
         },
         {
@@ -101,9 +101,9 @@
           "equipo_visitante": "BARGAS",
           "resultado_final": { "local": 3, "visitante": 0 },
           "sets": [
-            { "set": 1, "local": 25, "visitante": 12 },
-            { "set": 2, "local": 25, "visitante": 10 },
-            { "set": 3, "local": 25, "visitante": 13 }
+            { "set": 1, "local": 25, "visitante": 10 },
+            { "set": 2, "local": 25, "visitante": 15 },
+            { "set": 3, "local": 25, "visitante": 10 }
           ]
         }
       ]
@@ -142,9 +142,9 @@
           "equipo_visitante": "BARGAS",
           "resultado_final": { "local": 3, "visitante": 0 },
           "sets": [
-            { "set": 1, "local": 25, "visitante": 15 },
-            { "set": 2, "local": 25, "visitante": 10 },
-            { "set": 3, "local": 27, "visitante": 25 }
+            { "set": 1, "local": 25, "visitante": 16 },
+            { "set": 2, "local": 27, "visitante": 25 },
+            { "set": 3, "local": 25, "visitante": 9 }
           ]
         },
         {
@@ -154,9 +154,9 @@
           "equipo_visitante": "RESISTENCIA",
           "resultado_final": { "local": 3, "visitante": 0 },
           "sets": [
-            { "set": 1, "local": 25, "visitante": 12 },
-            { "set": 2, "local": 25, "visitante": 10 },
-            { "set": 3, "local": 25, "visitante": 10 }
+            { "set": 1, "local": 25, "visitante": 7 },
+            { "set": 2, "local": 25, "visitante": 12 },
+            { "set": 3, "local": 25, "visitante": 13 }
           ]
         }
       ]
@@ -185,9 +185,9 @@
           "equipo_visitante": "NEXUS",
           "resultado_final": { "local": 0, "visitante": 3 },
           "sets": [
-            { "set": 1, "local": 13, "visitante": 25 },
-            { "set": 2, "local": 17, "visitante": 25 },
-            { "set": 3, "local": 15, "visitante": 25 }
+            { "set": 1, "local": 12, "visitante": 25 },
+            { "set": 2, "local": 23, "visitante": 25 },
+            { "set": 3, "local": 17, "visitante": 25 }
           ]
         },
         {
@@ -209,10 +209,10 @@
           "equipo_visitante": "YELES",
           "resultado_final": { "local": 1, "visitante": 3 },
           "sets": [
-            { "set": 1, "local": 17, "visitante": 25 },
-            { "set": 2, "local": 17, "visitante": 25 },
-            { "set": 3, "local": 25, "visitante": 12 },
-            { "set": 4, "local": 19, "visitante": 25 }
+            { "set": 1, "local": 22, "visitante": 25 },
+            { "set": 2, "local": 15, "visitante": 25 },
+            { "set": 3, "local": 25, "visitante": 21 },
+            { "set": 4, "local": 16, "visitante": 25 }
           ]
         }
       ]
@@ -227,10 +227,10 @@
           "equipo_visitante": "BARGAS",
           "resultado_final": { "local": 1, "visitante": 3 },
           "sets": [
-            { "set": 1, "local": 18, "visitante": 25 },
-            { "set": 2, "local": 20, "visitante": 25 },
-            { "set": 3, "local": 25, "visitante": 10 },
-            { "set": 4, "local": 18, "visitante": 25 }
+            { "set": 1, "local": 19, "visitante": 25 },
+            { "set": 2, "local": 25, "visitante": 10 },
+            { "set": 3, "local": 11, "visitante": 25 },
+            { "set": 4, "local": 21, "visitante": 25 }
           ]
         },
         {
@@ -240,9 +240,9 @@
           "equipo_visitante": "NEXUS",
           "resultado_final": { "local": 0, "visitante": 3 },
           "sets": [
-            { "set": 1, "local": 13, "visitante": 25 },
-            { "set": 2, "local": 20, "visitante": 25 },
-            { "set": 3, "local": 17, "visitante": 25 }
+            { "set": 1, "local": 12, "visitante": 25 },
+            { "set": 2, "local": 16, "visitante": 25 },
+            { "set": 3, "local": 14, "visitante": 25 }
           ]
         },
         {
@@ -253,9 +253,9 @@
           "resultado_final": { "local": 3, "visitante": 1 },
           "sets": [
             { "set": 1, "local": 18, "visitante": 25 },
-            { "set": 2, "local": 25, "visitante": 22 },
-            { "set": 3, "local": 25, "visitante": 20 },
-            { "set": 4, "local": 25, "visitante": 23 }
+            { "set": 2, "local": 25, "visitante": 20 },
+            { "set": 3, "local": 25, "visitante": 23 },
+            { "set": 4, "local": 25, "visitante": 22 }
           ]
         },
         {
@@ -265,11 +265,11 @@
           "equipo_visitante": "RESISTENCIA",
           "resultado_final": { "local": 3, "visitante": 2 },
           "sets": [
-            { "set": 1, "local": 18, "visitante": 25 },
-            { "set": 2, "local": 18, "visitante": 25 },
-            { "set": 3, "local": 27, "visitante": 25 },
-            { "set": 4, "local": 25, "visitante": 23 },
-            { "set": 5, "local": 15, "visitante": 13 }
+            { "set": 1, "local": 15, "visitante": 25 },
+            { "set": 2, "local": 19, "visitante": 25 },
+            { "set": 3, "local": 28, "visitante": 26 },
+            { "set": 4, "local": 25, "visitante": 21 },
+            { "set": 5, "local": 16, "visitante": 14 }
           ]
         }
       ]
@@ -284,11 +284,11 @@
           "equipo_visitante": "SESEÑA",
           "resultado_final": { "local": 2, "visitante": 3 },
           "sets": [
-            { "set": 1, "local": 18, "visitante": 25 },
-            { "set": 2, "local": 25, "visitante": 22 },
-            { "set": 3, "local": 16, "visitante": 25 },
-            { "set": 4, "local": 25, "visitante": 19 },
-            { "set": 5, "local": 10, "visitante": 15 }
+            { "set": 1, "local": 20, "visitante": 25 },
+            { "set": 2, "local": 16, "visitante": 25 },
+            { "set": 3, "local": 25, "visitante": 20 },
+            { "set": 4, "local": 25, "visitante": 21 },
+            { "set": 5, "local": 8, "visitante": 15 }
           ]
         },
         {
@@ -312,11 +312,11 @@
           "equipo_visitante": "YELES",
           "resultado_final": { "local": 3, "visitante": 2 },
           "sets": [
-            { "set": 1, "local": 25, "visitante": 15 },
-            { "set": 2, "local": 22, "visitante": 25 },
-            { "set": 3, "local": 25, "visitante": 18 },
-            { "set": 4, "local": 29, "visitante": 31 },
-            { "set": 5, "local": 15, "visitante": 6 }
+            { "set": 1, "local": 25, "visitante": 12 },
+            { "set": 2, "local": 21, "visitante": 25 },
+            { "set": 3, "local": 22, "visitante": 25 },
+            { "set": 4, "local": 25, "visitante": 19 },
+            { "set": 5, "local": 16, "visitante": 14 }
           ]
         },
         {
@@ -326,9 +326,9 @@
           "equipo_visitante": "CUBAS",
           "resultado_final": { "local": 3, "visitante": 0 },
           "sets": [
-            { "set": 1, "local": 25, "visitante": 10 },
-            { "set": 2, "local": 25, "visitante": 15 },
-            { "set": 3, "local": 25, "visitante": 15 }
+            { "set": 1, "local": 25, "visitante": 18 },
+            { "set": 2, "local": 25, "visitante": 16 },
+            { "set": 3, "local": 25, "visitante": 11 }
           ]
         }
       ]
@@ -355,9 +355,9 @@
           "equipo_visitante": "RESISTENCIA",
           "resultado_final": { "local": 0, "visitante": 3 },
           "sets": [
-            { "set": 1, "local": 0, "visitante": 0 },
-            { "set": 2, "local": 0, "visitante": 0 },
-            { "set": 3, "local": 0, "visitante": 0 }
+            { "set": 1, "local": 21, "visitante": 25 },
+            { "set": 2, "local": 16, "visitante": 25 },
+            { "set": 3, "local": 15, "visitante": 25 }
           ]
         },
         {
@@ -367,9 +367,9 @@
           "equipo_visitante": "NEXUS",
           "resultado_final": { "local": 0, "visitante": 3 },
           "sets": [
-            { "set": 1, "local": 0, "visitante": 0 },
-            { "set": 2, "local": 0, "visitante": 0 },
-            { "set": 3, "local": 0, "visitante": 0 }
+            { "set": 1, "local": 12, "visitante": 25 },
+            { "set": 2, "local": 21, "visitante": 25 },
+            { "set": 3, "local": 13, "visitante": 25 }
           ]
         },
         {
@@ -379,9 +379,9 @@
           "equipo_visitante": "CUBAS",
           "resultado_final": { "local": 3, "visitante": 0 },
           "sets": [
-            { "set": 1, "local": 0, "visitante": 0 },
-            { "set": 2, "local": 0, "visitante": 0 },
-            { "set": 3, "local": 0, "visitante": 0 }
+            { "set": 1, "local": 25, "visitante": 22 },
+            { "set": 2, "local": 25, "visitante": 21 },
+            { "set": 3, "local": 25, "visitante": 15 }
           ]
         }
       ]
@@ -394,11 +394,13 @@
           "lugar": "Seseña",
           "equipo_local": "YELES",
           "equipo_visitante": "CUBAS",
-          "resultado_final": { "local": 3, "visitante": 0 },
+          "resultado_final": { "local": 2, "visitante": 3 },
           "sets": [
-            { "set": 1, "local": 0, "visitante": 0 },
-            { "set": 2, "local": 0, "visitante": 0 },
-            { "set": 3, "local": 0, "visitante": 0 }
+            { "set": 1, "local": 15, "visitante": 25 },
+            { "set": 2, "local": 23, "visitante": 25 },
+            { "set": 3, "local": 25, "visitante": 23 },
+            { "set": 3, "local": 25, "visitante": 17 },
+            { "set": 3, "local": 13, "visitante": 15 }
           ]
         },
         {
@@ -406,11 +408,13 @@
           "lugar": "Seseña",
           "equipo_local": "SESEÑA",
           "equipo_visitante": "SESEÑA JUVENIL",
-          "resultado_final": { "local": 0, "visitante": 0 },
+          "resultado_final": { "local": 2, "visitante": 3 },
           "sets": [
-            { "set": 1, "local": 0, "visitante": 0 },
-            { "set": 2, "local": 0, "visitante": 0 },
-            { "set": 3, "local": 0, "visitante": 0 }
+            { "set": 1, "local": 19, "visitante": 25 },
+            { "set": 2, "local": 25, "visitante": 15 },
+            { "set": 3, "local": 17, "visitante": 25 },
+            { "set": 4, "local": 25, "visitante": 16 },
+            { "set": 5, "local": 14, "visitante": 16 }
           ]
         },
         {
