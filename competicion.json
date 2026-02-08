@@ -43,7 +43,7 @@
         {
           "fecha": "19:00 15/11/2025",
           "lugar": "Seseña",
-          "equipo_local": "RESISTENCIA",
+          "equipo_local": "LA RESISTENCIA",
           "equipo_visitante": "BARGAS",
           "resultado_final": { "local": 3, "visitante": 0 },
           "sets": [
@@ -61,7 +61,7 @@
           "fecha": "17:00 22/11/2025",
           "lugar": "Pantoja",
           "equipo_local": "CUBAS",
-          "equipo_visitante": "RESISTENCIA",
+          "equipo_visitante": "LA RESISTENCIA",
           "resultado_final": { "local": 0, "visitante": 3 },
           "sets": [
             { "set": 1, "local": 18, "visitante": 25 },
@@ -151,7 +151,7 @@
           "fecha": "19:00 09/12/2025",
           "lugar": "Illescas",
           "equipo_local": "NEXUS",
-          "equipo_visitante": "RESISTENCIA",
+          "equipo_visitante": "LA RESISTENCIA",
           "resultado_final": { "local": 3, "visitante": 0 },
           "sets": [
             { "set": 1, "local": 25, "visitante": 7 },
@@ -168,7 +168,7 @@
           "fecha": "19:00 13/12/2025",
           "lugar": "Seseña",
           "equipo_local": "SESEÑA",
-          "equipo_visitante": "RESISTENCIA",
+          "equipo_visitante": "LA RESISTENCIA",
           "resultado_final": { "local": 3, "visitante": 2 },
           "sets": [
             { "set": 1, "local": 25, "visitante": 13 },
@@ -262,7 +262,7 @@
           "fecha": "19:00 20/12/2025",
           "lugar": "Seseña",
           "equipo_local": "SESEÑA JUVENIL",
-          "equipo_visitante": "RESISTENCIA",
+          "equipo_visitante": "LA RESISTENCIA",
           "resultado_final": { "local": 3, "visitante": 2 },
           "sets": [
             { "set": 1, "local": 15, "visitante": 25 },
@@ -295,7 +295,7 @@
           "fecha": "19:00 17/01/2026",
           "lugar": "Pantoja",
           "equipo_local": "PANTOJA",
-          "equipo_visitante": "RESISTENCIA",
+          "equipo_visitante": "LA RESISTENCIA",
           "resultado_final": { "local": 2, "visitante": 3 },
           "sets": [
             { "set": 1, "local": 25, "visitante": 23 },
@@ -352,7 +352,7 @@
           "fecha": "19:00 24/01/2026",
           "lugar": "Yeles",
           "equipo_local": "YELES",
-          "equipo_visitante": "RESISTENCIA",
+          "equipo_visitante": "LA RESISTENCIA",
           "resultado_final": { "local": 0, "visitante": 3 },
           "sets": [
             { "set": 1, "local": 21, "visitante": 25 },
@@ -432,13 +432,13 @@
         {
           "fecha": "19:00 31/01/2026",
           "lugar": "Pantoja",
-          "equipo_local": "RESISTENCIA",
+          "equipo_local": "LA RESISTENCIA",
           "equipo_visitante": "BARGAS",
-          "resultado_final": { "local": 0, "visitante": 0 },
+          "resultado_final": { "local": 3, "visitante": 0 },
           "sets": [
-            { "set": 1, "local": 0, "visitante": 0 },
-            { "set": 2, "local": 0, "visitante": 0 },
-            { "set": 3, "local": 0, "visitante": 0 }
+            { "set": 1, "local": 25, "visitante": 17 },
+            { "set": 2, "local": 25, "visitante": 14 },
+            { "set": 3, "local": 25, "visitante": 18 }
           ]
         }
       ]
@@ -474,7 +474,7 @@
           "fecha": "19:00 07/02/2026",
           "lugar": "Yeles",
           "equipo_local": "CUBAS",
-          "equipo_visitante": "RESISTENCIA",
+          "equipo_visitante": "LA RESISTENCIA",
           "resultado_final": { "local": 0, "visitante": 0 },
           "sets": [
             { "set": 1, "local": 0, "visitante": 0 },
@@ -539,7 +539,7 @@
           "fecha": "19:00 14/02/2026",
           "lugar": "Illescas",
           "equipo_local": "NEXUS",
-          "equipo_visitante": "RESISTENCIA",
+          "equipo_visitante": "LA RESISTENCIA",
           "resultado_final": { "local": 0, "visitante": 0 },
           "sets": [
             { "set": 1, "local": 0, "visitante": 0 },
@@ -556,7 +556,7 @@
           "fecha": "19:00 21/02/2026",
           "lugar": "Seseña",
           "equipo_local": "SESEÑA",
-          "equipo_visitante": "RESISTENCIA",
+          "equipo_visitante": "LA RESISTENCIA",
           "resultado_final": { "local": 0, "visitante": 0 },
           "sets": [
             { "set": 1, "local": 0, "visitante": 0 },
@@ -645,7 +645,7 @@
           "fecha": "19:00 28/02/2026",
           "lugar": "Seseña",
           "equipo_local": "SESEÑA JUVENIL",
-          "equipo_visitante": "RESISTENCIA",
+          "equipo_visitante": "LA RESISTENCIA",
           "resultado_final": { "local": 0, "visitante": 0 },
           "sets": [
             { "set": 1, "local": 0, "visitante": 0 },
@@ -674,7 +674,7 @@
           "fecha": "19:00 07/03/2026",
           "lugar": "Pantoja",
           "equipo_local": "PANTOJA",
-          "equipo_visitante": "RESISTENCIA",
+          "equipo_visitante": "LA RESISTENCIA",
           "resultado_final": { "local": 0, "visitante": 0 },
           "sets": [
             { "set": 1, "local": 0, "visitante": 0 },
@@ -727,7 +727,7 @@
           "fecha": "17:00 14/03/2026",
           "lugar": "Yeles",
           "equipo_local": "YELES",
-          "equipo_visitante": "RESISTENCIA",
+          "equipo_visitante": "LA RESISTENCIA",
           "resultado_final": { "local": 0, "visitante": 0 },
           "sets": [
             { "set": 1, "local": 0, "visitante": 0 },
