@@ -451,7 +451,7 @@
           "lugar": "Yeles",
           "equipo_local": "PANTOJA",
           "equipo_visitante": "SESEÑA JUVENIL",
-          "resultado_final": { "local": 0, "visitante": 0 },
+          "resultado_final": { "local": 3, "visitante": 0 },
           "sets": [
             { "set": 1, "local": 0, "visitante": 0 },
             { "set": 2, "local": 0, "visitante": 0 },
@@ -463,11 +463,13 @@
           "lugar": "Yeles",
           "equipo_local": "YELES",
           "equipo_visitante": "SESEÑA",
-          "resultado_final": { "local": 0, "visitante": 0 },
+          "resultado_final": { "local": 2, "visitante": 3 },
           "sets": [
-            { "set": 1, "local": 0, "visitante": 0 },
-            { "set": 2, "local": 0, "visitante": 0 },
-            { "set": 3, "local": 0, "visitante": 0 }
+            { "set": 1, "local": 25, "visitante": 22 },
+            { "set": 2, "local": 14, "visitante": 25 },
+            { "set": 3, "local": 21, "visitante": 25 },
+            { "set": 4, "local": 27, "visitante": 25 },
+            { "set": 5, "local": 13, "visitante": 15 }
           ]
         },
         {
@@ -475,11 +477,11 @@
           "lugar": "Yeles",
           "equipo_local": "CUBAS",
           "equipo_visitante": "LA RESISTENCIA",
-          "resultado_final": { "local": 0, "visitante": 0 },
+          "resultado_final": { "local": 0, "visitante": 3 },
           "sets": [
-            { "set": 1, "local": 0, "visitante": 0 },
-            { "set": 2, "local": 0, "visitante": 0 },
-            { "set": 3, "local": 0, "visitante": 0 }
+            { "set": 1, "local": 20, "visitante": 25 },
+            { "set": 2, "local": 23, "visitante": 25 },
+            { "set": 3, "local": 15, "visitante": 25 }
           ]
         },
         {
@@ -487,7 +489,7 @@
           "lugar": "Illescas",
           "equipo_local": "NEXUS",
           "equipo_visitante": "BARGAS",
-          "resultado_final": { "local": 0, "visitante": 0 },
+          "resultado_final": { "local": 3, "visitante": 0 },
           "sets": [
             { "set": 1, "local": 0, "visitante": 0 },
             { "set": 2, "local": 0, "visitante": 0 },
@@ -504,11 +506,11 @@
           "lugar": "Yeles",
           "equipo_local": "CUBAS",
           "equipo_visitante": "SESEÑA",
-          "resultado_final": { "local": 0, "visitante": 0 },
+          "resultado_final": { "local": 0, "visitante": 3 },
           "sets": [
-            { "set": 1, "local": 0, "visitante": 0 },
-            { "set": 2, "local": 0, "visitante": 0 },
-            { "set": 3, "local": 0, "visitante": 0 }
+            { "set": 1, "local": 16, "visitante": 25 },
+            { "set": 2, "local": 19, "visitante": 25 },
+            { "set": 3, "local": 25, "visitante": 27 }
           ]
         },
         {
@@ -516,11 +518,13 @@
           "lugar": "Yeles",
           "equipo_local": "YELES",
           "equipo_visitante": "PANTOJA",
-          "resultado_final": { "local": 0, "visitante": 0 },
+          "resultado_final": { "local": 2, "visitante": 3 },
           "sets": [
-            { "set": 1, "local": 0, "visitante": 0 },
-            { "set": 2, "local": 0, "visitante": 0 },
-            { "set": 3, "local": 0, "visitante": 0 }
+            { "set": 1, "local": 25, "visitante": 21 },
+            { "set": 2, "local": 26, "visitante": 24 },
+            { "set": 3, "local": 18, "visitante": 25 },
+            { "set": 4, "local": 21, "visitante": 25 },
+            { "set": 5, "local": 10, "visitante": 15 }
           ]
         },
         {
@@ -528,7 +532,7 @@
           "lugar": "Yeles",
           "equipo_local": "SESEÑA JUVENIL",
           "equipo_visitante": "BARGAS",
-          "resultado_final": { "local": 0, "visitante": 0 },
+          "resultado_final": { "local": 3, "visitante": 0 },
           "sets": [
             { "set": 1, "local": 0, "visitante": 0 },
             { "set": 2, "local": 0, "visitante": 0 },
@@ -540,11 +544,11 @@
           "lugar": "Illescas",
           "equipo_local": "NEXUS",
           "equipo_visitante": "LA RESISTENCIA",
-          "resultado_final": { "local": 0, "visitante": 0 },
+          "resultado_final": { "local": 3, "visitante": 0 },
           "sets": [
-            { "set": 1, "local": 0, "visitante": 0 },
-            { "set": 2, "local": 0, "visitante": 0 },
-            { "set": 3, "local": 0, "visitante": 0 }
+            { "set": 1, "local": 25, "visitante": 12 },
+            { "set": 2, "local": 25, "visitante": 13 },
+            { "set": 3, "local": 25, "visitante": 11 }
           ]
         }
       ]
@@ -557,11 +561,13 @@
           "lugar": "Seseña",
           "equipo_local": "SESEÑA",
           "equipo_visitante": "LA RESISTENCIA",
-          "resultado_final": { "local": 0, "visitante": 0 },
+          "resultado_final": { "local": 3, "visitante": 2 },
           "sets": [
-            { "set": 1, "local": 0, "visitante": 0 },
-            { "set": 2, "local": 0, "visitante": 0 },
-            { "set": 3, "local": 0, "visitante": 0 }
+            { "set": 1, "local": 19, "visitante": 25 },
+            { "set": 2, "local": 16, "visitante": 25 },
+            { "set": 3, "local": 25, "visitante": 14 },
+            { "set": 4, "local": 25, "visitante": 21 },
+            { "set": 5, "local": 16, "visitante": 14 }
           ]
         },
         {
@@ -569,11 +575,11 @@
           "lugar": "Seseña",
           "equipo_local": "SESEÑA JUVENIL",
           "equipo_visitante": "NEXUS",
-          "resultado_final": { "local": 0, "visitante": 0 },
+          "resultado_final": { "local": 0, "visitante": 3 },
           "sets": [
-            { "set": 1, "local": 0, "visitante": 0 },
-            { "set": 2, "local": 0, "visitante": 0 },
-            { "set": 3, "local": 0, "visitante": 0 }
+            { "set": 1, "local": 15, "visitante": 25 },
+            { "set": 2, "local": 11, "visitante": 25 },
+            { "set": 3, "local": 22, "visitante": 25 }
           ]
         },
         {
@@ -581,11 +587,11 @@
           "lugar": "Pantoja",
           "equipo_local": "PANTOJA",
           "equipo_visitante": "CUBAS",
-          "resultado_final": { "local": 0, "visitante": 0 },
+          "resultado_final": { "local": 3, "visitante": 0 },
           "sets": [
-            { "set": 1, "local": 0, "visitante": 0 },
-            { "set": 2, "local": 0, "visitante": 0 },
-            { "set": 3, "local": 0, "visitante": 0 }
+            { "set": 1, "local": 25, "visitante": 17 },
+            { "set": 2, "local": 25, "visitante": 15 },
+            { "set": 3, "local": 25, "visitante": 17 }
           ]
         },
         {
@@ -593,11 +599,11 @@
           "lugar": "Pantoja",
           "equipo_local": "BARGAS",
           "equipo_visitante": "YELES",
-          "resultado_final": { "local": 0, "visitante": 0 },
+          "resultado_final": { "local": 0, "visitante": 3 },
           "sets": [
-            { "set": 1, "local": 0, "visitante": 0 },
-            { "set": 2, "local": 0, "visitante": 0 },
-            { "set": 3, "local": 0, "visitante": 0 }
+            { "set": 1, "local": 22, "visitante": 25 },
+            { "set": 2, "local": 17, "visitante": 25 },
+            { "set": 3, "local": 23, "visitante": 25 }
           ]
         }
       ]
@@ -610,11 +616,11 @@
           "lugar": "Yeles",
           "equipo_local": "CUBAS",
           "equipo_visitante": "BARGAS",
-          "resultado_final": { "local": 0, "visitante": 0 },
+          "resultado_final": { "local": 0, "visitante": 3 },
           "sets": [
-            { "set": 1, "local": 0, "visitante": 0 },
-            { "set": 2, "local": 0, "visitante": 0 },
-            { "set": 3, "local": 0, "visitante": 0 }
+            { "set": 1, "local": 14, "visitante": 25 },
+            { "set": 2, "local": 12, "visitante": 25 },
+            { "set": 3, "local": 19, "visitante": 25 }
           ]
         },
         {
@@ -622,7 +628,7 @@
           "lugar": "Yeles",
           "equipo_local": "YELES",
           "equipo_visitante": "NEXUS",
-          "resultado_final": { "local": 0, "visitante": 0 },
+          "resultado_final": { "local": 0, "visitante": 3 },
           "sets": [
             { "set": 1, "local": 0, "visitante": 0 },
             { "set": 2, "local": 0, "visitante": 0 },
@@ -634,11 +640,13 @@
           "lugar": "Seseña",
           "equipo_local": "SESEÑA",
           "equipo_visitante": "PANTOJA",
-          "resultado_final": { "local": 0, "visitante": 0 },
+          "resultado_final": { "local": 3, "visitante": 2 },
           "sets": [
             { "set": 1, "local": 0, "visitante": 0 },
             { "set": 2, "local": 0, "visitante": 0 },
-            { "set": 3, "local": 0, "visitante": 0 }
+            { "set": 3, "local": 0, "visitante": 0 },
+            { "set": 4, "local": 0, "visitante": 0 },
+            { "set": 5, "local": 0, "visitante": 0 }
           ]
         },
         {
@@ -646,11 +654,11 @@
           "lugar": "Seseña",
           "equipo_local": "SESEÑA JUVENIL",
           "equipo_visitante": "LA RESISTENCIA",
-          "resultado_final": { "local": 0, "visitante": 0 },
+          "resultado_final": { "local": 0, "visitante": 3 },
           "sets": [
-            { "set": 1, "local": 0, "visitante": 0 },
-            { "set": 2, "local": 0, "visitante": 0 },
-            { "set": 3, "local": 0, "visitante": 0 }
+            { "set": 1, "local": 23, "visitante": 25 },
+            { "set": 2, "local": 23, "visitante": 25 },
+            { "set": 3, "local": 23, "visitante": 25 }
           ]
         }
       ]
