@@ -113,11 +113,13 @@ function pintarTabla(tabla) {
     if (!contenedor) return;
 
     contenedor.innerHTML = tabla.map((e, i) => `
-        <tr class="equipo-contenedor ${e.nombre.includes("PANTOJA") ? "equipo-destacado" : ""}">
+        <tr class="${e.nombre.includes("PANTOJA") ? "equipo-destacado" : ""}">
             <td class="posicion">${i + 1}º</td>
-            <td class="equipo">
-                <img src="${e.logo}" alt="${e.nombre}" class="equipo-logo">
-                <span class="equipo-nombre">${e.nombre}</span>
+            <td>
+                <div class="equipo-contenedor">
+                    <img src="${e.logo}" alt="${e.nombre}" class="equipo-logo">
+                    <span class="equipo-nombre">${e.nombre}</span>
+                </div>
             </td>
             <td class="puntos">${e.puntos}</td>
             <td class="sets-favor">${e.setsFavor}</td>
