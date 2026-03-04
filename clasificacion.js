@@ -1,111 +1,133 @@
-async function cargarDatos() {
-    const response = await fetch("competicion.json");
-    const data = await response.json();
-    generarClasificacion(data);
-}
+const API_URL = "https://ighvyqimicqhtrhwjezp.supabase.co/rest/v1/matches?select=*,home_team:teams!matches_home_team_id_fkey(name,logo_url),away_team:teams!matches_away_team_id_fkey(name,logo_url)&category=eq.Senior";
 
-function generarClasificacion(data) {
-    const clasificacion = {};
+const API_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImlnaHZ5cWltaWNxaHRyaHdqZXpwIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjQyNjc3ODYsImV4cCI6MjA3OTg0Mzc4Nn0.Nk8pNqVmoEKU1LoQirtUB3fxUjDyHiwpoTBetOG3fzI";
 
-    data.jornadas.forEach(jornada => {
-        jornada.partidos.forEach(p => {
-            const setsLocal = p.resultado_final.local;
-            const setsVisitante = p.resultado_final.visitante;
+async function cargarClasificacion() {
+  try {
+    const response = await fetch(API_URL, {
+      headers: {
+        "apikey": API_KEY,
+        "authorization": `Bearer ${API_KEY}`,
+        "accept-profile": "public"
+      }
+    });
 
-            const localTeam = p.equipo_local;
-            const awayTeam = p.equipo_visitante;
+    const logosLocales = {
+    "CLUB VOLEY CUBAS": "images/cubas.png",
+    "LA RESISTENCIA": "images/resistencia.png",
+    "AVS SESEÑA MASCULINO": "images/avs.png",
+    "AVS SESEÑA SENIOR MIXTO": "images/avs.png",
+    "CLUB VOLEY PANTOJA": "images/pantoja.png",
+    "CLUB VOLEY YELES": "images/yeles.png",
+    "VOLTECH BARGAS": "images/bargas.png",
+    "CLUB VOLEY NEXUS": "images/nexus.png"
+    };
 
-            if (!clasificacion[localTeam]) {
-                clasificacion[localTeam] = { equipo: localTeam, puntos: 0, jugados: 0, setsAF: 0, setsEC: 0, puntosAF: 0, puntosEC: 0 };
+    const partidos = await response.json();
+        const clasificacion = {};
+
+        partidos.forEach(partido => {
+            const local = partido.home_team.name.toUpperCase();
+            const visitante = partido.away_team.name.toUpperCase();
+
+            if (!clasificacion[local]) {
+                clasificacion[local] = {
+                    nombre: local,
+                    logo: logosLocales[local],
+                    puntos: 0,
+                    setsFavor: 0,
+                    setsContra: 0,
+                    puntosFavor: 0,
+                    puntosContra: 0
+                };
             }
-            if (!clasificacion[awayTeam]) {
-                clasificacion[awayTeam] = { equipo: awayTeam, puntos: 0, jugados: 0, setsAF: 0, setsEC: 0, puntosAF: 0, puntosEC: 0 };
+            if (!clasificacion[visitante]) {
+                clasificacion[visitante] = {
+                    nombre: visitante,
+                    logo: logosLocales[visitante],
+                    puntos: 0,
+                    setsFavor: 0,
+                    setsContra: 0,
+                    puntosFavor: 0,
+                    puntosContra: 0
+                };
             }
 
-            const local = clasificacion[localTeam];
-            const visitante = clasificacion[awayTeam];
+            const l = clasificacion[local];
+            const v = clasificacion[visitante];
 
+            const setsLocal = partido.home_score;
+            const setsVisitante = partido.away_score;
 
-            // Partido no jugado
-            if (setsLocal === 0 && setsVisitante === 0) return;
+            // Sets a favor / en contra
+            l.setsFavor += setsLocal;
+            l.setsContra += setsVisitante;
+            v.setsFavor += setsVisitante;
+            v.setsContra += setsLocal;
 
-            // Partidos jugados
-            local.jugados++;
-            visitante.jugados++;
+            // Puntos dentro de los sets
+            if (partido.sets) {
+                partido.sets.forEach(s => {
+                    l.puntosFavor += s.homePoints;
+                    l.puntosContra += s.awayPoints;
+                    v.puntosFavor += s.awayPoints;
+                    v.puntosContra += s.homePoints;
+                });
+            }
 
-            // Sets
-            local.setsAF += setsLocal;
-            local.setsEC += setsVisitante;
-            visitante.setsAF += setsVisitante;
-            visitante.setsEC += setsLocal;
-
-            // Puntos por sets (puntos dentro de los sets)
-            p.sets.forEach(s => {
-                local.puntosAF += s.local;
-                local.puntosEC += s.visitante;
-                visitante.puntosAF += s.visitante;
-                visitante.puntosEC += s.local;
-            });
-
-            // Asignar puntos por victoria/derrota
+            // Puntuación 3-2-1-0
             if ((setsLocal === 3 && setsVisitante <= 1) || (setsVisitante === 3 && setsLocal <= 1)) {
-                // Victoria clara 3–0 / 3–1
+                // victoria clara
+                if (setsLocal > setsVisitante) l.puntos += 3;
+                else v.puntos += 3;
+            } else if ((setsLocal === 3 && setsVisitante === 2) || (setsVisitante === 3 && setsLocal === 2)) {
+                // victoria apretada
                 if (setsLocal > setsVisitante) {
-                    local.puntos += 3;
+                    l.puntos += 2;
+                    v.puntos += 1;
                 } else {
-                    visitante.puntos += 3;
-                }
-            } else {
-                // Partido 3–2 / 2–3
-                if (setsLocal > setsVisitante) {
-                    local.puntos += 2;
-                    visitante.puntos += 1;
-                } else {
-                    visitante.puntos += 2;
-                    local.puntos += 1;
+                    v.puntos += 2;
+                    l.puntos += 1;
                 }
             }
         });
-    });
 
-    const tabla = Object.values(clasificacion).sort((a, b) => {
-        // 1) Puntos
-        if (b.puntos !== a.puntos) return b.puntos - a.puntos;
+        // Orden
+        const tabla = Object.values(clasificacion).sort((a, b) => {
+            if (b.puntos !== a.puntos) return b.puntos - a.puntos;
+            if (b.setsFavor !== a.setsFavor) return b.setsFavor - a.setsFavor;
+            if (a.setsContra !== b.setsContra) return a.setsContra - b.setsContra;
+            if (b.puntosFavor !== a.puntosFavor) return b.puntosFavor - a.puntosFavor;
+            if (a.puntosContra !== b.puntosContra) return a.puntosContra - b.puntosContra;
+            return a.nombre.localeCompare(b.nombre);
+        });
 
-        // 2) Más sets a favor
-        if (b.setsAF !== a.setsAF) return b.setsAF - a.setsAF;
-
-        // 3) Menos sets en contra
-        if (a.setsEC !== b.setsEC) return a.setsEC - b.setsEC;
-
-        // 4) Más puntos a favor
-        if (b.puntosAF !== a.puntosAF) return b.puntosAF - a.puntosAF;
-
-        // 5) Menos puntos en contra
-        if (a.puntosEC !== b.puntosEC) return a.puntosEC - b.puntosEC;
-
-        // 6) Orden alfabético si todo empata
-        return a.equipo.localeCompare(b.equipo);
-    });
-
-    mostrarClasificacion(tabla);
+        pintarTabla(tabla);
+    } catch (error) {
+        console.error("Error cargando datos:", error);
+    }
 }
 
-function mostrarClasificacion(tabla) {
+function pintarTabla(tabla) {
     const contenedor = document.getElementById("clasificacion");
-    contenedor.innerHTML = tabla.map((e, i) => { 
-        return `
-            <tr class="${e.equipo === 'PANTOJA' ? 'equipo-destacado' : ''}">
-                <td class="posicion">${i + 1}º</td>
-                <td>${e.equipo}</td>
-                <td>${e.puntos}</td>
-                <td>${e.setsAF}</td>
-                <td>${e.setsEC}</td>
-                <td>${e.puntosAF}</td>
-                <td>${e.puntosEC}</td>
-            </tr>
-        `;
-    }).join('');
+    if (!contenedor) return;
+
+    // Mantener tu estructura CSS: solo tbody, sin crear tabla extra
+    contenedor.innerHTML = tabla.map((e, i) => `
+        <tr class="${e.nombre.includes("PANTOJA") ? "equipo-destacado" : ""}">
+            <td class="posicion">${i + 1}º</td>
+            <td class="equipo">
+                <img src="${e.logo}" alt="${e.nombre}" class="equipo-logo">
+                <span class="equipo-nombre">${e.nombre}</span>
+            </td>
+            <td class="puntos">${e.puntos}</td>
+            <td class="sets-favor">${e.setsFavor}</td>
+            <td class="sets-contra">${e.setsContra}</td>
+            <td class="puntos-favor">${e.puntosFavor}</td>
+            <td class="puntos-contra">${e.puntosContra}</td>
+        </tr>
+    `).join('');
 }
 
-cargarDatos();
+// Ejecutar al cargar la página
+cargarClasificacion();
