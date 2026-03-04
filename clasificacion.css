@@ -107,12 +107,24 @@ h2 {
     color: #e74c3c;
 }
 
+.equipo-contenedor {
+    display: flex;
+    align-items: center;
+}
+
+/* Logo del equipo */
 .equipo-logo {
     width: 32px;
     height: 32px;
     object-fit: contain;
-    vertical-align: middle;
     margin-right: 10px;
+}
+
+/* Nombre del equipo */
+.equipo-nombre {
+    flex: 1;
+    text-align: left;
+    font-weight: 500;
 }
 
 /* Media Queries para móviles */
