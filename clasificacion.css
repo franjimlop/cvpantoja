@@ -151,6 +151,10 @@ h2 {
     .tabla-clasificacion tbody tr:nth-child(odd) {
         font-size: 0.9em; /* Reducir el tamaño de la fuente */
     }
+
+    .equipo-contenedor {
+        justify-content: flex-start;  /* Logo a la izquierda */
+    }
 }
 
 .leyenda {
