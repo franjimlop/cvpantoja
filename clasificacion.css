@@ -124,7 +124,6 @@ h2 {
 .equipo-nombre {
     flex: 1;
     text-align: left;
-    font-weight: 500;
 }
 
 /* Media Queries para móviles */

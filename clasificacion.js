@@ -112,9 +112,8 @@ function pintarTabla(tabla) {
     const contenedor = document.getElementById("clasificacion");
     if (!contenedor) return;
 
-    // Mantener tu estructura CSS: solo tbody, sin crear tabla extra
     contenedor.innerHTML = tabla.map((e, i) => `
-        <tr class="${e.nombre.includes("PANTOJA") ? "equipo-destacado" : ""}">
+        <tr class="equipo-contenedor ${e.nombre.includes("PANTOJA") ? "equipo-destacado" : ""}">
             <td class="posicion">${i + 1}º</td>
             <td class="equipo">
                 <img src="${e.logo}" alt="${e.nombre}" class="equipo-logo">
