@@ -1,0 +1,44 @@
+
+/* =========================================
+   PÁGINA DE INICIO
+   ========================================= */
+
+/* Tablas de partidos */
+
+.tabla-jornada {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+/* Próximos partidos */
+
+#pendientes td {
+    padding: 14px;
+}
+
+/* Partidos jugados */
+
+#jugados td {
+    padding: 12px 14px;
+}
+
+/* Si el JavaScript utiliza filas de encabezado */
+
+#pendientes th,
+#jugados th {
+    background-color: var(--azul-equipo);
+    color: var(--blanco);
+}
+
+/* Adaptación a móviles */
+
+@media (max-width: 600px) {
+    .tabla-jornada {
+        font-size: 0.78rem;
+    }
+
+    .tabla-jornada th,
+    .tabla-jornada td {
+        padding: 8px 4px;
+    }
+}

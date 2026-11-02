@@ -1,0 +1,94 @@
+
+/* =========================================
+   PÁGINAS DE TEMPORADAS ANTERIORES
+   ========================================= */
+
+/* Secciones */
+
+main[data-temporada] section {
+    margin-bottom: 40px;
+}
+
+/* Clasificación */
+
+.tabla-clasificacion {
+    width: 100%;
+}
+
+.tabla-clasificacion td:first-child {
+    font-weight: bold;
+}
+
+.tabla-clasificacion td:nth-child(2) {
+    text-align: left;
+    font-weight: 600;
+}
+
+/* Primera posición */
+
+#clasificacion tr:first-child {
+    background-color: #FFF8E5;
+}
+
+/* Leyenda */
+
+.leyenda {
+    background-color: var(--blanco);
+    padding: 15px;
+    border-radius: 6px;
+    box-shadow: var(--sombra);
+}
+
+/* Partidos de la temporada */
+
+#todos-jugados,
+#jugados {
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+/* Tablas que genere JavaScript */
+
+#todos-jugados table,
+#jugados table {
+    margin-bottom: 20px;
+}
+
+/* Títulos generados por JavaScript */
+
+#todos-jugados h2,
+#jugados h2 {
+    margin-top: 20px;
+}
+
+/* Temporada 24/25 */
+
+main[data-temporada="24_25"] h1 {
+    border-left: 5px solid var(--oro);
+    padding-left: 15px;
+}
+
+/* Temporada 25/26 */
+
+main[data-temporada="25_26"] h1 {
+    border-left: 5px solid var(--azul-equipo);
+    padding-left: 15px;
+}
+
+/* Adaptación a móviles */
+
+@media (max-width: 600px) {
+    .tabla-clasificacion {
+        font-size: 0.78rem;
+    }
+
+    .tabla-clasificacion th,
+    .tabla-clasificacion td {
+        padding: 8px 4px;
+    }
+
+    #todos-jugados,
+    #jugados {
+        font-size: 0.82rem;
+    }
+}

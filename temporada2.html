@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/favicon.png" type="image/x-icon">
+
+    <title>CV Pantoja - Temporada 25/26</title>
+
+    <link rel="stylesheet" href="css/comun.css">
+    <link rel="stylesheet" href="css/temporadas.css">
+</head>
+<body>
+
+    <header id="cabecera"></header>
+
+    <main class="container" data-temporada="25_26">
+
+        <h1>Temporada 2025/2026</h1>
+
+        <section>
+            <h2>Clasificación final</h2>
+
+            <table class="tabla-clasificacion">
+                <thead>
+                    <tr>
+                        <th>Pos</th>
+                        <th>Equipo</th>
+                        <th>Pts</th>
+                        <th>SF</th>
+                        <th>SC</th>
+                        <th>PF</th>
+                        <th>PC</th>
+                    </tr>
+                </thead>
+                <tbody id="clasificacion"></tbody>
+            </table>
+
+            <div class="leyenda">
+                <p><strong>Pts:</strong> Puntos</p>
+                <p><strong>SF:</strong> Sets a favor</p>
+                <p><strong>SC:</strong> Sets en contra</p>
+                <p><strong>PF:</strong> Puntos a favor</p>
+                <p><strong>PC:</strong> Puntos en contra</p>
+            </div>
+        </section>
+
+        <section>
+            <div id="todos-jugados"></div>
+            <div id="jugados"></div>
+        </section>
+
+        <p id="mensaje-error" class="mensaje-error" hidden></p>
+
+    </main>
+
+    <script src="js/comun.js" defer></script>
+    <script src="js/datos.js" defer></script>
+    <script src="js/temporadas.js" defer></script>
+</body>
+</html>
+

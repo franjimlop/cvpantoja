@@ -1,62 +1,62 @@
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="images/favicon.png" type="image/x-icon" />
-    <title>CV Pantoja</title>
-    <link rel="stylesheet" href="temporada1.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/favicon.png" type="image/x-icon">
+
+    <title>CV Pantoja - Temporada 24/25</title>
+
+    <link rel="stylesheet" href="css/comun.css">
+    <link rel="stylesheet" href="css/temporadas.css">
 </head>
 <body>
-    <header>
-        <nav>
-          <ul>
-            <li><a href="index.html"><img src="images/toja.png" height="100px"/></a></li>
-            <li><a href="index.html">Partidos</a></li>
-            <li><a href="clasificacion.html">Clasificación</a></li>
-            <li><a href="jornadas.html">Jornadas</a></li>
-            <li><a href="temporada1.html">Temp. 24/25</a></li>
-          </ul>
-        </nav>
-      </header>
 
-    <div class="container">
-        <table class="tabla-clasificacion">
-            <thead>
-                <tr>
-                    <th>Pos</th>
-                    <th>Equipo</th>
-                    <th>PJ</th>
-                    <th>PG</th>
-                    <th>PP</th>
-                    <th>SF</th>
-                    <th>SC</th>
-                </tr>
-            </thead>
-            <tbody id="clasificacion"></tbody>
-        </table>
+    <header id="cabecera"></header>
 
-        <div class="leyenda">
-            <p><strong>Pos:</strong> Posición</p>
-            <p><strong>PJ:</strong> Partidos Jugados</p>
-            <p><strong>PG:</strong> Partidos Ganados</p>
-            <p><strong>PP:</strong> Partidos Perdidos</p>
-            <p><strong>SF:</strong> Sets a Favor</p>
-            <p><strong>SC:</strong> Sets en Contra</p>
-        </div>
-    
-        <table class="tabla-jornada">
-            <!--<h2>Próximos Partidos</h2>-->
-            <tbody id="pendientes"></tbody>
-        </table>
-        <table class="tabla-jornada">
-            <h2>Partidos Jugados 2024/2025</h2>
-            <tbody id="jugados"></tbody>
-        </table>
+    <main class="container" data-temporada="24_25">
 
-        <div id="resultados" class="resultados"></div>
-    </div>
+        <h1>Temporada 2024/2025</h1>
 
-    <script src="temporada1.js"></script>
+        <section>
+            <h2>Clasificación final</h2>
+
+            <table class="tabla-clasificacion">
+                <thead>
+                    <tr>
+                        <th>Pos</th>
+                        <th>Equipo</th>
+                        <th>PJ</th>
+                        <th>PG</th>
+                        <th>PP</th>
+                        <th>SF</th>
+                        <th>SC</th>
+                    </tr>
+                </thead>
+                <tbody id="clasificacion"></tbody>
+            </table>
+
+            <div class="leyenda">
+                <p><strong>PJ:</strong> Partidos jugados</p>
+                <p><strong>PG:</strong> Partidos ganados</p>
+                <p><strong>PP:</strong> Partidos perdidos</p>
+                <p><strong>SF:</strong> Sets a favor</p>
+                <p><strong>SC:</strong> Sets en contra</p>
+            </div>
+        </section>
+
+        <section>
+            <div id="todos-jugados"></div>
+            <div id="jugados"></div>
+        </section>
+
+        <p id="mensaje-error" class="mensaje-error" hidden></p>
+
+    </main>
+
+    <script src="js/comun.js" defer></script>
+    <script src="js/datos.js" defer></script>
+    <script src="js/temporadas.js" defer></script>
 </body>
 </html>

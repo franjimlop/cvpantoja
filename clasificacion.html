@@ -1,26 +1,24 @@
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="images/favicon.png" type="image/x-icon" />
-    <title>CV Pantoja</title>
-    <link rel="stylesheet" href="clasificacion.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/favicon.png" type="image/x-icon">
+
+    <title>CV Pantoja - Clasificación</title>
+
+    <link rel="stylesheet" href="css/comun.css">
+    <link rel="stylesheet" href="css/clasificacion.css">
 </head>
 <body>
-    <header>
-        <nav>
-          <ul>
-            <li><a href="index.html"><img src="images/toja.png" height="100px"/></a></li>
-            <li><a href="index.html">Partidos</a></li>
-            <li><a href="clasificacion.html">Clasificación</a></li>
-            <li><a href="jornadas.html">Jornadas</a></li>
-            <li><a href="temporada1.html">Temp. 24/25</a></li>
-          </ul>
-        </nav>
-    </header>
 
-    <div class="container">
+    <header id="cabecera"></header>
+
+    <main class="container">
+
+        <h1>Clasificación 2026/2027</h1>
+
         <table class="tabla-clasificacion">
             <thead>
                 <tr>
@@ -39,13 +37,18 @@
         <div class="leyenda">
             <p><strong>Pos:</strong> Posición</p>
             <p><strong>Pts:</strong> Puntos</p>
-            <p><strong>SF:</strong> Sets a Favor</p>
-            <p><strong>SC:</strong> Sets en Contra</p>
-            <p><strong>PF:</strong> Puntos a Favor</p>
-            <p><strong>PC:</strong> Puntos en Contra</p>
+            <p><strong>SF:</strong> Sets a favor</p>
+            <p><strong>SC:</strong> Sets en contra</p>
+            <p><strong>PF:</strong> Puntos a favor</p>
+            <p><strong>PC:</strong> Puntos en contra</p>
         </div>
-    </div>
 
-    <script src="clasificacion.js"></script>
+        <p id="mensaje-error" class="mensaje-error" hidden></p>
+
+    </main>
+
+    <script src="js/comun.js" defer></script>
+    <script src="js/datos.js" defer></script>
+    <script src="js/clasificacion.js" defer></script>
 </body>
 </html>

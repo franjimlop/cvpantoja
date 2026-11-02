@@ -1,0 +1,1062 @@
+{
+    "temporada": "2026/2027",
+    "competicion": "Liga Rebelde",
+    "jornadas": [
+        {
+            "jornada": 1,
+            "partidos": [
+                {
+                    "fecha": "17:00 07/11/2026",
+                    "lugar": "P.M. YELES",
+                    "equipo_local": "C.V. YELES A",
+                    "equipo_visitante": "SAN MARTÍN DE LA VEGA",
+                    "resultado_final": null,
+                    "sets": []
+                },
+                {
+                    "fecha": "17:00 07/11/2026",
+                    "lugar": "P.M. YELES",
+                    "equipo_local": "VALDEVOLEY",
+                    "equipo_visitante": "C.V. PARLA",
+                    "resultado_final": null,
+                    "sets": []
+                },
+                {
+                    "fecha": "19:00 07/11/2026",
+                    "lugar": "P.M. YELES",
+                    "equipo_local": "C.V. YELES B",
+                    "equipo_visitante": "TORREJÓN DE LA CALZADA",
+                    "resultado_final": null,
+                    "sets": []
+                },
+                {
+                    "fecha": "19:00 07/11/2026",
+                    "lugar": "P.M. YELES",
+                    "equipo_local": "LA RESISTENCIA",
+                    "equipo_visitante": "PANTOJA AZUL",
+                    "resultado_final": null,
+                    "sets": []
+                },
+                {
+                    "fecha": "18:00 07/11/2026",
+                    "lugar": "CEIP CLARA CAMPOAMOR (ILLESCAS)",
+                    "equipo_local": "NEXUS",
+                    "equipo_visitante": "VOLEYTECH BARGAS",
+                    "resultado_final": null,
+                    "sets": []
+                }
+            ],
+            "descansa": [
+                "PANTOJA ORO"
+            ]
+        },
+        {
+            "jornada": 2,
+            "partidos": [
+                {
+                    "fecha": "17:00 14/11/2026",
+                    "lugar": "P.M. YELES",
+                    "equipo_local": "C.V. PARLA",
+                    "equipo_visitante": "C.V. YELES A",
+                    "resultado_final": null,
+                    "sets": []
+                },
+                {
+                    "fecha": "17:00 14/11/2026",
+                    "lugar": "P.M. YELES",
+                    "equipo_local": "PANTOJA ORO",
+                    "equipo_visitante": "NEXUS",
+                    "resultado_final": null,
+                    "sets": []
+                },
+                {
+                    "fecha": "19:00 14/11/2026",
+                    "lugar": "P.M. YELES",
+                    "equipo_local": "PANTOJA AZUL",
+                    "equipo_visitante": "C.V. YELES B",
+                    "resultado_final": null,
+                    "sets": []
+                },
+                {
+                    "fecha": "19:00 14/11/2026",
+                    "lugar": "P.M. YELES",
+                    "equipo_local": "VOLEYTECH BARGAS",
+                    "equipo_visitante": "LA RESISTENCIA",
+                    "resultado_final": null,
+                    "sets": []
+                },
+                {
+                    "fecha": "18:00 14/11/2026",
+                    "lugar": "P.M. TORREJÓN DE LA CALZADA",
+                    "equipo_local": "TORREJÓN DE LA CALZADA",
+                    "equipo_visitante": "VALDEVOLEY",
+                    "resultado_final": null,
+                    "sets": []
+                }
+            ],
+            "descansa": [
+                "SAN MARTÍN DE LA VEGA"
+            ]
+        },
+        {
+            "jornada": 3,
+            "partidos": [
+                {
+                    "fecha": "17:00 21/11/2026",
+                    "lugar": "P.M. PANTOJA",
+                    "equipo_local": "TORREJÓN DE LA CALZADA",
+                    "equipo_visitante": "SAN MARTÍN DE LA VEGA",
+                    "resultado_final": null,
+                    "sets": []
+                },
+                {
+                    "fecha": "17:00 21/11/2026",
+                    "lugar": "P.M. PANTOJA",
+                    "equipo_local": "PANTOJA AZUL",
+                    "equipo_visitante": "C.V. YELES A",
+                    "resultado_final": null,
+                    "sets": []
+                },
+                {
+                    "fecha": "19:00 21/11/2026",
+                    "lugar": "P.M. PANTOJA",
+                    "equipo_local": "PANTOJA ORO",
+                    "equipo_visitante": "C.V. YELES B",
+                    "resultado_final": null,
+                    "sets": []
+                },
+                {
+                    "fecha": "19:00 21/11/2026",
+                    "lugar": "P.M. PANTOJA",
+                    "equipo_local": "VOLEYTECH BARGAS",
+                    "equipo_visitante": "VALDEVOLEY",
+                    "resultado_final": null,
+                    "sets": []
+                },
+                {
+                    "fecha": "18:00 21/11/2026",
+                    "lugar": "CEIP CLARA CAMPOAMOR (ILLESCAS)",
+                    "equipo_local": "NEXUS",
+                    "equipo_visitante": "LA RESISTENCIA",
+                    "resultado_final": null,
+                    "sets": []
+                }
+            ],
+            "descansa": [
+                "PARLA"
+            ]
+        },
+        {
+            "jornada": 4,
+            "partidos": [
+                {
+                    "fecha": "17:00 12/12/2026",
+                    "lugar": "P.M. PANTOJA",
+                    "equipo_local": "LA RESISTENCIA",
+                    "equipo_visitante": "PANTOJA ORO",
+                    "resultado_final": null,
+                    "sets": []
+                },
+                {
+                    "fecha": "17:00 12/12/2026",
+                    "lugar": "P.M. PANTOJA",
+                    "equipo_local": "C.V. YELES A",
+                    "equipo_visitante": "TORREJÓN DE LA CALZADA",
+                    "resultado_final": null,
+                    "sets": []
+                },
+                {
+                    "fecha": "19:00 12/12/2026",
+                    "lugar": "P.M. PANTOJA",
+                    "equipo_local": "C.V. YELES B",
+                    "equipo_visitante": "VOLEYTECH BARGAS",
+                    "resultado_final": null,
+                    "sets": []
+                },
+                {
+                    "fecha": "19:00 12/12/2026",
+                    "lugar": "P.M. PANTOJA",
+                    "equipo_local": "VALDEVOLEY",
+                    "equipo_visitante": "PANTOJA AZUL",
+                    "resultado_final": null,
+                    "sets": []
+                },
+                {
+                    "fecha": "18:00 12/12/2026",
+                    "lugar": "SAN MARTIN DE LA VEGA",
+                    "equipo_local": "SAN MARTÍN DE LA VEGA",
+                    "equipo_visitante": "C.V. PARLA",
+                    "resultado_final": null,
+                    "sets": []
+                }
+            ],
+            "descansa": [
+                "NEXUS"
+            ]
+        },
+        {
+            "jornada": 5,
+            "partidos": [
+                {
+                    "fecha": "17:00 09/01/2027",
+                    "lugar": "P.M. YELES",
+                    "equipo_local": "SAN MARTIN DE LA VEGA",
+                    "equipo_visitante": "PANTOJA AZUL",
+                    "resultado_final": null,
+                    "sets": []
+                },
+                {
+                    "fecha": "17:00 09/01/2027",
+                    "lugar": "P.M. YELES",
+                    "equipo_local": "C.V. YELES B",
+                    "equipo_visitante": "NEXUS",
+                    "resultado_final": null,
+                    "sets": []
+                },
+                {
+                    "fecha": "19:00 09/01/2027",
+                    "lugar": "P.M. YELES",
+                    "equipo_local": "C.V. YELES A",
+                    "equipo_visitante": "VOLEYTECH BARGAS",
+                    "resultado_final": null,
+                    "sets": []
+                },
+                {
+                    "fecha": "17:00 09/01/2027",
+                    "lugar": "P.M. YELES",
+                    "equipo_local": "VALDEVOLEY",
+                    "equipo_visitante": "PANTOJA ORO",
+                    "resultado_final": null,
+                    "sets": []
+                },
+                {
+                    "fecha": "19:00 09/01/2027",
+                    "lugar": "P.M. TORREJÓN DE LA CALZADA",
+                    "equipo_local": "C.V. PARLA",
+                    "equipo_visitante": "TORREJÓN DE LA CALZADA",
+                    "resultado_final": null,
+                    "sets": []
+                }
+            ],
+            "descansa": [
+                "LA RESISTENCIA"
+            ]
+        },
+        {
+            "jornada": 6,
+            "partidos": [
+                {
+                    "fecha": "17:00 16/01/2027",
+                    "lugar": "P.M. YELES",
+                    "equipo_local": "VOLEYTECH BARGAS",
+                    "equipo_visitante": "SAN MARTÍN DE LA VEGA",
+                    "resultado_final": null,
+                    "sets": []
+                },
+                {
+                    "fecha": "17:00 16/01/2027",
+                    "lugar": "P.M. YELES",
+                    "equipo_local": "PANTOJA ORO",
+                    "equipo_visitante": "C.V. YELES A",
+                    "resultado_final": null,
+                    "sets": []
+                },
+                {
+                    "fecha": "19:00 16/01/2027",
+                    "lugar": "P.M. YELES",
+                    "equipo_local": "LA RESISTENCIA",
+                    "equipo_visitante": "C.V. YELES B",
+                    "resultado_final": null,
+                    "sets": []
+                },
+                {
+                    "fecha": "19:00 16/01/2027",
+                    "lugar": "P.M. YELES",
+                    "equipo_local": "PANTOJA AZUL",
+                    "equipo_visitante": "C.V. PARLA",
+                    "resultado_final": null,
+                    "sets": []
+                },
+                {
+                    "fecha": "18:00 16/01/2027",
+                    "lugar": "CEIP CLARA CAMPOAMOR (ILLESCAS)",
+                    "equipo_local": "NEXUS",
+                    "equipo_visitante": "VALDEVOLEY",
+                    "resultado_final": null,
+                    "sets": []
+                }
+            ],
+            "descansa": [
+                "TORREJÓN DE LA CALZADA"
+            ]
+        },
+        {
+            "jornada": 7,
+            "partidos": [
+                {
+                    "fecha": "17:00 23/01/2027",
+                    "lugar": "P.M. PANTOJA",
+                    "equipo_local": "SAN MARTÍN DE LA VEGA",
+                    "equipo_visitante": "PANTOJA ORO",
+                    "resultado_final": null,
+                    "sets": []
+                },
+                {
+                    "fecha": "17:00 23/01/2027",
+                    "lugar": "P.M. PANTOJA",
+                    "equipo_local": "C.V. PARLA",
+                    "equipo_visitante": "VOLEYTECH BARGAS",
+                    "resultado_final": null,
+                    "sets": []
+                },
+                {
+                    "fecha": "19:00 23/01/2027",
+                    "lugar": "P.M. PANTOJA",
+                    "equipo_local": "TORREJÓN DE LA CALZADA",
+                    "equipo_visitante": "PANTOJA AZUL",
+                    "resultado_final": null,
+                    "sets": []
+                },
+                {
+                    "fecha": "17:00 23/01/2027",
+                    "lugar": "CEIP CLARA CAMPOAMOR",
+                    "equipo_local": "VALDEVOLEY",
+                    "equipo_visitante": "LA RESISTENCIA",
+                    "resultado_final": null,
+                    "sets": []
+                },
+                {
+                    "fecha": "19:00 23/01/2027",
+                    "lugar": "CEIP CLARA CAMPOAMOR",
+                    "equipo_local": "C.V. YELES A",
+                    "equipo_visitante": "NEXUS",
+                    "resultado_final": null,
+                    "sets": []
+                }
+            ],
+            "descansa": [
+                "CV YELES B"
+            ]
+        },
+        {
+            "jornada": 8,
+            "partidos": [
+                {
+                    "fecha": "17:00 30/01/2027",
+                    "lugar": "P.M. YELES",
+                    "equipo_local": "PANTOJA ORO",
+                    "equipo_visitante": "C.V. PARLA",
+                    "resultado_final": null,
+                    "sets": []
+                },
+                {
+                    "fecha": "17:00 30/01/2027",
+                    "lugar": "P.M. YELES",
+                    "equipo_local": "LA RESISTENCIA",
+                    "equipo_visitante": "C.V. YELES A",
+                    "resultado_final": null,
+                    "sets": []
+                },
+                {
+                    "fecha": "19:00 30/01/2027",
+                    "lugar": "P.M. YELES",
+                    "equipo_local": "NEXUS",
+                    "equipo_visitante": "SAN MARTÍN DE LA VEGA",
+                    "resultado_final": null,
+                    "sets": []
+                },
+                {
+                    "fecha": "19:00 30/01/2027",
+                    "lugar": "P.M. YELES",
+                    "equipo_local": "C.V. YELES B",
+                    "equipo_visitante": "VALDEVOLEY",
+                    "resultado_final": null,
+                    "sets": []
+                },
+                {
+                    "fecha": "18:00 30/01/2027",
+                    "lugar": "P.M. TORREJÓN DE LA CALZADA",
+                    "equipo_local": "VOLEYTECH BARGAS",
+                    "equipo_visitante": "TORREJÓN DE LA CALZADA",
+                    "resultado_final": null,
+                    "sets": []
+                }
+            ],
+            "descansa": [
+                "PANTOJA AZUL"
+            ]
+        },
+        {
+            "jornada": 9,
+            "partidos": [
+                {
+                    "fecha": "17:00 13/02/2027",
+                    "lugar": "P.M. YELES",
+                    "equipo_local": "PANTOJA AZUL",
+                    "equipo_visitante": "VOLEYTECH BARGAS",
+                    "resultado_final": null,
+                    "sets": []
+                },
+                {
+                    "fecha": "17:00 13/02/2027",
+                    "lugar": "P.M. YELES",
+                    "equipo_local": "C.V. PARLA",
+                    "equipo_visitante": "NEXUS",
+                    "resultado_final": null,
+                    "sets": []
+                },
+                {
+                    "fecha": "19:00 13/02/2027",
+                    "lugar": "P.M. YELES",
+                    "equipo_local": "TORREJÓN DE LA CALZADA",
+                    "equipo_visitante": "PANTOJA ORO",
+                    "resultado_final": null,
+                    "sets": []
+                },
+                {
+                    "fecha": "19:00 13/02/2027",
+                    "lugar": "P.M. YELES",
+                    "equipo_local": "C.V. YELES A",
+                    "equipo_visitante": "C.V. YELES B",
+                    "resultado_final": null,
+                    "sets": []
+                },
+                {
+                    "fecha": "18:00 13/02/2027",
+                    "lugar": "CEIP TRES TORRES (UGENA)",
+                    "equipo_local": "SAN MARTIN DE LA VEGA",
+                    "equipo_visitante": "LA RESISTENCIA",
+                    "resultado_final": null,
+                    "sets": []
+                }
+            ],
+            "descansa": [
+                "VALDEVOLEY"
+            ]
+        },
+        {
+            "jornada": 10,
+            "partidos": [
+                {
+                    "fecha": "17:00 20/02/2027",
+                    "lugar": "P.M. PANTOJA",
+                    "equipo_local": "PANTOJA ORO",
+                    "equipo_visitante": "PANTOJA AZUL",
+                    "resultado_final": null,
+                    "sets": []
+                },
+                {
+                    "fecha": "17:00 20/02/2027",
+                    "lugar": "P.M. PANTOJA",
+                    "equipo_local": "NEXUS",
+                    "equipo_visitante": "TORREJON DE LA CALZADA",
+                    "resultado_final": null,
+                    "sets": []
+                },
+                {
+                    "fecha": "19:00 20/02/2027",
+                    "lugar": "P.M. PANTOJA",
+                    "equipo_local": "LA RESISTENCIA",
+                    "equipo_visitante": "C.V. PARLA",
+                    "resultado_final": null,
+                    "sets": []
+                },
+                {
+                    "fecha": "17:00 20/02/2027",
+                    "lugar": "SAN MARTIN DE LA VEGA",
+                    "equipo_local": "C.V. YELES B",
+                    "equipo_visitante": "SAN MARTÍN DE LA VEGA",
+                    "resultado_final": null,
+                    "sets": []
+                },
+                {
+                    "fecha": "19:00 20/02/2027",
+                    "lugar": "SAN MARTIN DE LA VEGA",
+                    "equipo_local": "VALDEVOLEY",
+                    "equipo_visitante": "C.V. YELES A",
+                    "resultado_final": null,
+                    "sets": []
+                }
+            ],
+            "descansa": [
+                "VOLEYTECH BARGAS"
+            ]
+        },
+        {
+            "jornada": 11,
+            "partidos": [
+                {
+                    "fecha": "17:00 27/02/2027",
+                    "lugar": "P.M. YELES",
+                    "equipo_local": "TORREJON DE LA CALZADA",
+                    "equipo_visitante": "LA RESISTENCIA",
+                    "resultado_final": null,
+                    "sets": []
+                },
+                {
+                    "fecha": "17:00 27/02/2027",
+                    "lugar": "P.M. YELES",
+                    "equipo_local": "C.V. PARLA",
+                    "equipo_visitante": "C.V. YELES B",
+                    "resultado_final": null,
+                    "sets": []
+                },
+                {
+                    "fecha": "19:00 27/02/2027",
+                    "lugar": "P.M. YELES",
+                    "equipo_local": "SAN MARTÍN DE LA VEGA",
+                    "equipo_visitante": "VALDEVOLEY",
+                    "resultado_final": null,
+                    "sets": []
+                },
+                {
+                    "fecha": "17:00 27/02/2027",
+                    "lugar": "CEIP CLARA CAMPOAMOR (ILLESCAS)",
+                    "equipo_local": "PANTOJA AZUL",
+                    "equipo_visitante": "NEXUS",
+                    "resultado_final": null,
+                    "sets": []
+                },
+                {
+                    "fecha": "19:00 27/02/2027",
+                    "lugar": "CEIP CLARA CAMPOAMOR (ILLESCAS)",
+                    "equipo_local": "VOLEYTECH BARGAS",
+                    "equipo_visitante": "PANTOJA ORO",
+                    "resultado_final": null,
+                    "sets": []
+                }
+            ],
+            "descansa": [
+                "C.V. YELES A"
+            ]
+        },
+        {
+            "jornada": 12,
+            "partidos": [
+                {
+                    "fecha": "17:00 06/03/2027",
+                    "lugar": "P.M. PANTOJA",
+                    "equipo_local": "TORREJÓN DE LA CALZADA",
+                    "equipo_visitante": "SAN MARTÍN DE LA VEGA",
+                    "resultado_final": null,
+                    "sets": []
+                },
+                {
+                    "fecha": "17:00 06/03/2027",
+                    "lugar": "P.M. PANTOJA",
+                    "equipo_local": "PANTOJA AZUL",
+                    "equipo_visitante": "C.V. YELES A",
+                    "resultado_final": null,
+                    "sets": []
+                },
+                {
+                    "fecha": "19:00 06/03/2027",
+                    "lugar": "P.M. PANTOJA",
+                    "equipo_local": "PANTOJA ORO",
+                    "equipo_visitante": "C.V. YELES B",
+                    "resultado_final": null,
+                    "sets": []
+                },
+                {
+                    "fecha": "17:00 06/03/2027",
+                    "lugar": "P.M. PANTOJA",
+                    "equipo_local": "VOLEYTECH BARGAS",
+                    "equipo_visitante": "VALDEVOLEY",
+                    "resultado_final": null,
+                    "sets": []
+                },
+                {
+                    "fecha": "19:00 06/03/2027",
+                    "lugar": "CEIP CLARA CAMPOAMOR (ILLESCAS)",
+                    "equipo_local": "NEXUS",
+                    "equipo_visitante": "LA RESISTENCIA",
+                    "resultado_final": null,
+                    "sets": []
+                }
+            ],
+            "descansa": [
+                "PARLA"
+            ]
+        },
+        {
+            "jornada": 13,
+            "partidos": [
+                {
+                    "fecha": "17:00 13/03/2027",
+                    "lugar": "P.M. YELES",
+                    "equipo_local": "C.V. YELES A",
+                    "equipo_visitante": "SAN MARTÍN DE LA VEGA",
+                    "resultado_final": null,
+                    "sets": []
+                },
+                {
+                    "fecha": "17:00 13/03/2027",
+                    "lugar": "P.M. YELES",
+                    "equipo_local": "VALDEVOLEY",
+                    "equipo_visitante": "C.V. PARLA",
+                    "resultado_final": null,
+                    "sets": []
+                },
+                {
+                    "fecha": "19:00 13/03/2027",
+                    "lugar": "P.M. YELES",
+                    "equipo_local": "C.V. YELES B",
+                    "equipo_visitante": "TORREJÓN DE LA CALZADA",
+                    "resultado_final": null,
+                    "sets": []
+                },
+                {
+                    "fecha": "19:00 13/03/2027",
+                    "lugar": "P.M. YELES",
+                    "equipo_local": "LA RESISTENCIA",
+                    "equipo_visitante": "PANTOJA AZUL",
+                    "resultado_final": null,
+                    "sets": []
+                },
+                {
+                    "fecha": "18:00 13/03/2027",
+                    "lugar": "CEIP CLARA CAMPOAMOR (ILLESCAS)",
+                    "equipo_local": "NEXUS",
+                    "equipo_visitante": "VOLEYTECH BARGAS",
+                    "resultado_final": null,
+                    "sets": []
+                }
+            ],
+            "descansa": [
+                "PANTOJA ORO"
+            ]
+        },
+        {
+            "jornada": 14,
+            "partidos": [
+                {
+                    "fecha": "17:00 20/03/2027",
+                    "lugar": "P.M. YELES",
+                    "equipo_local": "C.V. PARLA",
+                    "equipo_visitante": "C.V. YELES A",
+                    "resultado_final": null,
+                    "sets": []
+                },
+                {
+                    "fecha": "17:00 20/03/2027",
+                    "lugar": "P.M. YELES",
+                    "equipo_local": "PANTOJA ORO",
+                    "equipo_visitante": "NEXUS",
+                    "resultado_final": null,
+                    "sets": []
+                },
+                {
+                    "fecha": "19:00 20/03/2027",
+                    "lugar": "P.M. YELES",
+                    "equipo_local": "PANTOJA AZUL",
+                    "equipo_visitante": "C.V. YELES B",
+                    "resultado_final": null,
+                    "sets": []
+                },
+                {
+                    "fecha": "19:00 20/03/2027",
+                    "lugar": "P.M. YELES",
+                    "equipo_local": "VOLEYTECH BARGAS",
+                    "equipo_visitante": "LA RESISTENCIA",
+                    "resultado_final": null,
+                    "sets": []
+                },
+                {
+                    "fecha": "18:00 20/03/2027",
+                    "lugar": "P.M. TORREJÓN DE LA CALZADA",
+                    "equipo_local": "TORREJÓN DE LA CALZADA",
+                    "equipo_visitante": "VALDEVOLEY",
+                    "resultado_final": null,
+                    "sets": []
+                }
+            ],
+            "descansa": [
+                "SAN MARTÍN DE LA VEGA"
+            ]
+        },
+        {
+            "jornada": 15,
+            "partidos": [
+                {
+                    "fecha": "17:00 03/04/2027",
+                    "lugar": "P.M. PANTOJA",
+                    "equipo_local": "LA RESISTENCIA",
+                    "equipo_visitante": "PANTOJA ORO",
+                    "resultado_final": null,
+                    "sets": []
+                },
+                {
+                    "fecha": "17:00 03/04/2027",
+                    "lugar": "P.M. PANTOJA",
+                    "equipo_local": "C.V. YELES A",
+                    "equipo_visitante": "TORREJÓN DE LA CALZADA",
+                    "resultado_final": null,
+                    "sets": []
+                },
+                {
+                    "fecha": "19:00 03/04/2027",
+                    "lugar": "P.M. PANTOJA",
+                    "equipo_local": "C.V. YELES B",
+                    "equipo_visitante": "VOLEYTECH BARGAS",
+                    "resultado_final": null,
+                    "sets": []
+                },
+                {
+                    "fecha": "17:00 03/04/2027",
+                    "lugar": "P.M. PANTOJA",
+                    "equipo_local": "VALDEVOLEY",
+                    "equipo_visitante": "PANTOJA AZUL",
+                    "resultado_final": null,
+                    "sets": []
+                },
+                {
+                    "fecha": "19:00 03/04/2027",
+                    "lugar": "SAN MARTIN DE LA VEGA",
+                    "equipo_local": "SAN MARTÍN DE LA VEGA",
+                    "equipo_visitante": "C.V. PARLA",
+                    "resultado_final": null,
+                    "sets": []
+                }
+            ],
+            "descansa": [
+                "NEXUS"
+            ]
+        },
+        {
+            "jornada": 16,
+            "partidos": [
+                {
+                    "fecha": "17:00 10/04/2027",
+                    "lugar": "P.M. YELES",
+                    "equipo_local": "SAN MARTIN DE LA VEGA",
+                    "equipo_visitante": "PANTOJA AZUL",
+                    "resultado_final": null,
+                    "sets": []
+                },
+                {
+                    "fecha": "17:00 10/04/2027",
+                    "lugar": "P.M. YELES",
+                    "equipo_local": "C.V. YELES B",
+                    "equipo_visitante": "NEXUS",
+                    "resultado_final": null,
+                    "sets": []
+                },
+                {
+                    "fecha": "19:00 10/04/2027",
+                    "lugar": "P.M. YELES",
+                    "equipo_local": "C.V. YELES A",
+                    "equipo_visitante": "VOLEYTECH BARGAS",
+                    "resultado_final": null,
+                    "sets": []
+                },
+                {
+                    "fecha": "17:00 10/04/2027",
+                    "lugar": "P.M. YELES",
+                    "equipo_local": "VALDEVOLEY",
+                    "equipo_visitante": "PANTOJA ORO",
+                    "resultado_final": null,
+                    "sets": []
+                },
+                {
+                    "fecha": "19:00 10/04/2027",
+                    "lugar": "P.M. TORREJÓN DE LA CALZADA",
+                    "equipo_local": "C.V. PARLA",
+                    "equipo_visitante": "TORREJÓN DE LA CALZADA",
+                    "resultado_final": null,
+                    "sets": []
+                }
+            ],
+            "descansa": [
+                "LA RESISTENCIA"
+            ]
+        },
+        {
+            "jornada": 17,
+            "partidos": [
+                {
+                    "fecha": "17:00 17/04/2027",
+                    "lugar": "P.M. YELES",
+                    "equipo_local": "VOLEYTECH BARGAS",
+                    "equipo_visitante": "SAN MARTÍN DE LA VEGA",
+                    "resultado_final": null,
+                    "sets": []
+                },
+                {
+                    "fecha": "17:00 17/04/2027",
+                    "lugar": "P.M. YELES",
+                    "equipo_local": "PANTOJA ORO",
+                    "equipo_visitante": "C.V. YELES A",
+                    "resultado_final": null,
+                    "sets": []
+                },
+                {
+                    "fecha": "19:00 17/04/2027",
+                    "lugar": "P.M. YELES",
+                    "equipo_local": "LA RESISTENCIA",
+                    "equipo_visitante": "C.V. YELES B",
+                    "resultado_final": null,
+                    "sets": []
+                },
+                {
+                    "fecha": "19:00 17/04/2027",
+                    "lugar": "P.M. YELES",
+                    "equipo_local": "PANTOJA AZUL",
+                    "equipo_visitante": "C.V. PARLA",
+                    "resultado_final": null,
+                    "sets": []
+                },
+                {
+                    "fecha": "18:00 17/04/2027",
+                    "lugar": "CEIP CLARA CAMPOAMOR (ILLESCAS)",
+                    "equipo_local": "NEXUS",
+                    "equipo_visitante": "VALDEVOLEY",
+                    "resultado_final": null,
+                    "sets": []
+                }
+            ],
+            "descansa": [
+                "TORREJÓN DE LA CALZADA"
+            ]
+        },
+        {
+            "jornada": 18,
+            "partidos": [
+                {
+                    "fecha": "17:00 24/04/2027",
+                    "lugar": "CEIP TRES TORRES",
+                    "equipo_local": "VALDEVOLEY",
+                    "equipo_visitante": "LA RESISTENCIA",
+                    "resultado_final": null,
+                    "sets": []
+                },
+                {
+                    "fecha": "17:00 24/04/2027",
+                    "lugar": "P.M. TORREJON DE LA CALZADA",
+                    "equipo_local": "SAN MARTÍN DE LA VEGA",
+                    "equipo_visitante": "PANTOJA ORO",
+                    "resultado_final": null,
+                    "sets": []
+                },
+                {
+                    "fecha": "19:00 24/04/2027",
+                    "lugar": "P.M. TORREJON DE LA CALZADA",
+                    "equipo_local": "TORREJÓN DE LA CALZADA",
+                    "equipo_visitante": "PANTOJA AZUL",
+                    "resultado_final": null,
+                    "sets": []
+                },
+                {
+                    "fecha": "17:00 24/04/2027",
+                    "lugar": "CEIP CLARA CAMPOAMOR",
+                    "equipo_local": "C.V. PARLA",
+                    "equipo_visitante": "VOLEYTECH BARGAS",
+                    "resultado_final": null,
+                    "sets": []
+                },
+                {
+                    "fecha": "19:00 24/04/2027",
+                    "lugar": "CEIP CLARA CAMPOAMOR",
+                    "equipo_local": "C.V. YELES A",
+                    "equipo_visitante": "NEXUS",
+                    "resultado_final": null,
+                    "sets": []
+                }
+            ],
+            "descansa": [
+                "CV YELES B"
+            ]
+        },
+        {
+            "jornada": 19,
+            "partidos": [
+                {
+                    "fecha": "17:00 08/05/2027",
+                    "lugar": "P.M. YELES",
+                    "equipo_local": "PANTOJA ORO",
+                    "equipo_visitante": "C.V. PARLA",
+                    "resultado_final": null,
+                    "sets": []
+                },
+                {
+                    "fecha": "17:00 08/05/2027",
+                    "lugar": "P.M. YELES",
+                    "equipo_local": "LA RESISTENCIA",
+                    "equipo_visitante": "C.V. YELES A",
+                    "resultado_final": null,
+                    "sets": []
+                },
+                {
+                    "fecha": "19:00 08/05/2027",
+                    "lugar": "P.M. YELES",
+                    "equipo_local": "NEXUS",
+                    "equipo_visitante": "SAN MARTÍN DE LA VEGA",
+                    "resultado_final": null,
+                    "sets": []
+                },
+                {
+                    "fecha": "19:00 08/05/2027",
+                    "lugar": "P.M. YELES",
+                    "equipo_local": "C.V. YELES B",
+                    "equipo_visitante": "VALDEVOLEY",
+                    "resultado_final": null,
+                    "sets": []
+                },
+                {
+                    "fecha": "18:00 08/05/2027",
+                    "lugar": "P.M. TORREJÓN DE LA CALZADA",
+                    "equipo_local": "VOLEYTECH BARGAS",
+                    "equipo_visitante": "TORREJÓN DE LA CALZADA",
+                    "resultado_final": null,
+                    "sets": []
+                }
+            ],
+            "descansa": [
+                "PANTOJA AZUL"
+            ]
+        },
+        {
+            "jornada": 20,
+            "partidos": [
+                {
+                    "fecha": "17:00 15/05/2027",
+                    "lugar": "P.M. PANTOJA",
+                    "equipo_local": "PANTOJA ORO",
+                    "equipo_visitante": "PANTOJA AZUL",
+                    "resultado_final": null,
+                    "sets": []
+                },
+                {
+                    "fecha": "17:00 15/05/2027",
+                    "lugar": "P.M. PANTOJA",
+                    "equipo_local": "NEXUS",
+                    "equipo_visitante": "TORREJON DE LA CALZADA",
+                    "resultado_final": null,
+                    "sets": []
+                },
+                {
+                    "fecha": "19:00 15/05/2027",
+                    "lugar": "P.M. PANTOJA",
+                    "equipo_local": "LA RESISTENCIA",
+                    "equipo_visitante": "C.V. PARLA",
+                    "resultado_final": null,
+                    "sets": []
+                },
+                {
+                    "fecha": "17:00 15/05/2027",
+                    "lugar": "SAN MARTIN DE LA VEGA",
+                    "equipo_local": "C.V. YELES B",
+                    "equipo_visitante": "SAN MARTÍN DE LA VEGA",
+                    "resultado_final": null,
+                    "sets": []
+                },
+                {
+                    "fecha": "19:00 15/05/2027",
+                    "lugar": "SAN MARTIN DE LA VEGA",
+                    "equipo_local": "VALDEVOLEY",
+                    "equipo_visitante": "C.V. YELES A",
+                    "resultado_final": null,
+                    "sets": []
+                }
+            ],
+            "descansa": [
+                "VOLEYTECH BARGAS"
+            ]
+        },
+        {
+            "jornada": 21,
+            "partidos": [
+                {
+                    "fecha": "17:00 29/05/2027",
+                    "lugar": "P.M. YELES",
+                    "equipo_local": "PANTOJA AZUL",
+                    "equipo_visitante": "VOLEYTECH BARGAS",
+                    "resultado_final": null,
+                    "sets": []
+                },
+                {
+                    "fecha": "17:00 29/05/2027",
+                    "lugar": "P.M. YELES",
+                    "equipo_local": "C.V. PARLA",
+                    "equipo_visitante": "NEXUS",
+                    "resultado_final": null,
+                    "sets": []
+                },
+                {
+                    "fecha": "19:00 29/05/2027",
+                    "lugar": "P.M. YELES",
+                    "equipo_local": "TORREJÓN DE LA CALZADA",
+                    "equipo_visitante": "PANTOJA ORO",
+                    "resultado_final": null,
+                    "sets": []
+                },
+                {
+                    "fecha": "19:00 29/05/2027",
+                    "lugar": "P.M. YELES",
+                    "equipo_local": "C.V. YELES A",
+                    "equipo_visitante": "C.V. YELES B",
+                    "resultado_final": null,
+                    "sets": []
+                },
+                {
+                    "fecha": "18:00 29/05/2027",
+                    "lugar": "CEIP TRES TORRES (UGENA)",
+                    "equipo_local": "SAN MARTIN DE LA VEGA",
+                    "equipo_visitante": "LA RESISTENCIA",
+                    "resultado_final": null,
+                    "sets": []
+                }
+            ],
+            "descansa": [
+                "VALDEVOLEY"
+            ]
+        },
+        {
+            "jornada": 22,
+            "partidos": [
+                {
+                    "fecha": "17:00 22/05/2027",
+                    "lugar": "P.M. YELES",
+                    "equipo_local": "TORREJON DE LA CALZADA",
+                    "equipo_visitante": "LA RESISTENCIA",
+                    "resultado_final": null,
+                    "sets": []
+                },
+                {
+                    "fecha": "17:00 22/05/2027",
+                    "lugar": "P.M. YELES",
+                    "equipo_local": "C.V. PARLA",
+                    "equipo_visitante": "C.V. YELES B",
+                    "resultado_final": null,
+                    "sets": []
+                },
+                {
+                    "fecha": "19:00 22/05/2027",
+                    "lugar": "P.M. YELES",
+                    "equipo_local": "SAN MARTÍN DE LA VEGA",
+                    "equipo_visitante": "VALDEVOLEY",
+                    "resultado_final": null,
+                    "sets": []
+                },
+                {
+                    "fecha": "17:00 22/05/2027",
+                    "lugar": "CEIP CLARA CAMPOAMOR (ILLESCAS)",
+                    "equipo_local": "PANTOJA AZUL",
+                    "equipo_visitante": "NEXUS",
+                    "resultado_final": null,
+                    "sets": []
+                },
+                {
+                    "fecha": "19:00 22/05/2027",
+                    "lugar": "CEIP CLARA CAMPOAMOR (ILLESCAS)",
+                    "equipo_local": "VOLEYTECH BARGAS",
+                    "equipo_visitante": "PANTOJA ORO",
+                    "resultado_final": null,
+                    "sets": []
+                }
+            ],
+            "descansa": [
+                "C.V. YELES A"
+            ]
+        }
+    ]
+}

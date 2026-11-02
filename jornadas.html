@@ -1,29 +1,32 @@
+
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="images/favicon.png" type="image/x-icon" />
-    <title>CV Pantoja</title>
-    <link rel="stylesheet" href="jornadas.css" />
-  </head>
-  <body>
-    <header>
-      <nav>
-        <ul>
-          <li><a href="index.html"><img src="images/toja.png" height="100px"/></a></li>
-          <li><a href="index.html">Partidos</a></li>
-          <li><a href="clasificacion.html">Clasificación</a></li>
-          <li><a href="jornadas.html">Jornadas</a></li>
-          <li><a href="temporada1.html">Temp. 24/25</a></li>
-        </ul>
-      </nav>
-    </header>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/favicon.png" type="image/x-icon">
 
-    <div class="container">
-      <div id="resultados" class="resultados"></div>
-    </div>
+    <title>CV Pantoja - Jornadas</title>
 
-    <script src="jornadas.js"></script>
-  </body>
+    <link rel="stylesheet" href="css/comun.css">
+    <link rel="stylesheet" href="css/jornadas.css">
+</head>
+<body>
+
+    <header id="cabecera"></header>
+
+    <main class="container">
+
+        <h1>Calendario 2026/2027</h1>
+
+        <div id="resultados" class="resultados"></div>
+
+        <p id="mensaje-error" class="mensaje-error" hidden></p>
+
+    </main>
+
+    <script src="js/comun.js" defer></script>
+    <script src="js/datos.js" defer></script>
+    <script src="js/jornadas.js" defer></script>
+</body>
 </html>

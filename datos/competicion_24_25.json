@@ -1,0 +1,1492 @@
+{
+  "temporada": "2024/2025",
+  "clasificacion_final": [
+    {
+      "posicion": 1,
+      "equipo": "C.V. FUENLABRADA \"A\"",
+      "partidos_jugados": 20,
+      "partidos_ganados": 18,
+      "partidos_perdidos": 2,
+      "sets_favor": 37,
+      "sets_contra": 8
+    },
+    {
+      "posicion": 2,
+      "equipo": "C.V. UYNO",
+      "partidos_jugados": 20,
+      "partidos_ganados": 17,
+      "partidos_perdidos": 3,
+      "sets_favor": 36,
+      "sets_contra": 10
+    },
+    {
+      "posicion": 3,
+      "equipo": "C.V. FUENLABRADA \"B\"",
+      "partidos_jugados": 20,
+      "partidos_ganados": 15,
+      "partidos_perdidos": 5,
+      "sets_favor": 35,
+      "sets_contra": 15
+    },
+    {
+      "posicion": 4,
+      "equipo": "C.V. UYSI",
+      "partidos_jugados": 20,
+      "partidos_ganados": 13,
+      "partidos_perdidos": 7,
+      "sets_favor": 29,
+      "sets_contra": 18
+    },
+    {
+      "posicion": 5,
+      "equipo": "CARPE DIEM \"A\"",
+      "partidos_jugados": 20,
+      "partidos_ganados": 10,
+      "partidos_perdidos": 10,
+      "sets_favor": 25,
+      "sets_contra": 25
+    },
+    {
+      "posicion": 6,
+      "equipo": "C.V. FUENLABRADA \"JUNIOR\"",
+      "partidos_jugados": 20,
+      "partidos_ganados": 10,
+      "partidos_perdidos": 10,
+      "sets_favor": 24,
+      "sets_contra": 25
+    },
+    {
+      "posicion": 7,
+      "equipo": "CARPE DIEM \"B\"",
+      "partidos_jugados": 20,
+      "partidos_ganados": 9,
+      "partidos_perdidos": 11,
+      "sets_favor": 21,
+      "sets_contra": 25
+    },
+    {
+      "posicion": 8,
+      "equipo": "C.V. SOTILLO DE LA ADRADA",
+      "partidos_jugados": 20,
+      "partidos_ganados": 8,
+      "partidos_perdidos": 12,
+      "sets_favor": 22,
+      "sets_contra": 29
+    },
+    {
+      "posicion": 9,
+      "equipo": "INTERVOLEY",
+      "partidos_jugados": 20,
+      "partidos_ganados": 5,
+      "partidos_perdidos": 15,
+      "sets_favor": 15,
+      "sets_contra": 33
+    },
+    {
+      "posicion": 10,
+      "equipo": "C.D.E. PARLA VOLEY",
+      "partidos_jugados": 20,
+      "partidos_ganados": 4,
+      "partidos_perdidos": 16,
+      "sets_favor": 11,
+      "sets_contra": 34
+    },
+    {
+      "posicion": 11,
+      "equipo": "C.V. PANTOJA",
+      "partidos_jugados": 20,
+      "partidos_ganados": 1,
+      "partidos_perdidos": 19,
+      "sets_favor": 5,
+      "sets_contra": 38
+    }
+  ],
+  "jornadas": [
+    {
+      "jornada": 1,
+      "partidos": [
+        {
+          "fecha": null,
+          "lugar": null,
+          "equipo_local": "INTERVOLEY",
+          "equipo_visitante": "C.V. SOTILLO DE LA ADRADA",
+          "resultado_final": {
+            "local": 0,
+            "visitante": 2
+          },
+          "sets": []
+        },
+        {
+          "fecha": null,
+          "lugar": null,
+          "equipo_local": "C.D.E. PARLA VOLEY",
+          "equipo_visitante": "C.V. FUENLABRADA \"B\"",
+          "resultado_final": {
+            "local": 0,
+            "visitante": 2
+          },
+          "sets": []
+        },
+        {
+          "fecha": null,
+          "lugar": null,
+          "equipo_local": "CARPE DIEM \"A\"",
+          "equipo_visitante": "C.V. UYSI",
+          "resultado_final": {
+            "local": 0,
+            "visitante": 2
+          },
+          "sets": []
+        },
+        {
+          "fecha": null,
+          "lugar": null,
+          "equipo_local": "C.V. UYNO",
+          "equipo_visitante": "CARPE DIEM \"B\"",
+          "resultado_final": {
+            "local": 2,
+            "visitante": 0
+          },
+          "sets": []
+        },
+        {
+          "fecha": null,
+          "lugar": null,
+          "equipo_local": "C.V. PANTOJA",
+          "equipo_visitante": "C.V. FUENLABRADA \"A\"",
+          "resultado_final": {
+            "local": 0,
+            "visitante": 2
+          },
+          "sets": []
+        }
+      ],
+      "descansa": [
+        "C.V. FUENLABRADA \"JUNIOR\""
+      ]
+    },
+    {
+      "jornada": 2,
+      "partidos": [
+        {
+          "fecha": null,
+          "lugar": null,
+          "equipo_local": "C.V. SOTILLO DE LA ADRADA",
+          "equipo_visitante": "C.D.E. PARLA VOLEY",
+          "resultado_final": {
+            "local": 2,
+            "visitante": 0
+          },
+          "sets": []
+        },
+        {
+          "fecha": null,
+          "lugar": null,
+          "equipo_local": "C.V. UYSI",
+          "equipo_visitante": "INTERVOLEY",
+          "resultado_final": {
+            "local": 2,
+            "visitante": 1
+          },
+          "sets": []
+        },
+        {
+          "fecha": null,
+          "lugar": null,
+          "equipo_local": "C.V. FUENLABRADA \"A\"",
+          "equipo_visitante": "C.V. UYNO",
+          "resultado_final": {
+            "local": 2,
+            "visitante": 1
+          },
+          "sets": []
+        },
+        {
+          "fecha": null,
+          "lugar": null,
+          "equipo_local": "C.V. FUENLABRADA \"JUNIOR\"",
+          "equipo_visitante": "C.V. PANTOJA",
+          "resultado_final": {
+            "local": 2,
+            "visitante": 0
+          },
+          "sets": []
+        },
+        {
+          "fecha": null,
+          "lugar": null,
+          "equipo_local": "CARPE DIEM \"B\"",
+          "equipo_visitante": "CARPE DIEM \"A\"",
+          "resultado_final": {
+            "local": 1,
+            "visitante": 2
+          },
+          "sets": []
+        }
+      ],
+      "descansa": [
+        "C.V. FUENLABRADA \"B\""
+      ]
+    },
+    {
+      "jornada": 3,
+      "partidos": [
+        {
+          "fecha": null,
+          "lugar": null,
+          "equipo_local": "C.V. FUENLABRADA \"B\"",
+          "equipo_visitante": "C.V. SOTILLO DE LA ADRADA",
+          "resultado_final": {
+            "local": 2,
+            "visitante": 1
+          },
+          "sets": []
+        },
+        {
+          "fecha": null,
+          "lugar": null,
+          "equipo_local": "C.D.E. PARLA VOLEY",
+          "equipo_visitante": "C.V. UYSI",
+          "resultado_final": {
+            "local": 0,
+            "visitante": 2
+          },
+          "sets": []
+        },
+        {
+          "fecha": null,
+          "lugar": null,
+          "equipo_local": "INTERVOLEY",
+          "equipo_visitante": "CARPE DIEM \"B\"",
+          "resultado_final": {
+            "local": 0,
+            "visitante": 2
+          },
+          "sets": []
+        },
+        {
+          "fecha": null,
+          "lugar": null,
+          "equipo_local": "CARPE DIEM \"A\"",
+          "equipo_visitante": "C.V. FUENLABRADA \"A\"",
+          "resultado_final": {
+            "local": 1,
+            "visitante": 2
+          },
+          "sets": []
+        },
+        {
+          "fecha": null,
+          "lugar": null,
+          "equipo_local": "C.V. UYNO",
+          "equipo_visitante": "C.V. FUENLABRADA \"JUNIOR\"",
+          "resultado_final": {
+            "local": 2,
+            "visitante": 0
+          },
+          "sets": []
+        }
+      ],
+      "descansa": [
+        "C.V. PANTOJA"
+      ]
+    },
+    {
+      "jornada": 4,
+      "partidos": [
+        {
+          "fecha": null,
+          "lugar": null,
+          "equipo_local": "C.V. UYSI",
+          "equipo_visitante": "C.V. FUENLABRADA \"B\"",
+          "resultado_final": {
+            "local": 2,
+            "visitante": 1
+          },
+          "sets": []
+        },
+        {
+          "fecha": null,
+          "lugar": null,
+          "equipo_local": "C.V. PANTOJA",
+          "equipo_visitante": "C.V. UYNO",
+          "resultado_final": {
+            "local": 0,
+            "visitante": 2
+          },
+          "sets": []
+        },
+        {
+          "fecha": null,
+          "lugar": null,
+          "equipo_local": "CARPE DIEM \"B\"",
+          "equipo_visitante": "C.D.E. PARLA VOLEY",
+          "resultado_final": {
+            "local": 2,
+            "visitante": 0
+          },
+          "sets": []
+        },
+        {
+          "fecha": null,
+          "lugar": null,
+          "equipo_local": "C.V. FUENLABRADA \"A\"",
+          "equipo_visitante": "INTERVOLEY",
+          "resultado_final": {
+            "local": 2,
+            "visitante": 0
+          },
+          "sets": []
+        },
+        {
+          "fecha": null,
+          "lugar": null,
+          "equipo_local": "C.V. FUENLABRADA \"JUNIOR\"",
+          "equipo_visitante": "CARPE DIEM \"A\"",
+          "resultado_final": {
+            "local": 2,
+            "visitante": 1
+          },
+          "sets": []
+        }
+      ],
+      "descansa": [
+        "C.V. SOTILLO DE LA ADRADA"
+      ]
+    },
+    {
+      "jornada": 5,
+      "partidos": [
+        {
+          "fecha": null,
+          "lugar": null,
+          "equipo_local": "INTERVOLEY",
+          "equipo_visitante": "C.V. FUENLABRADA \"JUNIOR\"",
+          "resultado_final": {
+            "local": 2,
+            "visitante": 0
+          },
+          "sets": []
+        },
+        {
+          "fecha": null,
+          "lugar": null,
+          "equipo_local": "C.V. SOTILLO DE LA ADRADA",
+          "equipo_visitante": "C.V. UYSI",
+          "resultado_final": {
+            "local": 0,
+            "visitante": 2
+          },
+          "sets": []
+        },
+        {
+          "fecha": null,
+          "lugar": null,
+          "equipo_local": "C.D.E. PARLA VOLEY",
+          "equipo_visitante": "C.V. FUENLABRADA \"A\"",
+          "resultado_final": {
+            "local": 0,
+            "visitante": 2
+          },
+          "sets": []
+        },
+        {
+          "fecha": null,
+          "lugar": null,
+          "equipo_local": "CARPE DIEM \"A\"",
+          "equipo_visitante": "C.V. PANTOJA",
+          "resultado_final": {
+            "local": 2,
+            "visitante": 0
+          },
+          "sets": []
+        },
+        {
+          "fecha": null,
+          "lugar": null,
+          "equipo_local": "C.V. FUENLABRADA \"B\"",
+          "equipo_visitante": "CARPE DIEM \"B\"",
+          "resultado_final": {
+            "local": 1,
+            "visitante": 2
+          },
+          "sets": []
+        }
+      ],
+      "descansa": [
+        "C.V. UYNO"
+      ]
+    },
+    {
+      "jornada": 6,
+      "partidos": [
+        {
+          "fecha": null,
+          "lugar": null,
+          "equipo_local": "CARPE DIEM \"B\"",
+          "equipo_visitante": "C.V. SOTILLO DE LA ADRADA",
+          "resultado_final": {
+            "local": 1,
+            "visitante": 2
+          },
+          "sets": []
+        },
+        {
+          "fecha": null,
+          "lugar": null,
+          "equipo_local": "C.V. FUENLABRADA \"A\"",
+          "equipo_visitante": "C.V. FUENLABRADA \"B\"",
+          "resultado_final": {
+            "local": 2,
+            "visitante": 1
+          },
+          "sets": []
+        },
+        {
+          "fecha": null,
+          "lugar": null,
+          "equipo_local": "C.V. FUENLABRADA \"JUNIOR\"",
+          "equipo_visitante": "C.D.E. PARLA VOLEY",
+          "resultado_final": {
+            "local": 2,
+            "visitante": 1
+          },
+          "sets": []
+        },
+        {
+          "fecha": null,
+          "lugar": null,
+          "equipo_local": "C.V. PANTOJA",
+          "equipo_visitante": "INTERVOLEY",
+          "resultado_final": {
+            "local": 0,
+            "visitante": 2
+          },
+          "sets": []
+        },
+        {
+          "fecha": null,
+          "lugar": null,
+          "equipo_local": "C.V. UYNO",
+          "equipo_visitante": "CARPE DIEM \"A\"",
+          "resultado_final": {
+            "local": 2,
+            "visitante": 0
+          },
+          "sets": []
+        }
+      ],
+      "descansa": [
+        "C.V. UYSI"
+      ]
+    },
+    {
+      "jornada": 7,
+      "partidos": [
+        {
+          "fecha": null,
+          "lugar": null,
+          "equipo_local": "C.D.E. PARLA VOLEY",
+          "equipo_visitante": "C.V. PANTOJA",
+          "resultado_final": {
+            "local": 2,
+            "visitante": 1
+          },
+          "sets": []
+        },
+        {
+          "fecha": null,
+          "lugar": null,
+          "equipo_local": "C.V. UYSI",
+          "equipo_visitante": "CARPE DIEM \"B\"",
+          "resultado_final": {
+            "local": 2,
+            "visitante": 0
+          },
+          "sets": []
+        },
+        {
+          "fecha": null,
+          "lugar": null,
+          "equipo_local": "C.V. FUENLABRADA \"B\"",
+          "equipo_visitante": "C.V. FUENLABRADA \"JUNIOR\"",
+          "resultado_final": {
+            "local": 2,
+            "visitante": 1
+          },
+          "sets": []
+        },
+        {
+          "fecha": null,
+          "lugar": null,
+          "equipo_local": "INTERVOLEY",
+          "equipo_visitante": "C.V. UYNO",
+          "resultado_final": {
+            "local": 0,
+            "visitante": 2
+          },
+          "sets": []
+        },
+        {
+          "fecha": null,
+          "lugar": null,
+          "equipo_local": "C.V. SOTILLO DE LA ADRADA",
+          "equipo_visitante": "C.V. FUENLABRADA \"A\"",
+          "resultado_final": {
+            "local": 0,
+            "visitante": 2
+          },
+          "sets": []
+        }
+      ],
+      "descansa": [
+        "CARPE DIEM \"A\""
+      ]
+    },
+    {
+      "jornada": 8,
+      "partidos": [
+        {
+          "fecha": null,
+          "lugar": null,
+          "equipo_local": "C.V. FUENLABRADA \"A\"",
+          "equipo_visitante": "C.V. UYSI",
+          "resultado_final": {
+            "local": 2,
+            "visitante": 0
+          },
+          "sets": []
+        },
+        {
+          "fecha": null,
+          "lugar": null,
+          "equipo_local": "C.V. FUENLABRADA \"JUNIOR\"",
+          "equipo_visitante": "C.V. SOTILLO DE LA ADRADA",
+          "resultado_final": {
+            "local": 2,
+            "visitante": 1
+          },
+          "sets": []
+        },
+        {
+          "fecha": null,
+          "lugar": null,
+          "equipo_local": "C.V. PANTOJA",
+          "equipo_visitante": "C.V. FUENLABRADA \"B\"",
+          "resultado_final": {
+            "local": 0,
+            "visitante": 2
+          },
+          "sets": []
+        },
+        {
+          "fecha": null,
+          "lugar": null,
+          "equipo_local": "C.V. UYNO",
+          "equipo_visitante": "C.D.E. PARLA VOLEY",
+          "resultado_final": {
+            "local": 2,
+            "visitante": 0
+          },
+          "sets": []
+        },
+        {
+          "fecha": null,
+          "lugar": null,
+          "equipo_local": "CARPE DIEM \"A\"",
+          "equipo_visitante": "INTERVOLEY",
+          "resultado_final": {
+            "local": 2,
+            "visitante": 1
+          },
+          "sets": []
+        }
+      ],
+      "descansa": [
+        "CARPE DIEM \"B\""
+      ]
+    },
+    {
+      "jornada": 9,
+      "partidos": [
+        {
+          "fecha": null,
+          "lugar": null,
+          "equipo_local": "C.V. UYSI",
+          "equipo_visitante": "C.V. FUENLABRADA \"JUNIOR\"",
+          "resultado_final": {
+            "local": 0,
+            "visitante": 2
+          },
+          "sets": []
+        },
+        {
+          "fecha": null,
+          "lugar": null,
+          "equipo_local": "CARPE DIEM \"B\"",
+          "equipo_visitante": "C.V. FUENLABRADA \"A\"",
+          "resultado_final": {
+            "local": 0,
+            "visitante": 2
+          },
+          "sets": []
+        },
+        {
+          "fecha": null,
+          "lugar": null,
+          "equipo_local": "C.V. FUENLABRADA \"B\"",
+          "equipo_visitante": "C.V. UYNO",
+          "resultado_final": {
+            "local": 1,
+            "visitante": 2
+          },
+          "sets": []
+        },
+        {
+          "fecha": null,
+          "lugar": null,
+          "equipo_local": "C.D.E. PARLA VOLEY",
+          "equipo_visitante": "CARPE DIEM \"A\"",
+          "resultado_final": {
+            "local": 0,
+            "visitante": 2
+          },
+          "sets": []
+        },
+        {
+          "fecha": null,
+          "lugar": null,
+          "equipo_local": "C.V. SOTILLO DE LA ADRADA",
+          "equipo_visitante": "C.V. PANTOJA",
+          "resultado_final": {
+            "local": 2,
+            "visitante": 1
+          },
+          "sets": []
+        }
+      ],
+      "descansa": [
+        "INTERVOLEY"
+      ]
+    },
+    {
+      "jornada": 10,
+      "partidos": [
+        {
+          "fecha": null,
+          "lugar": null,
+          "equipo_local": "CARPE DIEM \"A\"",
+          "equipo_visitante": "C.V. FUENLABRADA \"B\"",
+          "resultado_final": {
+            "local": 1,
+            "visitante": 2
+          },
+          "sets": []
+        },
+        {
+          "fecha": null,
+          "lugar": null,
+          "equipo_local": "INTERVOLEY",
+          "equipo_visitante": "C.D.E. PARLA VOLEY",
+          "resultado_final": {
+            "local": 1,
+            "visitante": 2
+          },
+          "sets": []
+        },
+        {
+          "fecha": null,
+          "lugar": null,
+          "equipo_local": "C.V. FUENLABRADA \"JUNIOR\"",
+          "equipo_visitante": "CARPE DIEM \"B\"",
+          "resultado_final": {
+            "local": 2,
+            "visitante": 0
+          },
+          "sets": []
+        },
+        {
+          "fecha": null,
+          "lugar": null,
+          "equipo_local": "C.V. PANTOJA",
+          "equipo_visitante": "C.V. UYSI",
+          "resultado_final": {
+            "local": 0,
+            "visitante": 2
+          },
+          "sets": []
+        },
+        {
+          "fecha": null,
+          "lugar": null,
+          "equipo_local": "C.V. UYNO",
+          "equipo_visitante": "C.V. SOTILLO DE LA ADRADA",
+          "resultado_final": {
+            "local": 2,
+            "visitante": 1
+          },
+          "sets": []
+        }
+      ],
+      "descansa": [
+        "C.V. FUENLABRADA \"A\""
+      ]
+    },
+    {
+      "jornada": 11,
+      "partidos": [
+        {
+          "fecha": null,
+          "lugar": null,
+          "equipo_local": "C.V. FUENLABRADA \"A\"",
+          "equipo_visitante": "C.V. FUENLABRADA \"JUNIOR\"",
+          "resultado_final": {
+            "local": 2,
+            "visitante": 0
+          },
+          "sets": []
+        },
+        {
+          "fecha": null,
+          "lugar": null,
+          "equipo_local": "CARPE DIEM \"B\"",
+          "equipo_visitante": "C.V. PANTOJA",
+          "resultado_final": {
+            "local": 2,
+            "visitante": 0
+          },
+          "sets": []
+        },
+        {
+          "fecha": null,
+          "lugar": null,
+          "equipo_local": "C.V. FUENLABRADA \"B\"",
+          "equipo_visitante": "INTERVOLEY",
+          "resultado_final": {
+            "local": 2,
+            "visitante": 0
+          },
+          "sets": []
+        },
+        {
+          "fecha": null,
+          "lugar": null,
+          "equipo_local": "C.V. SOTILLO DE LA ADRADA",
+          "equipo_visitante": "CARPE DIEM \"A\"",
+          "resultado_final": {
+            "local": 2,
+            "visitante": 1
+          },
+          "sets": []
+        },
+        {
+          "fecha": null,
+          "lugar": null,
+          "equipo_local": "C.V. UYSI",
+          "equipo_visitante": "C.V. UYNO",
+          "resultado_final": {
+            "local": 0,
+            "visitante": 2
+          },
+          "sets": []
+        }
+      ],
+      "descansa": [
+        "C.D.E. PARLA VOLEY"
+      ]
+    },
+    {
+      "jornada": 12,
+      "partidos": [
+        {
+          "fecha": null,
+          "lugar": null,
+          "equipo_local": "C.V. FUENLABRADA \"B\"",
+          "equipo_visitante": "C.D.E. PARLA VOLEY",
+          "resultado_final": {
+            "local": 2,
+            "visitante": 0
+          },
+          "sets": []
+        },
+        {
+          "fecha": null,
+          "lugar": null,
+          "equipo_local": "C.V. SOTILLO DE LA ADRADA",
+          "equipo_visitante": "INTERVOLEY",
+          "resultado_final": {
+            "local": 1,
+            "visitante": 2
+          },
+          "sets": []
+        },
+        {
+          "fecha": null,
+          "lugar": null,
+          "equipo_local": "C.V. UYSI",
+          "equipo_visitante": "CARPE DIEM \"A\"",
+          "resultado_final": {
+            "local": 1,
+            "visitante": 2
+          },
+          "sets": []
+        },
+        {
+          "fecha": null,
+          "lugar": null,
+          "equipo_local": "CARPE DIEM \"B\"",
+          "equipo_visitante": "C.V. UYNO",
+          "resultado_final": {
+            "local": 0,
+            "visitante": 2
+          },
+          "sets": []
+        },
+        {
+          "fecha": null,
+          "lugar": null,
+          "equipo_local": "C.V. FUENLABRADA \"A\"",
+          "equipo_visitante": "C.V. PANTOJA",
+          "resultado_final": {
+            "local": 2,
+            "visitante": 0
+          },
+          "sets": []
+        }
+      ],
+      "descansa": [
+        "C.V. FUENLABRADA \"JUNIOR\""
+      ]
+    },
+    {
+      "jornada": 13,
+      "partidos": [
+        {
+          "fecha": null,
+          "lugar": null,
+          "equipo_local": "C.D.E. PARLA VOLEY",
+          "equipo_visitante": "C.V. SOTILLO DE LA ADRADA",
+          "resultado_final": {
+            "local": 2,
+            "visitante": 0
+          },
+          "sets": []
+        },
+        {
+          "fecha": null,
+          "lugar": null,
+          "equipo_local": "C.V. UYNO",
+          "equipo_visitante": "C.V. FUENLABRADA \"A\"",
+          "resultado_final": {
+            "local": 2,
+            "visitante": 0
+          },
+          "sets": []
+        },
+        {
+          "fecha": null,
+          "lugar": null,
+          "equipo_local": "C.V. PANTOJA",
+          "equipo_visitante": "C.V. FUENLABRADA \"JUNIOR\"",
+          "resultado_final": {
+            "local": 0,
+            "visitante": 2
+          },
+          "sets": []
+        },
+        {
+          "fecha": null,
+          "lugar": null,
+          "equipo_local": "CARPE DIEM \"A\"",
+          "equipo_visitante": "CARPE DIEM \"B\"",
+          "resultado_final": {
+            "local": 0,
+            "visitante": 2
+          },
+          "sets": []
+        },
+        {
+          "fecha": null,
+          "lugar": null,
+          "equipo_local": "INTERVOLEY",
+          "equipo_visitante": "C.V. UYSI",
+          "resultado_final": {
+            "local": 1,
+            "visitante": 2
+          },
+          "sets": []
+        }
+      ],
+      "descansa": [
+        "C.V. FUENLABRADA \"B\""
+      ]
+    },
+    {
+      "jornada": 14,
+      "partidos": [
+        {
+          "fecha": null,
+          "lugar": null,
+          "equipo_local": "C.V. SOTILLO DE LA ADRADA",
+          "equipo_visitante": "C.V. FUENLABRADA \"B\"",
+          "resultado_final": {
+            "local": 0,
+            "visitante": 2
+          },
+          "sets": []
+        },
+        {
+          "fecha": null,
+          "lugar": null,
+          "equipo_local": "C.V. UYSI",
+          "equipo_visitante": "C.D.E. PARLA VOLEY",
+          "resultado_final": {
+            "local": 2,
+            "visitante": 0
+          },
+          "sets": []
+        },
+        {
+          "fecha": null,
+          "lugar": null,
+          "equipo_local": "C.V. FUENLABRADA \"JUNIOR\"",
+          "equipo_visitante": "C.V. UYNO",
+          "resultado_final": {
+            "local": 2,
+            "visitante": 1
+          },
+          "sets": []
+        },
+        {
+          "fecha": null,
+          "lugar": null,
+          "equipo_local": "CARPE DIEM \"B\"",
+          "equipo_visitante": "INTERVOLEY",
+          "resultado_final": {
+            "local": 2,
+            "visitante": 1
+          },
+          "sets": []
+        },
+        {
+          "fecha": null,
+          "lugar": null,
+          "equipo_local": "C.V. FUENLABRADA \"A\"",
+          "equipo_visitante": "CARPE DIEM \"A\"",
+          "resultado_final": {
+            "local": 2,
+            "visitante": 1
+          },
+          "sets": []
+        }
+      ],
+      "descansa": [
+        "C.V. PANTOJA"
+      ]
+    },
+    {
+      "jornada": 15,
+      "partidos": [
+        {
+          "fecha": null,
+          "lugar": null,
+          "equipo_local": "INTERVOLEY",
+          "equipo_visitante": "C.V. FUENLABRADA \"A\"",
+          "resultado_final": {
+            "local": 0,
+            "visitante": 2
+          },
+          "sets": []
+        },
+        {
+          "fecha": null,
+          "lugar": null,
+          "equipo_local": "C.D.E. PARLA VOLEY",
+          "equipo_visitante": "CARPE DIEM \"B\"",
+          "resultado_final": {
+            "local": 0,
+            "visitante": 2
+          },
+          "sets": []
+        },
+        {
+          "fecha": null,
+          "lugar": null,
+          "equipo_local": "C.V. FUENLABRADA \"B\"",
+          "equipo_visitante": "C.V. UYSI",
+          "resultado_final": {
+            "local": 2,
+            "visitante": 1
+          },
+          "sets": []
+        },
+        {
+          "fecha": null,
+          "lugar": null,
+          "equipo_local": "CARPE DIEM \"A\"",
+          "equipo_visitante": "C.V. FUENLABRADA \"JUNIOR\"",
+          "resultado_final": {
+            "local": 2,
+            "visitante": 1
+          },
+          "sets": []
+        },
+        {
+          "fecha": null,
+          "lugar": null,
+          "equipo_local": "C.V. UYNO",
+          "equipo_visitante": "C.V. PANTOJA",
+          "resultado_final": {
+            "local": 2,
+            "visitante": 0
+          },
+          "sets": []
+        }
+      ],
+      "descansa": [
+        "C.V. SOTILLO DE LA ADRADA"
+      ]
+    },
+    {
+      "jornada": 16,
+      "partidos": [
+        {
+          "fecha": null,
+          "lugar": null,
+          "equipo_local": "C.V. UYSI",
+          "equipo_visitante": "C.V. SOTILLO DE LA ADRADA",
+          "resultado_final": {
+            "local": 2,
+            "visitante": 1
+          },
+          "sets": []
+        },
+        {
+          "fecha": null,
+          "lugar": null,
+          "equipo_local": "C.V. FUENLABRADA \"JUNIOR\"",
+          "equipo_visitante": "INTERVOLEY",
+          "resultado_final": {
+            "local": 1,
+            "visitante": 2
+          },
+          "sets": []
+        },
+        {
+          "fecha": null,
+          "lugar": null,
+          "equipo_local": "C.V. FUENLABRADA \"A\"",
+          "equipo_visitante": "C.D.E. PARLA VOLEY",
+          "resultado_final": {
+            "local": 2,
+            "visitante": 0
+          },
+          "sets": []
+        },
+        {
+          "fecha": null,
+          "lugar": null,
+          "equipo_local": "C.V. PANTOJA",
+          "equipo_visitante": "CARPE DIEM \"A\"",
+          "resultado_final": {
+            "local": 0,
+            "visitante": 2
+          },
+          "sets": []
+        },
+        {
+          "fecha": null,
+          "lugar": null,
+          "equipo_local": "CARPE DIEM \"B\"",
+          "equipo_visitante": "C.V. FUENLABRADA \"B\"",
+          "resultado_final": {
+            "local": 2,
+            "visitante": 1
+          },
+          "sets": []
+        }
+      ],
+      "descansa": [
+        "C.V. UYNO"
+      ]
+    },
+    {
+      "jornada": 17,
+      "partidos": [
+        {
+          "fecha": null,
+          "lugar": null,
+          "equipo_local": "INTERVOLEY",
+          "equipo_visitante": "C.V. PANTOJA",
+          "resultado_final": {
+            "local": 2,
+            "visitante": 1
+          },
+          "sets": []
+        },
+        {
+          "fecha": null,
+          "lugar": null,
+          "equipo_local": "C.V. FUENLABRADA \"B\"",
+          "equipo_visitante": "C.V. FUENLABRADA \"A\"",
+          "resultado_final": {
+            "local": 2,
+            "visitante": 1
+          },
+          "sets": []
+        },
+        {
+          "fecha": null,
+          "lugar": null,
+          "equipo_local": "C.D.E. PARLA VOLEY",
+          "equipo_visitante": "C.V. FUENLABRADA \"JUNIOR\"",
+          "resultado_final": {
+            "local": 1,
+            "visitante": 2
+          },
+          "sets": []
+        },
+        {
+          "fecha": null,
+          "lugar": null,
+          "equipo_local": "C.V. SOTILLO DE LA ADRADA",
+          "equipo_visitante": "CARPE DIEM \"B\"",
+          "resultado_final": {
+            "local": 2,
+            "visitante": 1
+          },
+          "sets": []
+        },
+        {
+          "fecha": null,
+          "lugar": null,
+          "equipo_local": "CARPE DIEM \"A\"",
+          "equipo_visitante": "C.V. UYNO",
+          "resultado_final": {
+            "local": 0,
+            "visitante": 2
+          },
+          "sets": []
+        }
+      ],
+      "descansa": [
+        "C.V. UYSI"
+      ]
+    },
+    {
+      "jornada": 18,
+      "partidos": [
+        {
+          "fecha": null,
+          "lugar": null,
+          "equipo_local": "C.V. UYNO",
+          "equipo_visitante": "INTERVOLEY",
+          "resultado_final": {
+            "local": 2,
+            "visitante": 0
+          },
+          "sets": []
+        },
+        {
+          "fecha": null,
+          "lugar": null,
+          "equipo_local": "C.V. FUENLABRADA \"A\"",
+          "equipo_visitante": "C.V. SOTILLO DE LA ADRADA",
+          "resultado_final": {
+            "local": 2,
+            "visitante": 0
+          },
+          "sets": []
+        },
+        {
+          "fecha": null,
+          "lugar": null,
+          "equipo_local": "C.V. FUENLABRADA \"JUNIOR\"",
+          "equipo_visitante": "C.V. FUENLABRADA \"B\"",
+          "resultado_final": {
+            "local": 0,
+            "visitante": 2
+          },
+          "sets": []
+        },
+        {
+          "fecha": null,
+          "lugar": null,
+          "equipo_local": "CARPE DIEM \"B\"",
+          "equipo_visitante": "C.V. UYSI",
+          "resultado_final": {
+            "local": 0,
+            "visitante": 2
+          },
+          "sets": []
+        },
+        {
+          "fecha": null,
+          "lugar": null,
+          "equipo_local": "C.V. PANTOJA",
+          "equipo_visitante": "C.D.E. PARLA VOLEY",
+          "resultado_final": {
+            "local": 2,
+            "visitante": 0
+          },
+          "sets": []
+        }
+      ],
+      "descansa": [
+        "CARPE DIEM \"A\""
+      ]
+    },
+    {
+      "jornada": 19,
+      "partidos": [
+        {
+          "fecha": null,
+          "lugar": null,
+          "equipo_local": "C.V. UYSI",
+          "equipo_visitante": "C.V. FUENLABRADA \"A\"",
+          "resultado_final": {
+            "local": 0,
+            "visitante": 2
+          },
+          "sets": []
+        },
+        {
+          "fecha": null,
+          "lugar": null,
+          "equipo_local": "C.D.E. PARLA VOLEY",
+          "equipo_visitante": "C.V. UYNO",
+          "resultado_final": {
+            "local": 0,
+            "visitante": 2
+          },
+          "sets": []
+        },
+        {
+          "fecha": null,
+          "lugar": null,
+          "equipo_local": "C.V. FUENLABRADA \"B\"",
+          "equipo_visitante": "C.V. PANTOJA",
+          "resultado_final": {
+            "local": 2,
+            "visitante": 0
+          },
+          "sets": []
+        },
+        {
+          "fecha": null,
+          "lugar": null,
+          "equipo_local": "C.V. SOTILLO DE LA ADRADA",
+          "equipo_visitante": "C.V. FUENLABRADA \"JUNIOR\"",
+          "resultado_final": {
+            "local": 2,
+            "visitante": 1
+          },
+          "sets": []
+        },
+        {
+          "fecha": null,
+          "lugar": null,
+          "equipo_local": "INTERVOLEY",
+          "equipo_visitante": "CARPE DIEM \"A\"",
+          "resultado_final": {
+            "local": 0,
+            "visitante": 2
+          },
+          "sets": []
+        }
+      ],
+      "descansa": [
+        "CARPE DIEM \"B\""
+      ]
+    },
+    {
+      "jornada": 20,
+      "partidos": [
+        {
+          "fecha": null,
+          "lugar": null,
+          "equipo_local": "C.V. FUENLABRADA \"A\"",
+          "equipo_visitante": "CARPE DIEM \"B\"",
+          "resultado_final": {
+            "local": 2,
+            "visitante": 0
+          },
+          "sets": []
+        },
+        {
+          "fecha": null,
+          "lugar": null,
+          "equipo_local": "CARPE DIEM \"A\"",
+          "equipo_visitante": "C.D.E. PARLA VOLEY",
+          "resultado_final": {
+            "local": 2,
+            "visitante": 1
+          },
+          "sets": []
+        },
+        {
+          "fecha": null,
+          "lugar": null,
+          "equipo_local": "C.V. UYNO",
+          "equipo_visitante": "C.V. FUENLABRADA \"B\"",
+          "resultado_final": {
+            "local": 0,
+            "visitante": 2
+          },
+          "sets": []
+        },
+        {
+          "fecha": null,
+          "lugar": null,
+          "equipo_local": "C.V. PANTOJA",
+          "equipo_visitante": "C.V. SOTILLO DE LA ADRADA",
+          "resultado_final": {
+            "local": 0,
+            "visitante": 2
+          },
+          "sets": []
+        },
+        {
+          "fecha": null,
+          "lugar": null,
+          "equipo_local": "C.V. FUENLABRADA \"JUNIOR\"",
+          "equipo_visitante": "C.V. UYSI",
+          "resultado_final": {
+            "local": 0,
+            "visitante": 2
+          },
+          "sets": []
+        }
+      ],
+      "descansa": [
+        "INTERVOLEY"
+      ]
+    },
+    {
+      "jornada": 21,
+      "partidos": [
+        {
+          "fecha": null,
+          "lugar": null,
+          "equipo_local": "C.V. FUENLABRADA \"B\"",
+          "equipo_visitante": "CARPE DIEM \"A\"",
+          "resultado_final": {
+            "local": 2,
+            "visitante": 0
+          },
+          "sets": []
+        },
+        {
+          "fecha": null,
+          "lugar": null,
+          "equipo_local": "C.D.E. PARLA VOLEY",
+          "equipo_visitante": "INTERVOLEY",
+          "resultado_final": {
+            "local": 2,
+            "visitante": 0
+          },
+          "sets": []
+        },
+        {
+          "fecha": null,
+          "lugar": null,
+          "equipo_local": "C.V. UYSI",
+          "equipo_visitante": "C.V. PANTOJA",
+          "resultado_final": {
+            "local": 2,
+            "visitante": 0
+          },
+          "sets": []
+        },
+        {
+          "fecha": null,
+          "lugar": null,
+          "equipo_local": "C.V. SOTILLO DE LA ADRADA",
+          "equipo_visitante": "C.V. UYNO",
+          "resultado_final": {
+            "local": 1,
+            "visitante": 2
+          },
+          "sets": []
+        },
+        {
+          "fecha": null,
+          "lugar": null,
+          "equipo_local": "CARPE DIEM \"B\"",
+          "equipo_visitante": "C.V. FUENLABRADA \"JUNIOR\"",
+          "resultado_final": {
+            "local": 0,
+            "visitante": 2
+          },
+          "sets": []
+        }
+      ],
+      "descansa": [
+        "C.V. FUENLABRADA \"A\""
+      ]
+    },
+    {
+      "jornada": 22,
+      "partidos": [
+        {
+          "fecha": null,
+          "lugar": null,
+          "equipo_local": "C.V. PANTOJA",
+          "equipo_visitante": "CARPE DIEM \"B\"",
+          "resultado_final": {
+            "local": 0,
+            "visitante": 2
+          },
+          "sets": []
+        },
+        {
+          "fecha": null,
+          "lugar": null,
+          "equipo_local": "C.V. FUENLABRADA \"JUNIOR\"",
+          "equipo_visitante": "C.V. FUENLABRADA \"A\"",
+          "resultado_final": {
+            "local": 0,
+            "visitante": 2
+          },
+          "sets": []
+        },
+        {
+          "fecha": null,
+          "lugar": null,
+          "equipo_local": "C.V. UYNO",
+          "equipo_visitante": "C.V. UYSI",
+          "resultado_final": {
+            "local": 2,
+            "visitante": 1
+          },
+          "sets": []
+        },
+        {
+          "fecha": null,
+          "lugar": null,
+          "equipo_local": "CARPE DIEM \"A\"",
+          "equipo_visitante": "C.V. SOTILLO DE LA ADRADA",
+          "resultado_final": {
+            "local": 2,
+            "visitante": 0
+          },
+          "sets": []
+        },
+        {
+          "fecha": null,
+          "lugar": null,
+          "equipo_local": "INTERVOLEY",
+          "equipo_visitante": "C.V. FUENLABRADA \"B\"",
+          "resultado_final": {
+            "local": 0,
+            "visitante": 2
+          },
+          "sets": []
+        }
+      ],
+      "descansa": [
+        "C.D.E. PARLA VOLEY"
+      ]
+    }
+  ]
+}

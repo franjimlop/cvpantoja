@@ -1,0 +1,54 @@
+
+/* =========================================
+   CV PANTOJA - PÁGINA DE JORNADAS
+   ========================================= */
+
+/* Distribución de las jornadas */
+#resultados .jornadas-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 25px;
+}
+
+/* Cada jornada */
+#resultados .jornada-container {
+    min-width: 0;
+}
+
+#resultados .jornada {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    height: 100%;
+}
+
+/* Título de la jornada */
+#resultados .jornada h2 {
+    margin: 0 0 15px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #D4AF37;
+    text-align: center;
+}
+
+/* Tabla de partidos */
+#resultados .tabla-jornada {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Equipo que descansa */
+#resultados .descanso {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #F4F6F8;
+    border-radius: 6px;
+    text-align: center;
+}
+
+/* Adaptación a móviles */
+@media (max-width: 700px) {
+    #resultados .jornadas-grid {
+        grid-template-columns: 1fr;
+    }
+}

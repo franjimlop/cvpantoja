@@ -1,0 +1,66 @@
+
+/* =========================================
+   PÁGINA DE EQUIPOS
+   ========================================= */
+
+/* Secciones de los equipos */
+
+#pantoja-oro,
+#pantoja-azul {
+    background-color: var(--blanco);
+    border-radius: 8px;
+    box-shadow: var(--sombra);
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+/* Títulos */
+
+#pantoja-oro h2,
+#pantoja-azul h2 {
+    margin: 0;
+    padding: 18px 20px;
+    color: var(--blanco);
+}
+
+/* Colores de cada equipo */
+
+#pantoja-oro h2 {
+    background-color: var(--oro);
+    color: var(--azul-oscuro);
+}
+
+#pantoja-azul h2 {
+    background-color: var(--azul-equipo);
+}
+
+/* Contenedores de estadísticas */
+
+#estadisticas-oro,
+#estadisticas-azul {
+    padding: 20px;
+}
+
+/* Elementos habituales de estadísticas */
+
+#estadisticas-oro p,
+#estadisticas-azul p {
+    margin-bottom: 10px;
+}
+
+/* Tablas de estadísticas, si las genera JavaScript */
+
+#estadisticas-oro table,
+#estadisticas-azul table {
+    box-shadow: none;
+    margin-bottom: 0;
+}
+
+/* Adaptación a móviles */
+
+@media (max-width: 600px) {
+    #estadisticas-oro,
+    #estadisticas-azul {
+        padding: 12px;
+    }
+}

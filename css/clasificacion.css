@@ -1,0 +1,62 @@
+
+/* =========================================
+   PÁGINA DE CLASIFICACIÓN
+   ========================================= */
+
+.tabla-clasificacion {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+/* Posición */
+
+.tabla-clasificacion td:first-child {
+    width: 60px;
+    font-weight: bold;
+}
+
+/* Nombre del equipo */
+
+.tabla-clasificacion td:nth-child(2) {
+    text-align: left;
+    font-weight: 600;
+}
+
+/* Puntos */
+
+.tabla-clasificacion td:nth-child(3) {
+    font-weight: bold;
+    color: var(--azul-oscuro);
+}
+
+/* Primera posición */
+
+#clasificacion tr:first-child {
+    background-color: #FFF8E5;
+}
+
+/* Leyenda */
+
+.leyenda {
+    background-color: var(--blanco);
+    padding: 15px;
+    border-radius: 6px;
+    box-shadow: var(--sombra);
+}
+
+/* Adaptación a móviles */
+
+@media (max-width: 600px) {
+    .tabla-clasificacion {
+        font-size: 0.78rem;
+    }
+
+    .tabla-clasificacion th,
+    .tabla-clasificacion td {
+        padding: 8px 4px;
+    }
+
+    .leyenda {
+        gap: 8px 15px;
+    }
+}
