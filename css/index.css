@@ -42,3 +42,85 @@
         padding: 8px 4px;
     }
 }
+
+/* =========================================
+   PRÓXIMOS PARTIDOS
+   ========================================= */
+
+/* Distribución de las tarjetas */
+.proximos-partidos {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 25px;
+}
+
+/* Tarjeta de cada equipo */
+.proximo-partido {
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: var(--sombra);
+}
+
+/* Títulos */
+.proximo-partido h3 {
+    color: inherit;
+    font-size: 1.4rem;
+    margin-bottom: 8px;
+}
+
+/* Jornada */
+.jornada-proximo {
+    margin-bottom: 20px;
+    font-size: 0.9rem;
+    opacity: 0.85;
+}
+
+/* Enfrentamiento */
+.enfrentamiento {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.enfrentamiento strong {
+    font-size: 1.15rem;
+}
+
+.enfrentamiento span {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+/* Condición de local o visitante */
+.condicion-proximo {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+/* Fecha y lugar */
+.detalles-proximo {
+    border-top: 1px solid currentColor;
+    padding-top: 12px;
+    margin-top: 15px;
+}
+
+.detalles-proximo p {
+    margin: 5px 0;
+}
+
+/* Adaptación a móviles */
+@media (max-width: 700px) {
+
+    .proximos-partidos {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .proximo-partido {
+        padding: 20px;
+    }
+
+}

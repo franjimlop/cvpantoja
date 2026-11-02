@@ -121,15 +121,21 @@ function mostrarResultados(partidosPorJornada) {
 
 
             // Mostrar el equipo que descansa
+            const claseDescanso = descansan.length > 0
+                ? CVPantoja.obtenerClaseEquipo({
+                    equipo_local: descansan.join(" "),
+                    equipo_visitante: ""
+                })
+                : "";
+
             const descansoHTML = descansan.length > 0
                 ? `
-                    <div class="descanso">
+                    <div class="descanso ${claseDescanso}">
                         <strong>Descansa:</strong>
                         ${descansan.join(", ")}
                     </div>
                 `
                 : "";
-
 
             return `
                 <div class="jornada-container">

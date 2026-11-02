@@ -1,40 +1,74 @@
-
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="images/favicon.png" type="image/x-icon">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="images/favicon.png" type="image/x-icon" />
 
     <title>CV Pantoja - Equipos</title>
 
-    <link rel="stylesheet" href="css/comun.css">
-    <link rel="stylesheet" href="css/equipos.css">
-</head>
-<body>
-
+    <link rel="stylesheet" href="css/comun.css" />
+    <link rel="stylesheet" href="css/equipos.css" />
+  </head>
+  <body>
     <header id="cabecera"></header>
 
     <main class="container">
+      <h1>Nuestros equipos</h1>
 
-        <h1>Nuestros equipos</h1>
+      <section id="pantoja-oro">
+        <h2>Pantoja Oro</h2>
 
-        <section id="pantoja-oro">
-            <h2>Pantoja Oro</h2>
-            <div id="estadisticas-oro"></div>
-        </section>
+        <div id="estadisticas-oro"></div>
 
-        <section id="pantoja-azul">
-            <h2>Pantoja Azul</h2>
-            <div id="estadisticas-azul"></div>
-        </section>
+        <h3>Racha</h3>
+        <div id="racha-oro"></div>
+      </section>
 
-        <p id="mensaje-error" class="mensaje-error" hidden></p>
+      <section id="pantoja-azul">
+        <h2>Pantoja Azul</h2>
 
+        <div id="estadisticas-azul"></div>
+
+        <h3>Racha</h3>
+        <div id="racha-azul"></div>
+      </section>
+
+      <section class="seccion-graficos">
+        <h2>Comparación de rendimiento</h2>
+
+        <h3>Victorias y derrotas por jornada</h3>
+        <div class="contenedor-grafico">
+          <canvas
+            id="grafico-resultados"
+            role="img"
+            aria-label="Gráfico de victorias y derrotas por jornada de ambos equipos"
+          >
+          </canvas>
+        </div>
+
+        <h3>Evolución de puntos</h3>
+        <div class="contenedor-grafico">
+          <canvas
+            id="grafico-puntos"
+            role="img"
+            aria-label="Gráfico de evolución de puntos acumulados de ambos equipos"
+          >
+          </canvas>
+        </div>
+      </section>
+
+      <section class="seccion-comparativa">
+        <h2>Comparativa entre equipos</h2>
+        <div id="comparativa"></div>
+      </section>
+
+      <p id="mensaje-error" class="mensaje-error" hidden></p>
     </main>
 
     <script src="js/comun.js" defer></script>
     <script src="js/datos.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="js/equipos.js" defer></script>
-</body>
+  </body>
 </html>

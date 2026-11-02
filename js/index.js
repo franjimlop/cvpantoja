@@ -31,22 +31,42 @@ async function obtenerDatos() {
 
                 if (!esPantoja) return;
 
+                // Guardar también el número de jornada
+                const partidoCompleto = {
+                    ...partido,
+                    jornada: jornada.jornada
+                };
+
                 // Comprobar si el partido ya se ha jugado
                 const jugado =
                     partido.resultado_final !== null &&
                     partido.resultado_final !== undefined;
 
                 if (jugado) {
-                    partidosJugados.push(partido);
+                    partidosJugados.push(partidoCompleto);
                 } else {
-                    partidosPendientes.push(partido);
+                    partidosPendientes.push(partidoCompleto);
                 }
 
             });
 
         });
 
-        // Mostrar los partidos en sus respectivas tablas
+        // Mostrar los próximos partidos de cada equipo
+        const proximoOro = obtenerProximoPartido(
+            partidosPendientes,
+            "PANTOJA ORO"
+        );
+
+        const proximoAzul = obtenerProximoPartido(
+            partidosPendientes,
+            "PANTOJA AZUL"
+        );
+
+        mostrarProximoPartido(proximoOro, "proximo-oro", "Pantoja Oro");
+        mostrarProximoPartido(proximoAzul, "proximo-azul", "Pantoja Azul");
+
+        // Mostrar todos los partidos en sus respectivas tablas
         mostrarPartidos(partidosPendientes, "pendientes", false);
         mostrarPartidos(partidosJugados, "jugados", true);
 
@@ -62,6 +82,84 @@ async function obtenerDatos() {
         }
 
     }
+
+}
+
+
+// Obtener el primer partido pendiente de un equipo
+function obtenerProximoPartido(partidos, nombreEquipo) {
+
+    return partidos.find(partido => {
+
+        const local = partido.equipo_local.toUpperCase();
+        const visitante = partido.equipo_visitante.toUpperCase();
+
+        return local.includes(nombreEquipo) ||
+               visitante.includes(nombreEquipo);
+
+    }) || null;
+
+}
+
+
+// Mostrar la tarjeta del próximo partido
+function mostrarProximoPartido(partido, contenedorId, nombreEquipo) {
+
+    const contenedor = document.getElementById(contenedorId);
+
+    if (!contenedor) return;
+
+    // Si no quedan partidos pendientes
+    if (!partido) {
+
+        contenedor.innerHTML = `
+            <h3>${nombreEquipo}</h3>
+            <p>No hay próximos partidos.</p>
+        `;
+
+        return;
+    }
+
+    // Determinar el rival
+    const local = partido.equipo_local.toUpperCase();
+
+    const esLocal = local.includes(nombreEquipo.toUpperCase());
+
+    const rival = esLocal
+    ? partido.equipo_visitante
+    : partido.equipo_local;
+
+    // Mostrar el nombre del equipo con su escritura original
+    const equipoMostrar = esLocal
+    ? partido.equipo_local
+    : partido.equipo_visitante;
+
+    const condicion = esLocal ? "Local" : "Visitante";
+
+    // Mostrar fecha y lugar si existen
+    const fecha = partido.fecha || "Fecha pendiente";
+    const lugar = partido.lugar || "Lugar pendiente";
+
+    contenedor.innerHTML = `
+        <h3>${nombreEquipo}</h3>
+
+        <p class="jornada-proximo">
+            Jornada ${partido.jornada}
+        </p>
+
+        <div class="enfrentamiento">
+            <strong>${equipoMostrar}</strong>
+            <span>VS</span>
+            <strong>${rival}</strong>
+        </div>
+
+        <p class="condicion-proximo">${condicion}</p>
+
+        <div class="detalles-proximo">
+            <p>🕒 ${fecha}</p>
+            <p>📍 ${lugar}</p>
+        </div>
+    `;
 
 }
 

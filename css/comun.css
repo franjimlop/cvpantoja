@@ -173,24 +173,56 @@ tbody tr:last-child td {
     border-bottom: none;
 }
 
-tbody tr:hover {
-    background-color: #F0F4F8;
+/* ---------- EFECTO HOVER DE LOS EQUIPOS ---------- */
+
+/* Pantoja Oro */
+tbody tr.equipo-oro:hover {
+    background-color: #C19D2E;
+    color: #10243A;
+}
+
+/* Pantoja Azul */
+tbody tr.equipo-azul:hover {
+    background-color: #1B3D5E;
+    color: #FFFFFF;
+}
+
+/* Derbis */
+tbody tr.partido-derbi:hover {
+    background: linear-gradient(
+        to right,
+        #C19D2E 0%,
+        #C19D2E 50%,
+        #1B3D5E 50%,
+        #1B3D5E 100%
+    );
+    color: #FFFFFF;
 }
 
 /* ---------- IDENTIFICACIÓN DE EQUIPOS ---------- */
 
 .equipo-oro {
-    color: #A17C00;
+    background-color: #D4AF37;
+    color: #10243A;
     font-weight: bold;
 }
 
 .equipo-azul {
-    color: var(--azul-equipo);
+    background-color: #244F78;
+    color: #FFFFFF;
     font-weight: bold;
 }
 
 .partido-derbi {
-    background-color: #FFF8E5;
+    background: linear-gradient(
+        to right,
+        #D4AF37 0%,
+        #D4AF37 50%,
+        #244F78 50%,
+        #244F78 100%
+    );
+    color: #FFFFFF;
+    font-weight: bold;
 }
 
 /* ---------- LEYENDAS ---------- */

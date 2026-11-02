@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -19,26 +18,46 @@
 
         <h1>Temporada 2026/2027</h1>
 
+        <!-- Próximos partidos de cada equipo -->
         <section>
             <h2>Próximos partidos</h2>
+
+            <div id="proximos-partidos" class="proximos-partidos">
+
+                <div id="proximo-oro" class="proximo-partido equipo-oro">
+                </div>
+
+                <div id="proximo-azul" class="proximo-partido equipo-azul">
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Todos los partidos pendientes -->
+        <section>
+            <h2>Todos los partidos pendientes</h2>
+
             <table class="tabla-jornada">
                 <tbody id="pendientes"></tbody>
             </table>
-            <p id="mensaje-error" class="mensaje-error" hidden></p>
         </section>
 
+        <!-- Todos los partidos jugados -->
         <section>
             <h2>Partidos jugados</h2>
+
             <table class="tabla-jornada">
                 <tbody id="jugados"></tbody>
             </table>
-            <p id="mensaje-error" class="mensaje-error" hidden></p>
         </section>
+
+        <p id="mensaje-error" class="mensaje-error" hidden></p>
 
     </main>
 
     <script src="js/comun.js" defer></script>
     <script src="js/datos.js" defer></script>
     <script src="js/index.js" defer></script>
+
 </body>
 </html>

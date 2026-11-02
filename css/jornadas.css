@@ -44,6 +44,19 @@
     background-color: #F4F6F8;
     border-radius: 6px;
     text-align: center;
+    font-weight: bold;
+}
+
+/* Descansa Pantoja Oro */
+#resultados .descanso.equipo-oro {
+    background-color: #D4AF37;
+    color: #10243A;
+}
+
+/* Descansa Pantoja Azul */
+#resultados .descanso.equipo-azul {
+    background-color: #244F78;
+    color: #FFFFFF;
 }
 
 /* Adaptación a móviles */
