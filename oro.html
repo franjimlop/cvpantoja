@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="images/favicon.png" type="image/x-icon">
+
+    <title>CV Pantoja - Pantoja Oro</title>
+
+    <link rel="stylesheet" href="css/comun.css">
+    <link rel="stylesheet" href="css/equipo-individual.css">
+</head>
+
+<body>
+
+    <header id="cabecera"></header>
+
+    <main class="container"
+          data-equipo="PANTOJA ORO"
+          data-plantilla="./datos/plantilla_oro.json">
+
+        <!-- Cabecera del equipo -->
+        <section class="cabecera-equipo equipo-oro">
+            <h1>Pantoja Oro</h1>
+            <p id="categoria-equipo">Categoría</p>
+            <p id="entrenador-equipo">Entrenador/a</p>
+        </section>
+
+        <!-- Estadísticas -->
+        <section class="seccion-equipo">
+            <h2>Estadísticas de la temporada</h2>
+            <div id="estadisticas-equipo"></div>
+        </section>
+
+        <!-- Rendimiento -->
+        <section class="seccion-equipo">
+            <h2>Rendimiento</h2>
+            <div id="rendimiento-equipo"></div>
+        </section>
+
+        <!-- Racha -->
+        <section class="seccion-equipo">
+            <h2>Últimos resultados</h2>
+            <div id="racha-equipo"></div>
+        </section>
+
+        <!-- Plantilla -->
+        <section class="seccion-equipo">
+            <h2>Plantilla</h2>
+            <div id="plantilla-equipo"></div>
+        </section>
+
+        <!-- Gráficos -->
+        <section class="seccion-equipo">
+            <h2>Evolución del equipo</h2>
+
+            <h3>Victorias y derrotas por jornada</h3>
+            <div class="contenedor-grafico">
+                <canvas id="grafico-resultados"></canvas>
+            </div>
+
+            <h3>Evolución de puntos</h3>
+            <div class="contenedor-grafico">
+                <canvas id="grafico-puntos"></canvas>
+            </div>
+        </section>
+
+        <!-- Calendario -->
+        <section class="seccion-equipo">
+            <h2>Calendario y resultados</h2>
+            <div id="calendario-equipo"></div>
+        </section>
+
+        <p id="mensaje-error" class="mensaje-error" hidden></p>
+
+    </main>
+
+    <script src="js/comun.js" defer></script>
+    <script src="js/datos.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="js/estadisticas.js" defer></script>
+    <script src="js/equipo-individual.js" defer></script>
+
+</body>
+</html>

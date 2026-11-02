@@ -318,3 +318,40 @@ footer {
         padding: 8px 5px;
     }
 }
+
+/* =========================================
+   CABECERA PANTOJA ORO
+   ========================================= */
+
+#cabecera.cabecera-oro {
+    background-color: #D4AF37;
+}
+
+#cabecera.cabecera-oro nav a {
+    color: #10243A;
+}
+
+#cabecera.cabecera-oro nav a:hover,
+#cabecera.cabecera-oro nav a.activo {
+    background-color: #B7950B;
+    color: #FFFFFF;
+}
+
+
+/* =========================================
+   CABECERA PANTOJA AZUL
+   ========================================= */
+
+#cabecera.cabecera-azul {
+    background-color: #244F78;
+}
+
+#cabecera.cabecera-azul nav a {
+    color: #FFFFFF;
+}
+
+#cabecera.cabecera-azul nav a:hover,
+#cabecera.cabecera-azul nav a.activo {
+    background-color: #10243A;
+    color: #FFFFFF;
+}

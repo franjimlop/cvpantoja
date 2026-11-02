@@ -24,6 +24,14 @@ const paginas = [
         archivo: "equipos.html"
     },
     {
+        nombre: "Pantoja Azul",
+        archivo: "azul.html"
+    },
+    {
+        nombre: "Pantoja Oro",
+        archivo: "oro.html"
+    },
+    {
         nombre: "Temp. 24/25",
         archivo: "temporada1.html"
     },
@@ -38,6 +46,13 @@ const paginaActual = window.location.pathname.split("/").pop() || "index.html";
 
 // Buscar el elemento donde se insertará la cabecera
 const cabecera = document.getElementById("cabecera");
+
+// Identificar si estamos en una página individual de equipo
+if (paginaActual === "oro.html") {
+    cabecera.classList.add("cabecera-oro");
+} else if (paginaActual === "azul.html") {
+    cabecera.classList.add("cabecera-azul");
+}
 
 // Generar la cabecera
 if (cabecera) {

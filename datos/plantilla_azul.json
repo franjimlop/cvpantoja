@@ -1,0 +1,68 @@
+
+{
+    "equipo": "Pantoja Azul",
+    "categoria": "Senior",
+    "entrenador": "Carlos",
+    "jugadoras": [
+        {
+            "dorsal": 1,
+            "nombre": "Diego",
+            "posicion": "Líbero"
+        },
+        {
+            "dorsal": 2,
+            "nombre": "Andrea",
+            "posicion": "Colocadora"
+        },
+        {
+            "dorsal": 4,
+            "nombre": "Natalia",
+            "posicion": "Colocadora"
+        },
+        {
+            "dorsal": 6,
+            "nombre": "Bea",
+            "posicion": "Receptora"
+        },
+        {
+            "dorsal": 8,
+            "nombre": "David",
+            "posicion": "Receptor"
+        },
+        {
+            "dorsal": 9,
+            "nombre": "Enhar",
+            "posicion": "Opuesta"
+        },
+        {
+            "dorsal": 10,
+            "nombre": "Patri",
+            "posicion": "Receptora"
+        },
+        {
+            "dorsal": 12,
+            "nombre": "Jesús",
+            "posicion": "Receptor"
+        },
+        {
+            "dorsal": 14,
+            "nombre": "Majano",
+            "posicion": "Central"
+        },
+        {
+            "dorsal": 17,
+            "nombre": "Ramón",
+            "posicion": "Central"
+        },
+        {
+            "dorsal": 23,
+            "nombre": "Fran",
+            "posicion": "Central"
+        },
+        {
+            "dorsal": null,
+            "nombre": "Nerea",
+            "posicion": "Receptora"
+        }
+    ]
+}

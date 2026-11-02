@@ -1,0 +1,20 @@
+
+{
+    "equipo": "Pantoja Oro",
+    "categoria": "Juvenil",
+    "entrenador": "Ramón",
+    "jugadoras": [
+        {"dorsal": null, "nombre": "Jugador/a 1", "posicion": "Por determinar"},
+        {"dorsal": null, "nombre": "Jugador/a 2", "posicion": "Por determinar"},
+        {"dorsal": null, "nombre": "Jugador/a 3", "posicion": "Por determinar"},
+        {"dorsal": null, "nombre": "Jugador/a 4", "posicion": "Por determinar"},
+        {"dorsal": null, "nombre": "Jugador/a 5", "posicion": "Por determinar"},
+        {"dorsal": null, "nombre": "Jugador/a 6", "posicion": "Por determinar"},
+        {"dorsal": null, "nombre": "Jugador/a 7", "posicion": "Por determinar"},
+        {"dorsal": null, "nombre": "Jugador/a 8", "posicion": "Por determinar"},
+        {"dorsal": null, "nombre": "Jugador/a 9", "posicion": "Por determinar"},
+        {"dorsal": null, "nombre": "Jugador/a 10", "posicion": "Por determinar"},
+        {"dorsal": null, "nombre": "Jugador/a 11", "posicion": "Por determinar"},
+        {"dorsal": null, "nombre": "Jugador/a 12", "posicion": "Por determinar"}
+    ]
+}
