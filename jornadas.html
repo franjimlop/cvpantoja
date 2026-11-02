@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -18,6 +17,36 @@
     <main class="container">
 
         <h1>Calendario 2026/2027</h1>
+
+        <!-- Filtros -->
+        <section class="filtros-jornadas">
+
+            <div class="filtro">
+                <label for="filtro-jornada">Jornada</label>
+                <select id="filtro-jornada">
+                    <option value="todas">Todas las jornadas</option>
+                </select>
+            </div>
+
+            <div class="filtro">
+                <label for="filtro-equipo">Equipo</label>
+                <select id="filtro-equipo">
+                    <option value="todos">Todos los equipos</option>
+                    <option value="oro">Pantoja Oro</option>
+                    <option value="azul">Pantoja Azul</option>
+                </select>
+            </div>
+
+            <div class="filtro">
+                <label for="filtro-estado">Resultado</label>
+                <select id="filtro-estado">
+                    <option value="todos">Todos los partidos</option>
+                    <option value="jugados">Jugados</option>
+                    <option value="pendientes">Pendientes</option>
+                </select>
+            </div>
+
+        </section>
 
         <div id="resultados" class="resultados"></div>
 

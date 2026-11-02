@@ -65,3 +65,77 @@
         grid-template-columns: 1fr;
     }
 }
+
+/* =========================================
+   FILTROS DE JORNADAS
+   ========================================= */
+
+.filtros-jornadas {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 20px;
+
+    background-color: #FFFFFF;
+    padding: 20px;
+    margin-bottom: 25px;
+
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.filtro {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.filtro label {
+    font-weight: bold;
+    color: #10243A;
+}
+
+.filtro select {
+    width: 100%;
+    padding: 10px;
+
+    border: 1px solid #CCCCCC;
+    border-radius: 6px;
+
+    background-color: #FFFFFF;
+    color: #263238;
+
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.filtro select:focus {
+    outline: none;
+    border-color: #D4AF37;
+    box-shadow: 0 0 0 2px rgba(212, 175, 55, 0.2);
+}
+
+
+/* =========================================
+   MENSAJE SIN RESULTADOS
+   ========================================= */
+
+#resultados .sin-resultados {
+    background-color: #FFFFFF;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+    color: #263238;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+
+/* =========================================
+   ADAPTACIÓN A MÓVILES
+   ========================================= */
+
+@media (max-width: 700px) {
+    .filtros-jornadas {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+}

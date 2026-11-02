@@ -5,32 +5,38 @@
 
 const JSON_URL = "./datos/competicion_26_27.json";
 
+// Guardar los datos originales de las jornadas
+let jornadasDisponibles = [];
 
-// Cargar los datos de la competición
+
+// =========================================
+// CARGAR LOS DATOS DE LA COMPETICIÓN
+// =========================================
+
 async function obtenerDatos() {
     try {
         const data = await CVPantoja.cargarDatos(JSON_URL);
 
-        const partidosPorJornada = {};
+        jornadasDisponibles = data.jornadas.map(jornada => ({
+            numero: jornada.jornada,
 
-        data.jornadas.forEach(jornada => {
-
-            const partidos = jornada.partidos.map(partido => ({
+            partidos: jornada.partidos.map(partido => ({
                 local: partido.equipo_local,
                 visitante: partido.equipo_visitante,
                 resultado: partido.resultado_final,
                 sets: partido.sets || [],
                 fecha: partido.fecha || "",
                 lugar: partido.lugar || ""
-            }));
+            })),
 
-            partidosPorJornada[jornada.jornada] = {
-                partidos: partidos,
-                descansa: jornada.descansa || []
-            };
-        });
+            descansa: jornada.descansa || []
+        }));
 
-        mostrarResultados(partidosPorJornada);
+        // Preparar los filtros
+        inicializarFiltros();
+
+        // Mostrar todas las jornadas inicialmente
+        mostrarResultados();
 
     } catch (error) {
         console.error("Error al obtener los datos del JSON:", error);
@@ -45,115 +51,225 @@ async function obtenerDatos() {
 }
 
 
-// Mostrar todas las jornadas
-function mostrarResultados(partidosPorJornada) {
+// =========================================
+// INICIALIZAR LOS FILTROS
+// =========================================
 
+function inicializarFiltros() {
+    const filtroJornada = document.getElementById("filtro-jornada");
+    const filtroEquipo = document.getElementById("filtro-equipo");
+    const filtroEstado = document.getElementById("filtro-estado");
+
+    if (!filtroJornada || !filtroEquipo || !filtroEstado) return;
+
+    // Añadir las jornadas disponibles al desplegable
+    filtroJornada.innerHTML = `
+        <option value="todas">Todas las jornadas</option>
+
+        ${jornadasDisponibles.map(jornada => `
+            <option value="${jornada.numero}">
+                Jornada ${jornada.numero}
+            </option>
+        `).join("")}
+    `;
+
+    // Actualizar los resultados al cambiar cualquier filtro
+    filtroJornada.addEventListener("change", mostrarResultados);
+    filtroEquipo.addEventListener("change", mostrarResultados);
+    filtroEstado.addEventListener("change", mostrarResultados);
+}
+
+
+// =========================================
+// MOSTRAR LAS JORNADAS FILTRADAS
+// =========================================
+
+function mostrarResultados() {
     const contenedor = document.getElementById("resultados");
 
     if (!contenedor) return;
 
-    contenedor.innerHTML = "";
+    const filtroJornada = document.getElementById("filtro-jornada").value;
+    const filtroEquipo = document.getElementById("filtro-equipo").value;
+    const filtroEstado = document.getElementById("filtro-estado").value;
 
-    const jornadasHTML = Object.entries(partidosPorJornada).map(
-        ([numeroJornada, datos]) => {
+    // Filtrar las jornadas
+    const jornadasFiltradas = jornadasDisponibles.filter(jornada => {
+        return filtroJornada === "todas" ||
+            jornada.numero === Number(filtroJornada);
+    });
 
-            const partidos = datos.partidos;
-            const descansan = datos.descansa;
+    const jornadasHTML = jornadasFiltradas.map(jornada => {
 
-            const partidosHTML = partidos.map(partido => {
+        // Filtrar los partidos de la jornada
+        const partidos = jornada.partidos.filter(partido => {
 
-                const claseEquipo = CVPantoja.obtenerClaseEquipo({
-                    equipo_local: partido.local,
-                    equipo_visitante: partido.visitante
-                });
+            const esOro =
+                partido.local.toUpperCase().includes("PANTOJA ORO") ||
+                partido.visitante.toUpperCase().includes("PANTOJA ORO");
 
-                const tieneResultado = partido.resultado !== null &&
-                    partido.resultado !== undefined;
+            const esAzul =
+                partido.local.toUpperCase().includes("PANTOJA AZUL") ||
+                partido.visitante.toUpperCase().includes("PANTOJA AZUL");
 
-                const resultado = tieneResultado
-                    ? `${partido.resultado.local} - ${partido.resultado.visitante}`
-                    : "vs";
+            // Filtro por equipo
+            if (filtroEquipo === "oro" && !esOro) return false;
+            if (filtroEquipo === "azul" && !esAzul) return false;
 
-                // Mostrar los sets si el partido está jugado
-                const setsDetalle = tieneResultado && partido.sets.length > 0
-                    ? `
-                        <div class="sets">
-                            ${partido.sets.map(set =>
-                                `${set.local}-${set.visitante}`
-                            ).join(", ")}
-                        </div>
-                    `
-                    : "";
+            // Comprobar si el partido tiene resultado
+            const tieneResultado = partido.resultado !== null &&
+                partido.resultado !== undefined &&
+                partido.resultado.local !== null &&
+                partido.resultado.local !== undefined &&
+                partido.resultado.visitante !== null &&
+                partido.resultado.visitante !== undefined;
 
-                // Mostrar fecha y lugar si está pendiente
-                let detalles = "";
+            // Filtro por estado
+            if (filtroEstado === "jugados" && !tieneResultado) {
+                return false;
+            }
 
-                if (!tieneResultado) {
-                    const informacion = [];
+            if (filtroEstado === "pendientes" && tieneResultado) {
+                return false;
+            }
 
-                    if (partido.fecha) informacion.push(`🕒 ${partido.fecha}`);
-                    if (partido.lugar) informacion.push(`📍 ${partido.lugar}`);
+            return true;
+        });
 
-                    if (informacion.length > 0) {
-                        detalles = `
-                            <div class="detalles">
-                                ${informacion.join(" · ")}
-                            </div>
-                        `;
-                    }
-                }
+        // Filtrar los equipos que descansan
+        let descansan = jornada.descansa;
 
-                return `
-                    <tr class="partido ${claseEquipo}">
-                        <td>
-                            <strong>
-                                ${partido.local}
-                                ${resultado}
-                                ${partido.visitante}
-                            </strong>
+        if (filtroEquipo === "oro") {
+            descansan = descansan.filter(equipo =>
+                equipo.toUpperCase().includes("PANTOJA ORO")
+            );
+        }
 
-                            ${setsDetalle}
-                            ${detalles}
-                        </td>
-                    </tr>
-                `;
-            }).join("");
+        if (filtroEquipo === "azul") {
+            descansan = descansan.filter(equipo =>
+                equipo.toUpperCase().includes("PANTOJA AZUL")
+            );
+        }
 
+        // Si no hay partidos ni descansos que mostrar, ocultar la jornada
+        if (partidos.length === 0 && descansan.length === 0) {
+            return "";
+        }
 
-            // Mostrar el equipo que descansa
-            const claseDescanso = descansan.length > 0
-                ? CVPantoja.obtenerClaseEquipo({
-                    equipo_local: descansan.join(" "),
-                    equipo_visitante: ""
-                })
-                : "";
+        // Crear el HTML de los partidos
+        const partidosHTML = partidos.map(partido => {
 
-            const descansoHTML = descansan.length > 0
+            const claseEquipo = CVPantoja.obtenerClaseEquipo({
+                equipo_local: partido.local,
+                equipo_visitante: partido.visitante
+            });
+
+            const tieneResultado = partido.resultado !== null &&
+                partido.resultado !== undefined &&
+                partido.resultado.local !== null &&
+                partido.resultado.local !== undefined &&
+                partido.resultado.visitante !== null &&
+                partido.resultado.visitante !== undefined;
+
+            const resultado = tieneResultado
+                ? `${partido.resultado.local} - ${partido.resultado.visitante}`
+                : "vs";
+
+            // Mostrar los sets si el partido está jugado
+            const setsDetalle = tieneResultado && partido.sets.length > 0
                 ? `
-                    <div class="descanso ${claseDescanso}">
-                        <strong>Descansa:</strong>
-                        ${descansan.join(", ")}
+                    <div class="sets">
+                        ${partido.sets.map(set =>
+                            `${set.local}-${set.visitante}`
+                        ).join(", ")}
                     </div>
                 `
                 : "";
 
+            // Mostrar fecha y lugar si está pendiente
+            let detalles = "";
+
+            if (!tieneResultado) {
+                const informacion = [];
+
+                if (partido.fecha) {
+                    informacion.push(`🕒 ${partido.fecha}`);
+                }
+
+                if (partido.lugar) {
+                    informacion.push(`📍 ${partido.lugar}`);
+                }
+
+                if (informacion.length > 0) {
+                    detalles = `
+                        <div class="detalles">
+                            ${informacion.join(" · ")}
+                        </div>
+                    `;
+                }
+            }
+
             return `
-                <div class="jornada-container">
-                    <div class="jornada">
-                        <h2>Jornada ${numeroJornada}</h2>
+                <tr class="partido ${claseEquipo}">
+                    <td>
+                        <strong>
+                            ${partido.local}
+                            ${resultado}
+                            ${partido.visitante}
+                        </strong>
 
-                        <table class="tabla-jornada">
-                            <tbody>
-                                ${partidosHTML}
-                            </tbody>
-                        </table>
-
-                        ${descansoHTML}
-                    </div>
-                </div>
+                        ${setsDetalle}
+                        ${detalles}
+                    </td>
+                </tr>
             `;
-        }
-    ).join("");
+        }).join("");
+
+        // Mostrar los equipos que descansan
+        const claseDescanso = descansan.length > 0
+            ? CVPantoja.obtenerClaseEquipo({
+                equipo_local: descansan.join(" "),
+                equipo_visitante: ""
+            })
+            : "";
+
+        const descansoHTML = descansan.length > 0
+            ? `
+                <div class="descanso ${claseDescanso}">
+                    <strong>Descansa:</strong>
+                    ${descansan.join(", ")}
+                </div>
+            `
+            : "";
+
+        return `
+            <div class="jornada-container">
+                <div class="jornada">
+
+                    <h2>Jornada ${jornada.numero}</h2>
+
+                    <table class="tabla-jornada">
+                        <tbody>
+                            ${partidosHTML}
+                        </tbody>
+                    </table>
+
+                    ${descansoHTML}
+
+                </div>
+            </div>
+        `;
+    }).join("");
+
+    // Mostrar el resultado final
+    if (jornadasHTML.trim() === "") {
+        contenedor.innerHTML = `
+            <p class="sin-resultados">
+                No hay partidos que coincidan con los filtros seleccionados.
+            </p>
+        `;
+        return;
+    }
 
     contenedor.innerHTML = `
         <div class="jornadas-grid">
@@ -163,5 +279,8 @@ function mostrarResultados(partidosPorJornada) {
 }
 
 
-// Ejecutar al cargar la página
+// =========================================
+// EJECUTAR AL CARGAR LA PÁGINA
+// =========================================
+
 obtenerDatos();
