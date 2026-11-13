@@ -407,20 +407,20 @@ function mostrarComparativa(oro, azul) {
     if (!contenedor) return;
 
     const datos = [
-        ["Partidos jugados", oro.partidosJugados, azul.partidosJugados],
-        ["Victorias", oro.partidosGanados, azul.partidosGanados],
-        ["Derrotas", oro.partidosPerdidos, azul.partidosPerdidos],
-        ["Puntos de clasificación", oro.puntos, azul.puntos],
-        ["Sets a favor", oro.setsFavor, azul.setsFavor],
-        ["Sets en contra", oro.setsContra, azul.setsContra],
-        ["Diferencia de sets", oro.diferenciaSets, azul.diferenciaSets],
-        ["Puntos a favor", oro.puntosFavor, azul.puntosFavor],
-        ["Puntos en contra", oro.puntosContra, azul.puntosContra],
-        ["Diferencia de puntos", oro.diferenciaPuntos, azul.diferenciaPuntos],
+        ["Partidos jugados", azul.partidosJugados, oro.partidosJugados],
+        ["Victorias", azul.partidosGanados, oro.partidosGanados],
+        ["Derrotas", azul.partidosPerdidos, oro.partidosPerdidos],
+        ["Puntos de clasificación", azul.puntos, oro.puntos],
+        ["Sets a favor", azul.setsFavor, oro.setsFavor],
+        ["Sets en contra", azul.setsContra, oro.setsContra],
+        ["Diferencia de sets", azul.diferenciaSets, oro.diferenciaSets],
+        ["Puntos a favor", azul.puntosFavor, oro.puntosFavor],
+        ["Puntos en contra", azul.puntosContra, oro.puntosContra],
+        ["Diferencia de puntos", azul.diferenciaPuntos, oro.diferenciaPuntos],
         [
             "Porcentaje de victorias",
-            oro.porcentajeVictorias.toFixed(1) + " %",
-            azul.porcentajeVictorias.toFixed(1) + " %"
+            azul.porcentajeVictorias.toFixed(1) + " %",
+            oro.porcentajeVictorias.toFixed(1) + " %"
         ]
     ];
 
@@ -429,8 +429,8 @@ function mostrarComparativa(oro, azul) {
             <thead>
                 <tr>
                     <th>Estadística</th>
-                    <th>Pantoja Oro</th>
                     <th>Pantoja Azul</th>
+                    <th>Pantoja Oro</th>
                 </tr>
             </thead>
 

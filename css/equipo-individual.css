@@ -1,4 +1,3 @@
-
 /* =========================================
    CV PANTOJA - PÁGINAS INDIVIDUALES
    ========================================= */
@@ -198,6 +197,17 @@
    CALENDARIO
    ========================================= */
 
+/* =========================================
+   CALENDARIO
+   ========================================= */
+
+#calendario-equipo {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
 .tabla-calendario {
     width: 100%;
     border-collapse: collapse;
@@ -234,14 +244,11 @@
 
 /* Derbis */
 .tabla-calendario .partido-derbi {
-    background: linear-gradient(
-        90deg,
-        #D4AF37 50%,
-        #244F78 50%
-    );
+    background: linear-gradient(90deg,
+            #D4AF37 50%,
+            #244F78 50%);
     color: white;
 }
-
 
 /* =========================================
    MENSAJES
@@ -304,82 +311,67 @@
         height: 300px;
     }
 
-    .tabla-plantilla,
-    .tabla-calendario {
+    .tabla-plantilla {
         font-size: 0.85rem;
     }
 
     .tabla-plantilla th,
-    .tabla-plantilla td,
-    .tabla-calendario th,
-    .tabla-calendario td {
+    .tabla-plantilla td {
         padding: 9px 6px;
     }
+
+    /* Calendario en móviles */
+    .tabla-calendario {
+        min-width: 650px;
+        font-size: 0.85rem;
+    }
+
+    .tabla-calendario th,
+    .tabla-calendario td {
+        padding: 9px 8px;
+        white-space: nowrap;
+    }
 }
+
 /* =========================================
    TEMÁTICA PANTOJA ORO
    ========================================= */
 
 /* Títulos de las secciones */
-.cabecera-equipo.equipo-oro ~ .seccion-equipo h2 {
+.cabecera-equipo.equipo-oro~.seccion-equipo h2 {
     border-bottom-color: #D4AF37;
 }
 
 /* Subtítulos */
-.cabecera-equipo.equipo-oro ~ .seccion-equipo h3 {
+.cabecera-equipo.equipo-oro~.seccion-equipo h3 {
     color: #B7950B;
 }
 
 /* Estadísticas */
-.cabecera-equipo.equipo-oro ~ .seccion-equipo .estadistica strong {
+.cabecera-equipo.equipo-oro~.seccion-equipo .estadistica strong {
     color: #B7950B;
 }
 
 /* Encabezados de las tablas */
-.cabecera-equipo.equipo-oro ~ .seccion-equipo .tabla-plantilla th {
+.cabecera-equipo.equipo-oro~.seccion-equipo .tabla-plantilla th {
     background-color: #D4AF37;
     color: #10243A;
 }
 
 /* Dorsales */
-.cabecera-equipo.equipo-oro ~ .seccion-equipo .tabla-plantilla td:first-child {
+.cabecera-equipo.equipo-oro~.seccion-equipo .tabla-plantilla td:first-child {
     color: #B7950B;
 }
 
 /* Gráficos: fondo y detalles se configuran desde JavaScript */
-.cabecera-equipo.equipo-oro ~ .seccion-equipo .contenedor-grafico {
+.cabecera-equipo.equipo-oro~.seccion-equipo .contenedor-grafico {
     border-color: #D4AF37;
 }
-/* =========================================
-   TEMÁTICA PANTOJA ORO
-   ========================================= */
 
-.cabecera-equipo.equipo-oro ~ .seccion-equipo h2 {
-    border-bottom-color: #D4AF37;
-}
-
-.cabecera-equipo.equipo-oro ~ .seccion-equipo h3 {
-    color: #B7950B;
-}
-
-.cabecera-equipo.equipo-oro ~ .seccion-equipo .estadistica strong {
-    color: #B7950B;
-}
-
-/* Tabla de plantilla */
-.cabecera-equipo.equipo-oro ~ .seccion-equipo .tabla-plantilla th {
-    background-color: #D4AF37;
-    color: #10243A;
-}
-
-.cabecera-equipo.equipo-oro ~ .seccion-equipo .tabla-plantilla td:first-child {
-    color: #B7950B;
-}
-
-.cabecera-equipo.equipo-oro ~ .seccion-equipo .tabla-plantilla tbody tr:nth-child(even) {
+.cabecera-equipo.equipo-oro~.seccion-equipo .tabla-plantilla tbody tr:nth-child(even) {
     background-color: #FBF6E5;
 }
 
-.cabecera-equipo.equipo-oro ~ .seccion-equipo .tabla-plantilla tbody tr:hover {
+.cabecera-equipo.equipo-oro~.seccion-equipo .tabla-plantilla tbody tr:hover {
     background-color: #F5E8B5;
 }
