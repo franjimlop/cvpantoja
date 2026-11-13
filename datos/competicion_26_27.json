@@ -10,40 +10,80 @@
                     "lugar": "P.M. YELES",
                     "equipo_local": "C.V. YELES A",
                     "equipo_visitante": "SAN MARTÍN DE LA VEGA",
-                    "resultado_final": null,
-                    "sets": []
+                    "resultado_final": {
+                        "local": 3,
+                        "visitante": 2
+                    },
+                    "sets": [
+                        {"set": 1, "local": 25, "visitante": 15},
+                        {"set": 2, "local": 25, "visitante": 17},
+                        {"set": 3, "local": 15, "visitante": 25},
+                        {"set": 4, "local": 14, "visitante": 25},
+                        {"set": 5, "local": 15, "visitante": 10}
+                    ]
                 },
                 {
                     "fecha": "17:00 07/11/2026",
                     "lugar": "P.M. YELES",
                     "equipo_local": "VALDEVOLEY",
                     "equipo_visitante": "C.V. PARLA",
-                    "resultado_final": null,
-                    "sets": []
+                    "resultado_final": {
+                        "local": 3,
+                        "visitante": 0
+                    },
+                    "sets": [
+                        {"set": 1, "local": 25, "visitante": 20},
+                        {"set": 2, "local": 25, "visitante": 17},
+                        {"set": 3, "local": 25, "visitante": 18}
+                    ]
                 },
                 {
                     "fecha": "19:00 07/11/2026",
                     "lugar": "P.M. YELES",
                     "equipo_local": "C.V. YELES B",
                     "equipo_visitante": "TORREJÓN DE LA CALZADA",
-                    "resultado_final": null,
-                    "sets": []
+                    "resultado_final": {
+                        "local": 3,
+                        "visitante": 0
+                    },
+                    "sets": [
+                        {"set": 1, "local": 25, "visitante": 12},
+                        {"set": 2, "local": 25, "visitante": 15},
+                        {"set": 3, "local": 25, "visitante": 14}
+                    ]
                 },
                 {
                     "fecha": "19:00 07/11/2026",
                     "lugar": "P.M. YELES",
                     "equipo_local": "LA RESISTENCIA",
                     "equipo_visitante": "PANTOJA AZUL",
-                    "resultado_final": null,
-                    "sets": []
+                    "resultado_final": {
+                        "local": 2,
+                        "visitante": 3
+                    },
+                    "sets": [
+                        {"set": 1, "local": 23, "visitante": 25},
+                        {"set": 2, "local": 26, "visitante": 28},
+                        {"set": 3, "local": 25, "visitante": 20},
+                        {"set": 4, "local": 25, "visitante": 18},
+                        {"set": 5, "local": 7, "visitante": 15}
+                    ]
                 },
                 {
                     "fecha": "18:00 07/11/2026",
                     "lugar": "CEIP CLARA CAMPOAMOR (ILLESCAS)",
                     "equipo_local": "NEXUS",
                     "equipo_visitante": "VOLEYTECH BARGAS",
-                    "resultado_final": null,
-                    "sets": []
+                    "resultado_final": {
+                        "local": 3,
+                        "visitante": 1
+                    },
+                    "sets": [
+                        {"set": 1, "local": 25, "visitante": 18},
+                        {"set": 2, "local": 25, "visitante": 16},
+                        {"set": 3, "local": 22, "visitante": 25},
+                        {"set": 4, "local": 25, "visitante": 17}
+                    ]
                 }
             ],
             "descansa": [
