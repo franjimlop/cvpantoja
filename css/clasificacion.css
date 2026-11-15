@@ -60,3 +60,14 @@
         gap: 8px 15px;
     }
 }
+
+/* Primera posición de la clasificación */
+.tabla-clasificacion tbody tr:first-child {
+    background-color: #FFF6D9;
+    color: #10243A;
+}
+
+.tabla-clasificacion tbody tr:first-child td {
+    color: #10243A;
+    font-weight: bold;
+}
