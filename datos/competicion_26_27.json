@@ -98,11 +98,14 @@
                     "lugar": "P.M. YELES",
                     "equipo_local": "C.V. PARLA",
                     "equipo_visitante": "C.V. YELES A",
-                    "resultado_final": null,
+                    "resultado_final": {
+                        "local": 1,
+                        "visitante": 3
+                    },
                     "sets": []
                 },
                 {
-                    "fecha": "17:00 14/11/2026",
+                    "fecha": "17:00 19/11/2026",
                     "lugar": "P.M. YELES",
                     "equipo_local": "PANTOJA ORO",
                     "equipo_visitante": "NEXUS",
@@ -114,7 +117,10 @@
                     "lugar": "P.M. YELES",
                     "equipo_local": "PANTOJA AZUL",
                     "equipo_visitante": "C.V. YELES B",
-                    "resultado_final": null,
+                    "resultado_final": {
+                        "local": 3,
+                        "visitante": 1
+                    },
                     "sets": []
                 },
                 {
@@ -122,7 +128,10 @@
                     "lugar": "P.M. YELES",
                     "equipo_local": "VOLEYTECH BARGAS",
                     "equipo_visitante": "LA RESISTENCIA",
-                    "resultado_final": null,
+                    "resultado_final": {
+                        "local": 0,
+                        "visitante": 3
+                    },
                     "sets": []
                 },
                 {
