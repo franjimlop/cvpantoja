@@ -109,7 +109,10 @@
                     "lugar": "P.M. YELES",
                     "equipo_local": "PANTOJA ORO",
                     "equipo_visitante": "NEXUS",
-                    "resultado_final": null,
+                    "resultado_final": {
+                        "local": 0,
+                        "visitante": 3
+                    },
                     "sets": []
                 },
                 {
@@ -163,7 +166,10 @@
                     "lugar": "P.M. PANTOJA",
                     "equipo_local": "PANTOJA AZUL",
                     "equipo_visitante": "C.V. YELES A",
-                    "resultado_final": null,
+                    "resultado_final": {
+                        "local": 3,
+                        "visitante": 0
+                    },
                     "sets": []
                 },
                 {
@@ -171,7 +177,10 @@
                     "lugar": "P.M. PANTOJA",
                     "equipo_local": "PANTOJA ORO",
                     "equipo_visitante": "C.V. YELES B",
-                    "resultado_final": null,
+                    "resultado_final": {
+                        "local": 0,
+                        "visitante": 3
+                    },
                     "sets": []
                 },
                 {
@@ -187,7 +196,10 @@
                     "lugar": "CEIP CLARA CAMPOAMOR (ILLESCAS)",
                     "equipo_local": "NEXUS",
                     "equipo_visitante": "LA RESISTENCIA",
-                    "resultado_final": null,
+                    "resultado_final": {
+                        "local": 3,
+                        "visitante": 1
+                    },
                     "sets": []
                 }
             ],
