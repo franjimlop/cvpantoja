@@ -102,7 +102,12 @@
                         "local": 1,
                         "visitante": 3
                     },
-                    "sets": []
+                    "sets": [
+                        {"set": 1, "local": 17, "visitante": 25},
+                        {"set": 2, "local": 19, "visitante": 25},
+                        {"set": 3, "local": 25, "visitante": 19},
+                        {"set": 4, "local": 17, "visitante": 25}
+                    ]
                 },
                 {
                     "fecha": "17:00 19/11/2026",
@@ -113,7 +118,11 @@
                         "local": 0,
                         "visitante": 3
                     },
-                    "sets": []
+                    "sets": [
+                        {"set": 1, "local": 14, "visitante": 25},
+                        {"set": 2, "local": 16, "visitante": 25},
+                        {"set": 3, "local": 15, "visitante": 25}
+                    ]
                 },
                 {
                     "fecha": "19:00 14/11/2026",
@@ -124,7 +133,12 @@
                         "local": 3,
                         "visitante": 1
                     },
-                    "sets": []
+                    "sets": [
+                        {"set": 1, "local": 19, "visitante": 25},
+                        {"set": 2, "local": 25, "visitante": 19},
+                        {"set": 3, "local": 25, "visitante": 21},
+                        {"set": 4, "local": 25, "visitante": 20}
+                    ]
                 },
                 {
                     "fecha": "19:00 14/11/2026",
@@ -135,15 +149,26 @@
                         "local": 0,
                         "visitante": 3
                     },
-                    "sets": []
+                    "sets": [
+                        {"set": 1, "local": 13, "visitante": 25},
+                        {"set": 2, "local": 15, "visitante": 25},
+                        {"set": 3, "local": 13, "visitante": 25}
+                    ]
                 },
                 {
                     "fecha": "18:00 14/11/2026",
                     "lugar": "P.M. TORREJÓN DE LA CALZADA",
                     "equipo_local": "TORREJÓN DE LA CALZADA",
                     "equipo_visitante": "VALDEVOLEY",
-                    "resultado_final": null,
-                    "sets": []
+                    "resultado_final": {
+                        "local": 0,
+                        "visitante": 3
+                    },
+                    "sets": [
+                        {"set": 1, "local": 19, "visitante": 25},
+                        {"set": 2, "local": 25, "visitante": 27},
+                        {"set": 3, "local": 20, "visitante": 25}
+                    ]
                 }
             ],
             "descansa": [
@@ -154,8 +179,8 @@
             "jornada": 3,
             "partidos": [
                 {
-                    "fecha": "17:00 21/11/2026",
-                    "lugar": "P.M. PANTOJA",
+                    "fecha": "17:00 28/11/2026",
+                    "lugar": "P.M. TORREJÓN DE LA CALZADA",
                     "equipo_local": "TORREJÓN DE LA CALZADA",
                     "equipo_visitante": "SAN MARTÍN DE LA VEGA",
                     "resultado_final": null,
@@ -170,7 +195,11 @@
                         "local": 3,
                         "visitante": 0
                     },
-                    "sets": []
+                    "sets": [
+                        {"set": 1, "local": 25, "visitante": 19},
+                        {"set": 2, "local": 25, "visitante": 14},
+                        {"set": 3, "local": 25, "visitante": 20}
+                    ]
                 },
                 {
                     "fecha": "19:00 21/11/2026",
@@ -181,15 +210,28 @@
                         "local": 0,
                         "visitante": 3
                     },
-                    "sets": []
+                    "sets": [
+                        {"set": 1, "local": 13, "visitante": 25},
+                        {"set": 2, "local": 19, "visitante": 25},
+                        {"set": 3, "local": 11, "visitante": 25}
+                    ]
                 },
                 {
                     "fecha": "19:00 21/11/2026",
                     "lugar": "P.M. PANTOJA",
                     "equipo_local": "VOLEYTECH BARGAS",
                     "equipo_visitante": "VALDEVOLEY",
-                    "resultado_final": null,
-                    "sets": []
+                    "resultado_final": {
+                        "local": 2,
+                        "visitante": 3
+                    },
+                    "sets": [
+                        {"set": 1, "local": 25, "visitante": 20},
+                        {"set": 2, "local": 23, "visitante": 25},
+                        {"set": 3, "local": 20, "visitante": 25},
+                        {"set": 4, "local": 25, "visitante": 23},
+                        {"set": 5, "local": 12, "visitante": 15}
+                    ]
                 },
                 {
                     "fecha": "18:00 21/11/2026",
@@ -200,7 +242,12 @@
                         "local": 3,
                         "visitante": 1
                     },
-                    "sets": []
+                    "sets": [
+                        {"set": 1, "local": 25, "visitante": 17},
+                        {"set": 2, "local": 25, "visitante": 18},
+                        {"set": 3, "local": 19, "visitante": 25},
+                        {"set": 4, "local": 25, "visitante": 17}
+                    ]
                 }
             ],
             "descansa": [
